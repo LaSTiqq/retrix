@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-26 23:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\details\templates\details\index.html:12
+msgid "Uzņēmums"
+msgstr "Company"
+
+#: .\details\templates\details\index.html:16
+msgid "LED spuldzītes ikvienam"
+msgstr "LED lights for everyone"
+
+#: .\details\templates\details\index.html:25
+msgid "Vajag"
+msgstr "Need"
+
+#: .\details\templates\details\index.html:25
+msgid "apgaismojumu"
+msgstr "lightening"
+
+#: .\details\templates\details\index.html:25
+msgid "Ierīkosim"
+msgstr "Let's setup"
+
+#: .\details\templates\details\index.html:26
+msgid "Personīgs koncepts"
+msgstr "Personal concept"
+
+#: .\details\templates\details\index.html:27
+msgid "Apzināsim mērķus, uzklausīsim stāstu un idejas"
+msgstr "We'll understand the goals, listen to the story and ideas"
+
+#: .\details\templates\details\index.html:28
+msgid "Personīga identitāte"
+msgstr "Personal identity"
+
+#: .\details\templates\details\index.html:29
+msgid "Rīkojamies ātri, kvalitatīvi un atbildīgi"
+msgstr "We act quickly, qualitatively and responsibly"
+
+#: .\details\templates\details\index.html:30
+msgid "Personīga pieredze"
+msgstr "Personal experience"
+
+#: .\details\templates\details\index.html:31
+msgid "Regulārs atbalsts, apkope un līdzdalība"
+msgstr "Regular support, maintenance and participation"
+
+#: .\details\templates\details\index.html:32
+msgid "Visi mūsu pakalpojumi"
+msgstr "All our services"
+
+#: .\details\templates\details\index.html:51
+msgid "Mums patīk jauni izaicinājumi, braucam pa visu Latviju"
+msgstr "We like new challenges, we drive all over Latvia"
+
+#: .\details\templates\details\index.html:52
+msgid "Strādājam gan ar privātpersonām, gan ar uzņēmumiem"
+msgstr "We work with both private individuals and companies"
+
+#: .\details\templates\details\index.html:53
+#: .\details\templates\details\index.html:81
+msgid "Esam gatavi sadarbībai"
+msgstr "We are ready for cooperation"
+
+#: .\details\templates\details\index.html:54
+msgid "Esam lepni strādāt tikai ar tīru enerģiju"
+msgstr "We are proud to work only with clean energy"
+
+#: .\details\templates\details\index.html:55
+msgid "Latvijas daba mums ir svarīga"
+msgstr "Latvian nature is important to us"
+
+#: .\details\templates\details\index.html:56
+#: .\details\templates\details\index.html:83
+msgid "Lasīt vairāk"
+msgstr "Read more"
+
+#: .\details\templates\details\index.html:67
+msgid ""
+"Mūsu izaugsme ir nepārtraukta, mēs tiecamies pēc maksimāli viegliem "
+"risinājumiem"
+msgstr "Our growth is continuous, we strive for maximum easy solutions"
+
+#: .\details\templates\details\index.html:79
+msgid "Mums patīk jauni izaicinājumi"
+msgstr "We like new challenges"
+
+#: .\details\templates\details\index.html:79
+msgid "braucam pa visu Latviju. Strādājam gan ar"
+msgstr "we drive all over Latvia. We work with both"
+
+#: .\details\templates\details\index.html:81
+msgid "privātpersonām, gan ar uzņēmumiem"
+msgstr "private individuals and companies"
+
+#: .\details\templates\details\index.html:90
+msgid "Rīcības plāns"
+msgstr "Action plan"
+
+#: .\details\templates\details\index.html:91
+msgid "Profesionāla pieeja"
+msgstr "Professional attitude"
+
+#: .\details\templates\details\index.html:92
+msgid "Atbildēsim un paskaidrosim"
+msgstr "We will answer and explain"
+
+#: .\details\templates\details\index.html:93
+msgid "Darām vienkārši"
+msgstr "We do it simply"
+
+#: .\details\templates\details\index.html:94
+msgid "Bez liekiem vadiem"
+msgstr "No unnecessary wires"
+
+#: .\details\templates\details\index.html:95
+msgid "Taisām pamanāmi"
+msgstr "We make it visible"
+
+#: .\details\templates\details\index.html:96
+msgid "Ja apgaismojums ir ārpusē"
+msgstr "If the lighting is outside"
+
+#: .\details\templates\details\index.html:109
+msgid "Kontakti"
+msgstr "Contacts"
+
+#: .\details\templates\details\index.html:110
+msgid "Sazinies ar mums, lai uzzinātu, kā mēs varam sadarboties"
+msgstr "Contact us to find out how we can work together"
+
+#: .\details\templates\details\index.html:115
+msgid "Vienotais reģ.nr."
+msgstr "Unified reg. no."
+
+#: .\templates\cookielaw\banner.html:6
+msgid "Cepumi"
+msgstr "Cookies"
+
+#: .\templates\cookielaw\banner.html:9
+msgid ""
+"Informējam, ka šīs mājaslapas pilnvērtīgai darbībai tiek izmantotas\n"
+"\t\t\t\tsīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājas "
+"lapu,\n"
+"\t\t\t\tJūs piekrītat sīkdatņu izmantošanai."
+msgstr ""
+"We inform you that cookies are used for the full functioning of this "
+"website. By continuing, you agree to the use of them"
+
+#: .\templates\cookielaw\banner.html:16
+msgid ""
+"Kas\n"
+"\t\t\t\tir \"cookies\""
+msgstr "What are the cookies"
+
+#: .\templates\cookielaw\banner.html:21
+msgid "Piekrist un aizvērt"
+msgstr "Accept and close"
+
+#: .\templates\inc\_foo.html:6
+msgid "Izstrādātājs"
+msgstr "Developer"
+
+#: .\templates\inc\_nav.html:17
+msgid "Galvenā"
+msgstr "Main"
+
+#: .\templates\inc\_nav.html:19
+msgid "Pakalpojumi"
+msgstr "Services"
+
+#: .\templates\inc\_nav.html:21
+msgid "Par mums"
+msgstr "About"

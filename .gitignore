@@ -1,0 +1,25 @@
+# Compiled Python bytecode
+*.py[cod]
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Self
+templates/robots.txt
+details/sitemaps.py
+details/migrations
+retrix/settings.py
+retrix/urls.py
+retrix/static
+db.sqlite3
+venv/

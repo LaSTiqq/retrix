@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+<div class="container-fluid g-0">
+	<!-- ROW 1 -->
+	<div class="row gx-0">
+		<div class="col-12 col-md-3 row-1-col-1">
+			<img src="{% static 'img/img1.jpg' %}" alt="" class="img-fluid">
+		</div>
+		<div class="col-12 col-md-3 row-1-col-2">
+			<h1 class="text-center">{% trans 'Uzņēmums' %}<br>Retrix</h1>
+		</div>
+		<div class="col-12 col-md-6 row-1-col-3">
+			<img src="{% static 'img/img2.jpg' %}" alt="" class="d-block mx-auto img-fluid">
+			<h3 class="text-center">{% trans 'LED spuldzītes ikvienam' %}</h3>
+		</div>
+		<div class="d-flex justify-content-end">
+			<div id="rectangle"></div>
+		</div>
+	</div>
+	<!-- ROW 2 -->
+	<div class="row gx-0">
+		<div class="col-12 col-md-6 col-xxl-6 row-2-col-1">
+			<h1 class="text-center">{% trans 'Vajag' %}<br>{% trans 'apgaismojumu' %}?<br>{% trans 'Ierīkosim' %}.</h1>
+			<h5 class="text-center">{% trans 'Personīgs koncepts' %}</h5>
+			<p class="text-center">{% trans 'Apzināsim mērķus, uzklausīsim stāstu un idejas' %}.</p>
+			<h5 class="text-center">{% trans 'Personīga identitāte' %}</h5>
+			<p class="text-center">{% trans 'Rīkojamies ātri, kvalitatīvi un atbildīgi' %}.</p>
+			<h5 class="text-center">{% trans 'Personīga pieredze' %}</h5>
+			<p class="text-center">{% trans 'Regulārs atbalsts, apkope un līdzdalība' %}.</p>
+			<button class="btn btn-dark">{% trans 'Visi mūsu pakalpojumi' %}</button>
+		</div>
+		<div class="col-12 col-md-3 col-xxl-2 row-2-col-2">
+			<img src="{% static 'img/img3.jpg' %}" alt="">
+		</div>
+		<div class="col-12 col-md-3 col-xxl-4 row-2-col-3">
+			<img src="{% static 'img/img4.jpg' %}" alt="" class="img-fluid">
+			<div class="d-flex justify-content-end">
+				<div id="rectangle-2"></div>
+			</div>
+		</div>
+	</div>
+	<!-- ROW 3 -->
+	<div class="row gx-0">
+		<div class="col-12 col-md-3 col-xxl-4 row-3-col-1"></div>
+		<div class="col-12 col-md-3 col-xxl-2 row-3-col-2">
+			<img src="{% static 'img/img5.jpg' %}" alt="">
+		</div>
+		<div class="col-12 col-md-6 col-xxl-4 row-3-col-3">
+			<h1 class="text-center">{% trans 'Mums patīk jauni izaicinājumi, braucam pa visu Latviju' %}.<br>
+				{% trans 'Strādājam gan ar privātpersonām, gan ar uzņēmumiem' %}.<br>
+				{% trans 'Esam gatavi sadarbībai' %}.</h1>
+			<p class="text-center">{% trans 'Esam lepni strādāt tikai ar tīru enerģiju' %},<br>
+				{% trans 'Latvijas daba mums ir svarīga' %}.</p>
+			<button class="btn btn-secondary d-block mx-auto">{% trans 'Lasīt vairāk' %}</button>
+		</div>
+		<div class="col-12 col-xxl-2 row-3-col-4"></div>
+	</div>
+	<!-- ROW 4 -->
+	<div class="row gx-0">
+		<div class="col-12 col-md-6 row-4-col-1">
+			<img src="{% static 'img/img6.jpg' %}" alt="" class="img-fluid">
+		</div>
+		<div class="col-12 col-md-3 row-4-col-2">
+			<h1 class="text-center">
+				{% trans 'Mūsu izaugsme ir nepārtraukta, mēs tiecamies pēc maksimāli viegliem risinājumiem' %}.</h1>
+		</div>
+		<div class="col-12 col-md-3 row-4-col-3">
+			<img src="{% static 'img/img7.jpg' %}" alt="" class="img-fluid">
+			<div class="d-flex justify-content-end">
+				<div id="rectangle-3"></div>
+			</div>
+		</div>
+	</div>
+	<!-- ROW 5 -->
+	<div class="row gx-0">
+		<div class="col-12 col-md-6 col-xxl-6 row-5-col-1">
+			<p>{% trans 'Mums patīk jauni izaicinājumi' %}, <br>{% trans 'braucam pa visu Latviju. Strādājam gan ar' %}
+				<br>
+				{% trans 'privātpersonām, gan ar uzņēmumiem' %}. <br>{% trans 'Esam gatavi sadarbībai' %}.
+			</p>
+			<button class="btn btn-secondary">{% trans 'Lasīt vairāk' %}</button>
+			<img src="{% static 'img/img8.jpg' %}" alt="" class="img-fluid">
+		</div>
+		<div class="col-12 col-md-3 col-xxl-2 row-5-col-2">
+			<img src="{% static 'img/img9.jpg' %}" alt="">
+		</div>
+		<div class="col-12 col-md-3 col-xxl-4 row-5-col-3">
+			<h1 class="text-center">{% trans 'Rīcības plāns' %}</h1>
+			<h5 class="text-center">{% trans 'Profesionāla pieeja' %}</h5>
+			<p class="text-center">{% trans 'Atbildēsim un paskaidrosim' %}.</p>
+			<h5 class="text-center">{% trans 'Darām vienkārši' %}</h5>
+			<p class="text-center">{% trans 'Bez liekiem vadiem' %}.</p>
+			<h5 class="text-center">{% trans 'Taisām pamanāmi' %}</h5>
+			<p class="text-center">{% trans 'Ja apgaismojums ir ārpusē' %}.</p>
+			<div class="d-flex justify-content-end">
+				<div id="rectangle-4"></div>
+			</div>
+		</div>
+	</div>
+	<!-- ROW 6 -->
+	<div class="row gx-0">
+		<div class="col-12 col-md-3 col-xxl-4 row-6-col-1"></div>
+		<div class="col-12 col-md-3 col-xxl-2 row-6-col-2">
+			<img src="{% static 'img/img10.jpg' %}" alt="">
+		</div>
+		<div class="col-12 col-md-6 col-xxl-3 row-6-col-3">
+			<h1 class="text-center">{% trans 'Kontakti' %}</h1>
+			<h5 class="text-center">{% trans 'Sazinies ar mums, lai uzzinātu, kā mēs varam sadarboties' %}.</h5>
+			<p class="text-center">
+				SIA "Retrix"<br>
+				(+371) 20207735<br>
+				retrixsia@gmail.com<br>
+				{% trans 'Vienotais reģ.nr.' %}: 42403042480<br>
+				3-10, Nagļi, Nagļu pagasts, Rēzeknes novads, LV-4631
+			</p>
+			<ul class="d-flex justify-content-center px-0">
+				<li>
+					<a href="#" rel="noreferrer" class="text-decoration-none">
+						<i class="fab fa-facebook-f fs-4 mx-3"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#" rel="noreferrer" class="text-decoration-none">
+						<i class="fab fa-instagram fs-4 mx-3"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-12 col-xxl-3 row-6-col-4"></div>
+	</div>
+</div>
+{% endblock %}

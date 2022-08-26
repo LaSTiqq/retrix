@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-26 23:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\details\templates\details\index.html:12
+msgid "Uzņēmums"
+msgstr "Предприятие"
+
+#: .\details\templates\details\index.html:16
+msgid "LED spuldzītes ikvienam"
+msgstr "LED освещение каждому"
+
+#: .\details\templates\details\index.html:25
+msgid "Vajag"
+msgstr "Нужно"
+
+#: .\details\templates\details\index.html:25
+msgid "apgaismojumu"
+msgstr "освещение"
+
+#: .\details\templates\details\index.html:25
+msgid "Ierīkosim"
+msgstr "Установим"
+
+#: .\details\templates\details\index.html:26
+msgid "Personīgs koncepts"
+msgstr "Личный концепт"
+
+#: .\details\templates\details\index.html:27
+msgid "Apzināsim mērķus, uzklausīsim stāstu un idejas"
+msgstr "Обозначим цели, выслушаем рассказ и идеи"
+
+#: .\details\templates\details\index.html:28
+msgid "Personīga identitāte"
+msgstr "Личная идентичность"
+
+#: .\details\templates\details\index.html:29
+msgid "Rīkojamies ātri, kvalitatīvi un atbildīgi"
+msgstr "Действуем быстро, качественно и ответственно"
+
+#: .\details\templates\details\index.html:30
+msgid "Personīga pieredze"
+msgstr "Личный опыт"
+
+#: .\details\templates\details\index.html:31
+msgid "Regulārs atbalsts, apkope un līdzdalība"
+msgstr "Регулярная поддержка, уборка и соучастие"
+
+#: .\details\templates\details\index.html:32
+msgid "Visi mūsu pakalpojumi"
+msgstr "Все наши услуги"
+
+#: .\details\templates\details\index.html:51
+msgid "Mums patīk jauni izaicinājumi, braucam pa visu Latviju"
+msgstr "Мы любим новые вызовы, ездим по всей Латвии"
+
+#: .\details\templates\details\index.html:52
+msgid "Strādājam gan ar privātpersonām, gan ar uzņēmumiem"
+msgstr "Работаем и с индивидуальными предпринимателями, и с предприятиями"
+
+#: .\details\templates\details\index.html:53
+#: .\details\templates\details\index.html:81
+msgid "Esam gatavi sadarbībai"
+msgstr "Готовы к сотрудничеству"
+
+#: .\details\templates\details\index.html:54
+msgid "Esam lepni strādāt tikai ar tīru enerģiju"
+msgstr "Мы горды работать только с чистой энергией"
+
+#: .\details\templates\details\index.html:55
+msgid "Latvijas daba mums ir svarīga"
+msgstr "нам важна природа Латвии"
+
+#: .\details\templates\details\index.html:56
+#: .\details\templates\details\index.html:83
+msgid "Lasīt vairāk"
+msgstr "Читать больше"
+
+#: .\details\templates\details\index.html:67
+msgid ""
+"Mūsu izaugsme ir nepārtraukta, mēs tiecamies pēc maksimāli viegliem "
+"risinājumiem"
+msgstr "Наш рост непрерывный, мы стремимся к максимально простым решениям"
+
+#: .\details\templates\details\index.html:79
+msgid "Mums patīk jauni izaicinājumi"
+msgstr "Мы любим новые вызовы"
+
+#: .\details\templates\details\index.html:79
+msgid "braucam pa visu Latviju. Strādājam gan ar"
+msgstr "ездим по всей Латвии. Работаем и с"
+
+#: .\details\templates\details\index.html:81
+msgid "privātpersonām, gan ar uzņēmumiem"
+msgstr "индивидуальными предпринимателями, и с предприятиями"
+
+#: .\details\templates\details\index.html:90
+msgid "Rīcības plāns"
+msgstr "План действий"
+
+#: .\details\templates\details\index.html:91
+msgid "Profesionāla pieeja"
+msgstr "Профессиональный подход"
+
+#: .\details\templates\details\index.html:92
+msgid "Atbildēsim un paskaidrosim"
+msgstr "Ответим и объясним"
+
+#: .\details\templates\details\index.html:93
+msgid "Darām vienkārši"
+msgstr "Делаем просто"
+
+#: .\details\templates\details\index.html:94
+msgid "Bez liekiem vadiem"
+msgstr "Без лишних проводов"
+
+#: .\details\templates\details\index.html:95
+msgid "Taisām pamanāmi"
+msgstr "Делаем заметно"
+
+#: .\details\templates\details\index.html:96
+msgid "Ja apgaismojums ir ārpusē"
+msgstr "Если освещение на улице"
+
+#: .\details\templates\details\index.html:109
+msgid "Kontakti"
+msgstr "Контакты"
+
+#: .\details\templates\details\index.html:110
+msgid "Sazinies ar mums, lai uzzinātu, kā mēs varam sadarboties"
+msgstr "Свяжись с нами, чтобы узнать, как мы можем сотрудничать"
+
+#: .\details\templates\details\index.html:115
+msgid "Vienotais reģ.nr."
+msgstr "Единый рег. номер"
+
+#: .\templates\cookielaw\banner.html:6
+msgid "Cepumi"
+msgstr "Печенья"
+
+#: .\templates\cookielaw\banner.html:9
+msgid ""
+"Informējam, ka šīs mājaslapas pilnvērtīgai darbībai tiek izmantotas\n"
+"\t\t\t\tsīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājas "
+"lapu,\n"
+"\t\t\t\tJūs piekrītat sīkdatņu izmantošanai."
+msgstr ""
+"Информируем, что файлы cookie используются для полноценного функционирования "
+"этого сайта. Продолжая использовать его, Вы соглашаетесь на их использование"
+
+#: .\templates\cookielaw\banner.html:16
+msgid ""
+"Kas\n"
+"\t\t\t\tir \"cookies\""
+msgstr "Что такое куки"
+
+#: .\templates\cookielaw\banner.html:21
+msgid "Piekrist un aizvērt"
+msgstr "Согласиться и закрыть"
+
+#: .\templates\inc\_foo.html:6
+msgid "Izstrādātājs"
+msgstr "Разработчик"
+
+#: .\templates\inc\_nav.html:17
+msgid "Galvenā"
+msgstr "Главная"
+
+#: .\templates\inc\_nav.html:19
+msgid "Pakalpojumi"
+msgstr "Услуги"
+
+#: .\templates\inc\_nav.html:21
+msgid "Par mums"
+msgstr "О нас"
