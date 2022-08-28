@@ -104,6 +104,7 @@ button[value="lv"]::before {
 }
 /****** ROW 1 ******/
 .row-1-col-1 img {
+  width: 100%;
   height: 805px;
 }
 .row-1-col-2 {
@@ -217,7 +218,7 @@ button[value="lv"]::before {
 }
 /****** ROW 4 ******/
 .row-4-col-1 img {
-  width: 961px;
+  width: 100%;
   height: 650px;
   object-fit: cover;
 }
@@ -232,6 +233,7 @@ button[value="lv"]::before {
   margin: 180px 13px 0 13px;
 }
 .row-4-col-3 img {
+  width: 100%;
   height: 650px;
 }
 /****** ROW 5 ******/
