@@ -2,7 +2,6 @@ body,
 html {
   font-family: "Lato", sans-serif;
   height: 100%;
-  margin-top: 3.35em;
 }
 main {
   flex: 1 1 auto;
@@ -10,25 +9,31 @@ main {
 img {
   pointer-events: none;
 }
+ul {
+  list-style: none;
+}
 .wrapper {
   min-height: 100%;
 }
+.btn {
+  border-radius: 0;
+}
 /****** NAVBAR ******/
-nav ul li a {
-  color: #1d3557;
+.navbar-nav {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+.navbar-light {
+  background-color: #e3f2fd;
+  opacity: 0.9;
 }
 .navbar-brand img {
   width: 160px;
   height: 80px;
   transition: height 0.33s, width 0.33s;
 }
-.navbar-light {
-  background-color: #e3f2fd;
-  opacity: 0.9;
-}
-.navbar-nav {
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 1px;
+nav ul li a {
+  color: #241d7a;
 }
 /****** LANGUAGES ******/
 .languages {
@@ -59,40 +64,6 @@ button[value="ru"]::before {
 }
 button[value="lv"]::before {
   background-image: url(../img/lv.png);
-}
-/****** BACKGROUND ******/
-.background {
-  background-image: url(../img/light-bulb.jpg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  min-height: 100vh;
-}
-/****** CARD ******/
-.card {
-  color: #fff;
-}
-.card h5 {
-  text-align: center;
-}
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-}
-.list img {
-  height: 200px;
-}
-.list h5,
-.detail h2 strong,
-.list .card-footer p strong,
-.detail .card-footer p strong {
-  font-family: "Oswald", sans-serif;
-}
-.detail img {
-  height: 300px;
-}
-.detail .card-footer {
-  display: flex;
 }
 /****** COOKIES ******/
 #CookielawBanner {
@@ -162,31 +133,25 @@ button[value="lv"]::before {
 .row-2-col-1 {
   background-color: #bec3be;
   height: 865px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .row-2-col-1 h1 {
   font-size: 48px;
   font-family: Georgia, serif;
   text-transform: capitalize;
-  margin-top: 100px;
-  margin-left: 125px;
 }
 .row-2-col-1 h5 {
   text-transform: uppercase;
   letter-spacing: 10px;
   line-height: 1.6;
-  margin-top: 40px;
-  margin-left: 125px;
+  margin-top: 10px;
 }
 .row-2-col-1 p {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
-  margin-top: 15px;
-  margin-left: 125px;
-}
-.row-2-col-1 button {
-  border-radius: 0;
-  margin-top: 15px;
-  margin-left: 440px;
 }
 .row-2-col-2 {
   background-color: #44449b;
@@ -227,6 +192,10 @@ button[value="lv"]::before {
 }
 .row-3-col-3 {
   background-color: #212221;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .row-3-col-3 h1 {
   color: #fff;
@@ -234,16 +203,13 @@ button[value="lv"]::before {
   text-transform: uppercase;
   line-height: 1.6;
   letter-spacing: 10px;
-  margin: 190px 0 0 25px;
 }
 .row-3-col-3 p {
   color: #fff;
   font-size: 17px;
-  margin-top: 30px;
 }
 .row-3-col-3 button {
   border: none;
-  border-radius: 0;
   background-color: #44449b;
 }
 .row-3-col-4 {
@@ -272,21 +238,22 @@ button[value="lv"]::before {
 .row-5-col-1 {
   height: 715px;
   background-color: #bec3be;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .row-5-col-1 p {
   font-size: 18px;
-  margin: 115px 80px 0 375px;
 }
 .row-5-col-1 button {
-  border-radius: 0;
   background-color: #44449b;
-  margin: 15px 50px 0 375px;
+  margin-right: 215px;
 }
 .row-5-col-1 img {
   width: 289px;
   height: 321px;
-  margin-top: 55px;
-  margin-left: 350px;
+  margin-top: 50px;
 }
 .row-5-col-2 {
   background-color: #44449b;
@@ -370,21 +337,9 @@ button[value="lv"]::before {
 .row-6-col-4 {
   background-color: #212221;
 }
-
+/****** ADAPTIVE ******/
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /****** COOKIES ******/
-  .cookie {
-    margin: 5% auto;
-    left: 0;
-    right: 0;
-    bottom: -5px;
-  }
-  /****** CARD ******/
-  .detail img {
-    height: 160px;
-  }
-  /****** RECTANGLE ******/
   #rectangle,
   #rectangle-2,
   #rectangle-3,
@@ -397,7 +352,7 @@ button[value="lv"]::before {
     z-index: 1;
   }
   #rectangle-2 {
-    height: 879.34px;
+    height: 734.34px;
   }
   #rectangle-3 {
     height: 1460px;
@@ -424,6 +379,8 @@ button[value="lv"]::before {
     margin-top: 120px;
   }
   .row-1-col-3 h3 {
+    margin-right: 10px;
+    margin-left: 10px;
     font-size: 22px;
   }
   /****** ROW 2 ******/
@@ -443,17 +400,14 @@ button[value="lv"]::before {
     margin-left: 0;
   }
   .row-2-col-1 h1 {
+    margin-top: -50px;
     font-size: 36px;
-    margin-top: 35px;
   }
   .row-2-col-1 h5 {
     font-size: 18px;
   }
   .row-2-col-1 p {
     font-size: 17px;
-  }
-  .row-2-col-1 button {
-    margin-left: 90px;
   }
   .row-2-col-2 {
     background-color: #bec3be;
@@ -463,21 +417,19 @@ button[value="lv"]::before {
     position: relative;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: 5;
   }
   .row-2-col-2 img {
     width: 310px;
     height: 510px;
     display: block;
-    margin: 50px 25px 0 auto;
+    margin: -50px 25px 0 auto;
   }
   .row-2-col-3 img {
     width: 310px;
     height: 435px;
     display: block;
-    margin: 65px 25px 65px auto;
+    margin: 35px 25px 35px auto;
   }
   /****** ROW 3 ******/
   .row-3-col-1 {
@@ -491,7 +443,7 @@ button[value="lv"]::before {
     height: 250px;
     object-fit: cover;
     display: block;
-    margin: 65px 25px 65px auto;
+    margin: 35px 25px 35px auto;
   }
   .row-3-col-2 img,
   .row-3-col-3 h1,
@@ -500,28 +452,24 @@ button[value="lv"]::before {
     position: relative;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: 5;
   }
   .row-3-col-3 h1 {
     font-size: 16px;
-    margin: 35px 0 0 10px;
   }
   .row-3-col-3 p {
     font-size: 16px;
   }
   .row-3-col-3 button {
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   /****** ROW 4 ******/
   .row-4-col-2 {
     height: 225px;
   }
   .row-4-col-2 h1 {
-    font-size: 26px;
-    margin: 50px 13px 0 0;
+    font-size: 28px;
+    margin: 65px 0 0 0;
   }
   .row-4-col-3 img {
     height: auto;
@@ -530,20 +478,20 @@ button[value="lv"]::before {
   .row-5-col-1 p {
     font-size: 16px;
     text-align: left;
-    margin: 35px 0 0 25px;
+    margin: -170px 0 0 25px;
   }
   .row-5-col-1 p br {
     display: none;
   }
   .row-5-col-1 button {
-    margin: 10px 0 0 25px;
+    margin: 15px auto;
   }
   .row-5-col-1 img {
     width: 300px;
     height: 230px;
     object-fit: cover;
     display: block;
-    margin: 60px 25px 0 auto;
+    margin: 0 25px 0 auto;
   }
   .row-5-col-2 {
     background-color: #bec3be;
@@ -555,6 +503,7 @@ button[value="lv"]::before {
     margin: -230px 25px 0 auto;
   }
   .row-5-col-1 p,
+  .row-5-col-1 button,
   .row-5-col-1 img,
   .row-5-col-2 img,
   .row-5-col-3 h1,
@@ -563,8 +512,6 @@ button[value="lv"]::before {
     position: relative;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: 5;
   }
   .row-5-col-3 h1 {
@@ -616,15 +563,19 @@ button[value="lv"]::before {
     font-size: 15px;
     margin: 20px auto;
   }
+  /****** FOOTER ******/
+  footer a {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /****** CARD ******/
-  .detail img {
-    height: 160px;
-  }
-  /****** RECTANGLE ******/
   #rectangle,
   #rectangle-2,
   #rectangle-3,
@@ -650,6 +601,7 @@ button[value="lv"]::before {
     height: 225px;
   }
   .row-1-col-1 img {
+    width: 100%;
     height: auto;
   }
   .row-1-col-2 h1 {
@@ -684,16 +636,12 @@ button[value="lv"]::before {
   }
   .row-2-col-1 h1 {
     font-size: 36px;
-    margin-top: 35px;
   }
   .row-2-col-1 h5 {
     font-size: 18px;
   }
   .row-2-col-1 p {
     font-size: 17px;
-  }
-  .row-2-col-1 button {
-    margin-left: 200px;
   }
   .row-2-col-2 {
     background-color: #bec3be;
@@ -752,8 +700,7 @@ button[value="lv"]::before {
     font-size: 18px;
   }
   .row-3-col-3 button {
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   /****** ROW 4 ******/
   .row-4-col-2 {
@@ -761,28 +708,28 @@ button[value="lv"]::before {
   }
   .row-4-col-2 h1 {
     font-size: 30px;
-    margin: 75px 13px 0 0;
+    margin: 70px 0 0 0;
   }
   .row-4-col-3 img {
+    width: 100%;
     height: auto;
   }
   /****** ROW 5 ******/
   .row-5-col-1 p {
-    text-align: left;
-    margin: 35px 0 0 130px;
+    text-align: center;
+    margin-top: -180px;
   }
   .row-5-col-1 p br {
     display: none;
   }
   .row-5-col-1 button {
-    margin: 10px 0 0 130px;
+    margin: 0;
   }
   .row-5-col-1 img {
     width: 350px;
     height: 280px;
     object-fit: cover;
     display: block;
-    margin: 60px 72px 0 auto;
   }
   .row-5-col-2 {
     background-color: #bec3be;
@@ -791,9 +738,10 @@ button[value="lv"]::before {
     width: 450px;
     height: 600px;
     display: block;
-    margin: -160px 72px 0 auto;
+    margin: -180px 0 0 60px;
   }
   .row-5-col-1 p,
+  .row-5-col-1 button,
   .row-5-col-1 img,
   .row-5-col-2 img,
   .row-5-col-3 h1,
@@ -802,13 +750,11 @@ button[value="lv"]::before {
     position: relative;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: 5;
   }
   .row-5-col-3 h1 {
     font-size: 36px;
-    margin: 150px auto 0 auto;
+    margin: 40px auto 0 auto;
   }
   .row-5-col-3 h5 {
     font-size: 18px;
@@ -817,7 +763,7 @@ button[value="lv"]::before {
     font-size: 17px;
   }
   .row-5-col-3 p:last-child {
-    margin-bottom: 150px;
+    margin-bottom: 1110px;
   }
   /****** ROW 6 ******/
   .row-6-col-1 {
@@ -849,20 +795,25 @@ button[value="lv"]::before {
   }
   .row-6-col-3 h5 {
     font-size: 16px;
-    margin: 20px auto 0 auto;
+    margin: 20px 10px 0 10px;
   }
   .row-6-col-3 p {
     font-size: 15px;
     margin: 20px auto;
   }
+  /****** FOOTER ******/
+  footer a {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /****** CARD ******/
-  .detail img {
-    height: 180px;
-  }
   /****** ROW 1 ******/
   .row-1-col-1 img {
     object-fit: cover;
@@ -878,14 +829,11 @@ button[value="lv"]::before {
     object-fit: cover;
   }
   /****** ROW 2 ******/
-  .row-2-col-1 h1,
-  .row-2-col-1 h5,
-  .row-2-col-1 p {
-    margin-left: -25px;
+  .row-2-col-1 {
+    height: 700px;
   }
   .row-2-col-1 h1 {
     font-size: 32px;
-    margin-top: 140px;
   }
   .row-2-col-1 h5 {
     font-size: 14px;
@@ -893,20 +841,17 @@ button[value="lv"]::before {
   .row-2-col-1 p {
     font-size: 13px;
   }
-  .row-2-col-1 button {
-    margin-left: 90px;
-  }
   .row-2-col-2 img {
     width: 200px;
     height: 400px;
-    right: 75px;
+    right: 55px;
     bottom: 120px;
   }
   .row-2-col-3 img {
     width: 215px;
     height: 290px;
     top: 200px;
-    right: 50px;
+    right: 30px;
   }
   /****** ROW 3 ******/
   .row-3-col-2 img {
@@ -918,7 +863,7 @@ button[value="lv"]::before {
   }
   .row-3-col-3 h1 {
     font-size: 16px;
-    margin: 190px 0 0 10px;
+    margin: 0 0 0 15px;
   }
   .row-3-col-3 p {
     font-size: 16px;
@@ -933,26 +878,27 @@ button[value="lv"]::before {
     height: 500px;
   }
   .row-4-col-2 h1 {
-    font-size: 30px;
-    margin: 100px 10px 0 5px;
+    font-size: 29px;
+    margin: 85px 5px 0 5px;
   }
   /****** ROW 5 ******/
   .row-5-col-1 p {
-    margin: 150px 100px 0 25px;
+    font-size: 16px;
+    margin: 60px 115px 0 20px;
   }
   .row-5-col-1 button {
-    margin: -300px 0 0 25px;
+    margin-top: 20px;
+    margin-left: -15px;
   }
   .row-5-col-1 img {
     width: 230px;
     height: 270px;
-    margin-top: 100px;
-    margin-left: -35px;
+    margin-top: 80px;
   }
   .row-5-col-2 img {
     width: 240px;
     height: 370px;
-    right: 125px;
+    right: 140px;
     bottom: 55px;
   }
   .row-5-col-3 h1,
@@ -964,10 +910,10 @@ button[value="lv"]::before {
     font-size: 36px;
   }
   .row-5-col-3 h5 {
-    font-size: 17px;
+    font-size: 16px;
   }
   .row-5-col-3 p {
-    font-size: 16px;
+    font-size: 15px;
   }
   /****** ROW 6 ******/
   .row-6-col-2 img {
@@ -988,6 +934,9 @@ button[value="lv"]::before {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /****** ROW 1 ******/
+  .row-1-col-1 img {
+    object-fit: cover;
+  }
   .row-1-col-2 h1 {
     font-size: 35px;
   }
@@ -1001,7 +950,7 @@ button[value="lv"]::before {
   .row-2-col-1 h1,
   .row-2-col-1 h5,
   .row-2-col-1 p {
-    margin-left: -100px;
+    margin-right: 80px;
   }
   .row-2-col-1 h1 {
     font-size: 34px;
@@ -1013,7 +962,7 @@ button[value="lv"]::before {
     font-size: 14px;
   }
   .row-2-col-1 button {
-    margin-left: 100px;
+    margin-right: 80px;
   }
   .row-2-col-2 img {
     width: 250px;
@@ -1036,7 +985,6 @@ button[value="lv"]::before {
   }
   .row-3-col-3 h1 {
     font-size: 16px;
-    margin-top: 200px;
   }
   .row-3-col-3 p {
     font-size: 18px;
@@ -1048,16 +996,15 @@ button[value="lv"]::before {
   }
   /****** ROW 5 ******/
   .row-5-col-1 p {
-    margin: 150px 0 0 25px;
+    margin-top: 60px;
+    margin-right: 120px;
   }
   .row-5-col-1 button {
-    margin: -330px 0 0 25px;
+    margin-right: 335px;
   }
   .row-5-col-1 img {
     width: 230px;
     height: 250px;
-    margin-top: 150px;
-    margin-left: -35px;
   }
   .row-5-col-2 img {
     width: 255px;
@@ -1098,6 +1045,9 @@ button[value="lv"]::before {
 /* Extra large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   /****** ROW 1 ******/
+  .row-1-col-1 img {
+    object-fit: cover;
+  }
   .row-1-col-2 h1 {
     margin-top: 525px;
   }
@@ -1114,22 +1064,17 @@ button[value="lv"]::before {
   .row-2-col-1 h5,
   .row-2-col-1 p {
     margin-right: 150px;
-    margin-left: -20px;
-  }
-  .row-2-col-1 h1 {
-    font-size: 48px;
   }
   .row-2-col-1 h5 {
     font-size: 18px;
   }
   .row-2-col-1 button {
-    margin-left: 110px;
+    margin-right: 180px;
   }
   .row-2-col-2 img {
     width: 325px;
     height: 575px;
-    right: 170px;
-    bottom: 120px;
+    right: 150px;
   }
   .row-2-col-3 img {
     width: 275px;
@@ -1144,9 +1089,6 @@ button[value="lv"]::before {
     top: 100px;
     right: 224px;
   }
-  .row-3-col-3 h1 {
-    margin: 200px 0 0 10px;
-  }
   /****** ROW 4 ******/
   .row-4-col-2 h1 {
     font-size: 34px;
@@ -1154,16 +1096,16 @@ button[value="lv"]::before {
   }
   /****** ROW 5 ******/
   .row-5-col-1 p {
-    margin: 150px 0 0 50px;
+    margin-right: 150px;
   }
   .row-5-col-1 button {
-    margin: -325px 0 0 50px;
+    margin-right: 365px;
   }
   .row-5-col-1 img {
     width: 230px;
     height: 250px;
-    margin-top: 150px;
-    margin-left: -35px;
+    margin-top: 70px;
+    margin-right: 140px;
   }
   .row-5-col-2 img {
     width: 320px;
@@ -1171,16 +1113,16 @@ button[value="lv"]::before {
     right: 175px;
     bottom: 55px;
   }
-  .row-5-col-3 h1 {
-    font-size: 40px;
-  }
-  .row-5-col-3 h5 {
-    font-size: 18px;
-  }
   .row-5-col-3 h1,
   .row-5-col-3 h5,
   .row-5-col-3 p {
-    right: 110px;
+    right: 125px;
+  }
+  .row-5-col-3 h1 {
+    font-size: 39px;
+  }
+  .row-5-col-3 h5 {
+    font-size: 17px;
   }
   /****** ROW 6 ******/
   .row-6-col-2 img {

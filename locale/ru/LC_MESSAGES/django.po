@@ -22,7 +22,7 @@ msgstr ""
 
 #: .\details\templates\details\index.html:12
 msgid "Uzņēmums"
-msgstr "Предприятие"
+msgstr "Компания"
 
 #: .\details\templates\details\index.html:16
 msgid "LED spuldzītes ikvienam"
@@ -118,7 +118,7 @@ msgstr "План действий"
 
 #: .\details\templates\details\index.html:91
 msgid "Profesionāla pieeja"
-msgstr "Профессиональный подход"
+msgstr "Проф. подход"
 
 #: .\details\templates\details\index.html:92
 msgid "Atbildēsim un paskaidrosim"
