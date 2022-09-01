@@ -6,130 +6,194 @@
 	<!-- ROW 1 -->
 	<div class="row gx-0">
 		<div class="col-12 col-md-3 row-1-col-1">
-			<img src="{% static 'img/img1.jpg' %}" alt="" class="img-fluid">
+			<img src="{% static 'img/img1.jpg' %}" alt="LED lights image #1" class="img-fluid">
 		</div>
 		<div class="col-12 col-md-3 row-1-col-2">
-			<h1 class="text-center">{% trans 'Uzņēmums' %}<br>Retrix</h1>
+			<h1 class="text-center">SIA<br>"RETRIX"</h1>
 		</div>
 		<div class="col-12 col-md-6 row-1-col-3">
-			<img src="{% static 'img/img2.jpg' %}" alt="" class="d-block mx-auto img-fluid">
-			<h3 class="text-center">{% trans 'LED spuldzītes ikvienam' %}</h3>
+			<img src="{% static 'img/img2.jpg' %}" alt="LED lights image #2" class="d-block mx-auto img-fluid">
+			<h4 class="text-center">
+				{% blocktrans %}Uzņēmums nodarbojas ar LED lentu apgaismojuma montāžu, to vadības bloku programmēšanu un
+				specifisku ar gaismekļiem un sensoriem aprīkotu produktu izstrādi {% endblocktrans %}</h4>
 		</div>
 		<div class="d-flex justify-content-end">
 			<div id="rectangle"></div>
 		</div>
 	</div>
-	<!-- ROW 2 -->
+	<!-- SERVICES -->
 	<div class="row gx-0">
+		<a class="anchor" name="services"></a>
 		<div class="col-12 col-md-6 col-xxl-6 row-2-col-1 text-center">
-			<h1>{% trans 'Vajag' %}<br>{% trans 'apgaismojumu' %}?<br>{% trans 'Ierīkosim' %}.</h1>
-			<h5>{% trans 'Personīgs koncepts' %}</h5>
-			<p>{% trans 'Apzināsim mērķus, uzklausīsim stāstu un idejas' %}.</p>
-			<h5>{% trans 'Personīga identitāte' %}</h5>
-			<p>{% trans 'Rīkojamies ātri, kvalitatīvi un atbildīgi' %}.</p>
-			<h5>{% trans 'Personīga pieredze' %}</h5>
-			<p>{% trans 'Regulārs atbalsts, apkope un līdzdalība' %}.</p>
-			<button class="btn btn-dark">{% trans 'Visi mūsu pakalpojumi' %}</button>
+			<h1>{% trans 'Mūsu' %}<br>{% trans 'pakalpojumi' %}</h1>
+			<h4>{% trans 'Virtuves apgaismojuma montāža' %}</h4>
+			<p>{% trans 'Balti siltie un aukstie toņi, ar slēdža vai sensora vadību' %}.</p>
+			<h4>{% trans 'Krāsainu LED lentu' %}<br>{% trans 'apgaismojuma montāža' %}</h4>
+			<p>{% trans 'Telpās, fasādēs, mēbelēs un pat auto' %}.</p>
+			<h4>{% trans 'Specifisku produktu izstrāde' %}</h4>
+			<p>{% trans 'Ar LED apgaimojumu un sensoriem' %}.</p>
+			<button class="btn btn-dark">{% trans 'Skatīt vairāk' %}</button>
 		</div>
 		<div class="col-12 col-md-3 col-xxl-2 row-2-col-2">
-			<img src="{% static 'img/img3.jpg' %}" alt="">
+			<img src="{% static 'img/img3.jpg' %}" alt="LED lights image #3">
 		</div>
 		<div class="col-12 col-md-3 col-xxl-4 row-2-col-3">
-			<img src="{% static 'img/img4.jpg' %}" alt="" class="img-fluid">
+			<img src="{% static 'img/img4.jpg' %}" alt="LED lights image #4" class="img-fluid">
 			<div class="d-flex justify-content-end">
 				<div id="rectangle-2"></div>
 			</div>
 		</div>
 	</div>
-	<!-- ROW 3 -->
+	<!-- GALLERY -->
 	<div class="row gx-0">
+		<a class="anchor" name="gallery"></a>
 		<div class="col-12 col-md-3 col-xxl-4 row-3-col-1"></div>
 		<div class="col-12 col-md-3 col-xxl-2 row-3-col-2">
-			<img src="{% static 'img/img5.jpg' %}" alt="">
+			<img src="{% static 'img/img5.jpg' %}" alt="LED lights image #5">
 		</div>
 		<div class="col-12 col-md-6 col-xxl-4 row-3-col-3 text-center">
-			<h1>{% trans 'Mums patīk jauni izaicinājumi, braucam pa visu Latviju' %}.<br>
-				{% trans 'Strādājam gan ar privātpersonām, gan ar uzņēmumiem' %}.<br>
-				{% trans 'Esam gatavi sadarbībai' %}.</h1>
-			<p class="mt-3">{% trans 'Esam lepni strādāt tikai ar tīru enerģiju' %},<br>
-				{% trans 'Latvijas daba mums ir svarīga' %}.</p>
-			<button class="btn btn-secondary">{% trans 'Lasīt vairāk' %}</button>
+			<h5>{% trans 'Interaktīvais LED galds' %}.<br>
+				{% trans 'Uz priekšmetiem reaģējošs, mainot apgaismojuma krāsu' %}.<br>
+				{% blocktrans %} Iekļaujot vairākas funkcijas ar dažādiem efektiem un pat izlozi starp novietotajiem
+				priekšmetiem{% endblocktrans %}.<br>
+				{% trans 'Skaņas spektra analizators' %}.<br>
+				{% trans 'Vizuāla skaņas attēlošana dažādās frekvencēs' %}.<br></h5>
+			<p class="mt-3">{% trans 'Un vēl daudz kas cits' %}...<br>
+				{% trans 'Ieskaties galerijā' %}!</p>
+			<button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Modal">
+				{% trans 'Galerija' %}</button>
 		</div>
 		<div class="col-12 col-xxl-2 row-3-col-4"></div>
 	</div>
 	<!-- ROW 4 -->
 	<div class="row gx-0">
 		<div class="col-12 col-md-6 row-4-col-1">
-			<img src="{% static 'img/img6.jpg' %}" alt="" class="img-fluid">
+			<img src="{% static 'img/img6.jpg' %}" alt="LED lights image #6" class="img-fluid">
 		</div>
 		<div class="col-12 col-md-3 row-4-col-2">
 			<h1 class="text-center">
-				{% trans 'Mūsu izaugsme ir nepārtraukta, mēs tiecamies pēc maksimāli viegliem risinājumiem' %}.</h1>
+				{% trans 'Apgaismojuma' %}<br>
+				{% trans 'vadība ar slēdzi, sensoru, skārienjūtīgu ekrānu vai mobilo lietotni' %}.</h1>
 		</div>
 		<div class="col-12 col-md-3 row-4-col-3">
-			<img src="{% static 'img/img7.jpg' %}" alt="" class="img-fluid">
+			<img src="{% static 'img/img7.jpg' %}" alt="LED lights image #7" class="img-fluid">
 			<div class="d-flex justify-content-end">
 				<div id="rectangle-3"></div>
 			</div>
 		</div>
 	</div>
-	<!-- ROW 5 -->
+	<!-- CONTACT US -->
 	<div class="row gx-0">
+		<div class="col-12">
+			{% for message in messages %}
+			<div class="container-fluid">
+				<div class="alert alert-{{ message.tags }} alert-dismissible rounded-pill" role="alert">
+					{{ message }}
+					<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Aizvērt"></button>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="row gx-0">
+		<a class="anchor" name="contact_us"></a>
 		<div class="col-12 col-md-6 col-xxl-6 row-5-col-1">
-			<p>{% trans 'Mums patīk jauni izaicinājumi' %},
-				<br>{% trans 'braucam pa visu Latviju. Strādājam gan ar' %}
-				<br>{% trans 'privātpersonām, gan ar uzņēmumiem' %}.
-				<br>{% trans 'Esam gatavi sadarbībai' %}.
-			</p>
-			<button class="btn btn-secondary">{% trans 'Lasīt vairāk' %}</button>
-			<img src="{% static 'img/img8.jpg' %}" alt="" class="img-fluid">
+			<img src="{% static 'img/img8.jpg' %}" alt="LED lights image #8" class="img-fluid">
 		</div>
 		<div class="col-12 col-md-3 col-xxl-2 row-5-col-2">
-			<img src="{% static 'img/img9.jpg' %}" alt="">
+			<img src="{% static 'img/img9.jpg' %}" alt="LED lights image #9">
 		</div>
-		<div class="col-12 col-md-3 col-xxl-4 row-5-col-3 text-center">
-			<h1>{% trans 'Rīcības plāns' %}</h1>
-			<h5>{% trans 'Profesionāla pieeja' %}</h5>
-			<p>{% trans 'Atbildēsim un paskaidrosim' %}.</p>
-			<h5>{% trans 'Darām vienkārši' %}</h5>
-			<p>{% trans 'Bez liekiem vadiem' %}.</p>
-			<h5>{% trans 'Taisām pamanāmi' %}</h5>
-			<p class="mb-5">{% trans 'Ja apgaismojums ir ārpusē' %}.</p>
+		<div class="col-12 col-md-3 col-xxl-4 row-5-col-3">
+			<h1 class="text-center">Saziņa</h1>
+			<form method="post">
+				{% csrf_token %}
+				<div class="row gx-0">
+					<div class="col-md-12">
+						<div>{{ form.name }}</div>
+						<div>{{ form.sender }}</div>
+						<div>{{ form.subject }}</div>
+						<div>{{ form.content }}</div>
+						<h4 class="fw-bold text-center mt-3 fs-6">
+							{% trans 'Pierādiet, ka neesat robots. Ievadiet atbildi' %}</h4>
+						{{ form.captcha }}
+						<button type="submit" class="btn btn-dark d-block mx-auto mt-3">{% trans 'Nosūtīt' %}</button>
+					</div>
+				</div>
+			</form>
 			<div class="d-flex justify-content-end">
 				<div id="rectangle-4"></div>
 			</div>
 		</div>
 	</div>
-	<!-- ROW 6 -->
+	<!-- CONTACTS -->
 	<div class="row gx-0">
+		<a class="anchor" name="contacts"></a>
 		<div class="col-12 col-md-3 col-xxl-4 row-6-col-1"></div>
 		<div class="col-12 col-md-3 col-xxl-2 row-6-col-2">
-			<img src="{% static 'img/img10.jpg' %}" alt="">
+			<img src="{% static 'img/img10.jpg' %}" alt="LED lights image #10">
 		</div>
 		<div class="col-12 col-md-6 col-xxl-3 row-6-col-3">
 			<h1 class="text-center">{% trans 'Kontakti' %}</h1>
-			<h5 class="text-center">{% trans 'Sazinies ar mums, lai uzzinātu, kā mēs varam sadarboties' %}.</h5>
+			<h5 class="text-center">{% trans 'Pieņemam pasūtijumus visā Latvijā un ārpus tās' %}.</h5>
 			<p class="text-center">
 				SIA "Retrix"<br>
-				(+371) 20207735<br>
-				retrixsia@gmail.com<br>
+				{% trans 'Tel.nr.' %}: <a href="tel:+37120207735" class="link-info text-decoration-none">(+371)
+					20207735</a><br>
+				{% trans 'E-pasts' %}: <a href="mailto: retrixsia@gmail.com"
+					class="link-info text-decoration-none">retrixsia@gmail.com</a><br>
 				{% trans 'Vienotais reģ.nr.' %}: 42403042480<br>
-				3-10, Nagļi, Nagļu pagasts, Rēzeknes novads, LV-4631
+				{% trans 'Juridiskā adrese' %}: 3-10, Nagļi, Nagļu pagasts, Rēzeknes novads, LV-4631<br>
+				{% trans 'Atrodamies' %}: {% trans 'Rīgā un Rēzeknes novadā' %}
 			</p>
-			<ul class="d-flex justify-content-center px-0">
+			<ul class="d-flex justify-content-center">
 				<li>
 					<a href="#" rel="noreferrer" class="text-decoration-none">
-						<i class="fab fa-facebook-f fs-4 mx-3"></i>
+						<i class="fab fa-facebook-f fa-2x me-3"></i>
 					</a>
 				</li>
 				<li>
 					<a href="#" rel="noreferrer" class="text-decoration-none">
-						<i class="fab fa-instagram fs-4 mx-3"></i>
+						<i class="fab fa-instagram fa-2x ms-3"></i>
 					</a>
 				</li>
 			</ul>
 		</div>
 		<div class="col-12 col-xxl-3 row-6-col-4"></div>
+	</div>
+</div>
+<!-- MODAL -->
+<div class="modal fade" id="Modal">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header d-block">
+				<h1 class="modal-title text-center fw-bold">{% trans 'Galerija' %}</h1>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-4">
+						<img src="{% static 'img/img2.jpg' %}" alt="LED lights image #2" class="my-3 mx-auto d-block">
+					</div>
+					<div class="col-4">
+						<img src="{% static 'img/img3.jpg' %}" alt="LED lights image #3" class="my-3 mx-auto d-block">
+					</div>
+					<div class="col-4">
+						<img src="{% static 'img/img4.jpg' %}" alt="LED lights image #4" class="my-3 mx-auto d-block">
+					</div>
+					<div class="col-4">
+						<img src="{% static 'img/img5.jpg' %}" alt="LED lights image #5" class="my-3 mx-auto d-block">
+					</div>
+					<div class="col-4">
+						<img src="{% static 'img/img7.jpg' %}" alt="LED lights image #7" class="my-3 mx-auto d-block">
+					</div>
+					<div class="col-4">
+						<img src="{% static 'img/img8.jpg' %}" alt="LED lights image #8" class="my-3 mx-auto d-block">
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-bs-dismiss="modal">{% trans 'Aizvērt' %}</button>
+			</div>
+		</div>
 	</div>
 </div>
 {% endblock %}
