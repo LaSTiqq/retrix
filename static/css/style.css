@@ -415,7 +415,7 @@ form img {
   .row-1-col-3 h4 {
     margin-right: 10px;
     margin-left: 10px;
-    font-size: 22px;
+    font-size: 20px;
   }
   /****** ROW 2 ******/
   .row-2-col-1 {
@@ -597,6 +597,10 @@ form img {
     font-size: 15px;
     margin: 20px auto;
   }
+  .row-6-col-3 ul {
+    margin-left: 0;
+    padding: 0;
+  }
   /****** FOOTER ******/
   footer a {
     position: relative;
@@ -608,7 +612,8 @@ form img {
   }
   /****** CONTACT ******/
   .row-5-col-3 form,
-  .row-5-col-3 h1 {
+  .row-5-col-3 h1,
+  #contactUs {
     display: none;
   }
 }
@@ -856,7 +861,8 @@ form img {
   }
   /****** CONTACT ******/
   .row-5-col-3 form,
-  .row-5-col-3 h1 {
+  .row-5-col-3 h1,
+  #contactUs {
     display: none;
   }
 }
@@ -982,7 +988,8 @@ form img {
   }
   /****** CONTACT ******/
   .row-5-col-3 form,
-  .row-5-col-3 h1 {
+  .row-5-col-3 h1,
+  #contactUs {
     display: none;
   }
 }
@@ -1100,7 +1107,8 @@ form img {
   }
   /****** CONTACT ******/
   .row-5-col-3 form,
-  .row-5-col-3 h1 {
+  .row-5-col-3 h1,
+  #contactUs {
     display: none;
   }
 }
@@ -1190,7 +1198,8 @@ form img {
   }
   /****** CONTACT ******/
   .row-5-col-3 form,
-  .row-5-col-3 h1 {
+  .row-5-col-3 h1,
+  #contactUs {
     display: none;
   }
 }
