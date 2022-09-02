@@ -157,7 +157,7 @@ form img {
   color: #fff;
   line-height: 1.6;
   letter-spacing: 6px;
-  margin: 20px 30px 0 30px;
+  margin: 35px 30px 0 30px;
 }
 .row-1-col-3 img {
   width: 441px;
@@ -369,25 +369,26 @@ form img {
 /****** ADAPTIVE ******/
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  #rectangle,
+  #rectangle-1,
   #rectangle-2,
   #rectangle-3,
   #rectangle-4 {
     background-color: #241d7a;
     width: 120px;
-    height: 1775px;
+    height: 1615px;
     position: absolute;
+    right: 0;
     margin-right: 25px;
     z-index: 1;
   }
   #rectangle-2 {
-    height: 734.34px;
+    height: 739.91px;
   }
   #rectangle-3 {
-    height: 1460px;
+    height: 945px;
   }
   #rectangle-4 {
-    height: 818.88px;
+    height: 848.28px;
   }
   /****** MODAL ******/
   .modal-body img {
@@ -395,11 +396,11 @@ form img {
     height: 100px;
   }
   /****** ROW 1 ******/
-  .row-1-col-2 {
-    height: 225px;
-  }
   .row-1-col-1 img {
     height: auto;
+  }
+  .row-1-col-2 {
+    height: 225px;
   }
   .row-1-col-2 h1 {
     margin-top: 53px;
@@ -432,7 +433,7 @@ form img {
   .row-2-col-1 h4,
   .row-2-col-1 p {
     margin-left: 0;
-    color: #fff;
+    color: #e3f2fd;
   }
   .row-2-col-1 h1 {
     margin-top: -50px;
@@ -490,7 +491,7 @@ form img {
     z-index: 5;
   }
   .row-3-col-3 h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .row-3-col-3 p {
     font-size: 16px;
@@ -504,7 +505,7 @@ form img {
   }
   .row-4-col-2 h1 {
     font-size: 28px;
-    margin: 65px 0 0 0;
+    margin: 45px 0 0 0;
   }
   .row-4-col-3 img {
     height: auto;
@@ -540,11 +541,15 @@ form img {
   .row-5-col-1 p,
   .row-5-col-1 button,
   .row-5-col-1 img,
-  .row-5-col-2 img,
   .row-5-col-3 h1,
   .row-5-col-3 p {
     position: relative;
     top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  .row-5-col-2 img {
+    position: relative;
     left: 0;
     z-index: 5;
   }
@@ -620,7 +625,7 @@ form img {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #rectangle,
+  #rectangle-1,
   #rectangle-2,
   #rectangle-3,
   #rectangle-4 {
@@ -628,17 +633,18 @@ form img {
     width: 200px;
     height: 2005px;
     position: absolute;
+    right: 0;
     margin-right: 72px;
     z-index: 1;
   }
   #rectangle-2 {
-    height: 938.98px;
+    height: 996.17px;
   }
   #rectangle-3 {
-    height: 1632.08px;
+    height: 1135px;
   }
   #rectangle-4 {
-    height: 794.28px;
+    height: 825.78px;
   }
   /****** MODAL ******/
   .modal-body img {
@@ -654,7 +660,7 @@ form img {
     height: auto;
   }
   .row-1-col-2 h1 {
-    margin-top: 53px;
+    margin-top: 58px;
   }
   .row-1-col-3 {
     height: 600px;
@@ -662,10 +668,11 @@ form img {
   .row-1-col-3 img {
     width: 350px;
     height: 269px;
-    margin-top: 15px;
+    margin-top: 30px;
   }
   .row-1-col-3 h4 {
-    font-size: 24px;
+    font-size: 23px;
+    margin: 40px 30px 0 30px;
   }
   /****** ROW 2 ******/
   .row-2-col-1 {
@@ -681,7 +688,7 @@ form img {
   .row-2-col-1 h1,
   .row-2-col-1 h4,
   .row-2-col-1 p {
-    color: #fff;
+    color: #e3f2fd;
     margin-left: 0;
   }
   .row-2-col-1 h1 {
@@ -757,8 +764,8 @@ form img {
     height: 225px;
   }
   .row-4-col-2 h1 {
-    font-size: 30px;
-    margin: 70px 0 0 0;
+    font-size: 31px;
+    margin: 56px 0 0 0;
   }
   .row-4-col-3 img {
     width: 100%;
@@ -776,10 +783,7 @@ form img {
     margin: 0;
   }
   .row-5-col-1 img {
-    width: 350px;
-    height: 280px;
-    display: block;
-    margin-top: -150px;
+    margin-top: -200px;
   }
   .row-5-col-2 {
     background-color: #bec3be;
@@ -788,12 +792,14 @@ form img {
     width: 450px;
     height: 600px;
     display: block;
+    position: relative;
+    left: 0;
     margin: -180px 0 0 60px;
+    z-index: 5;
   }
   .row-5-col-1 p,
   .row-5-col-1 button,
   .row-5-col-1 img,
-  .row-5-col-2 img,
   .row-5-col-3 h1,
   .row-5-col-3 p {
     position: relative;
@@ -859,6 +865,10 @@ form img {
     bottom: 0;
     z-index: 5;
   }
+  footer p {
+    position: relative;
+    z-index: 5;
+  }
   /****** CONTACT ******/
   .row-5-col-3 form,
   .row-5-col-3 h1,
@@ -884,6 +894,7 @@ form img {
   }
   .row-1-col-3 h4 {
     font-size: 17px;
+    margin: 45px 30px 0 30px;
   }
   .row-1-col-3 img {
     width: 300px;
@@ -937,7 +948,7 @@ form img {
   }
   .row-4-col-2 h1 {
     font-size: 25px;
-    margin: 85px 5px 0 5px;
+    margin: 160px 10px 0 10px;
   }
   /****** ROW 5 ******/
   .row-5-col-1 p {
@@ -949,15 +960,12 @@ form img {
     margin-left: -15px;
   }
   .row-5-col-1 img {
-    width: 230px;
-    height: 270px;
-    margin-top: 80px;
+    width: 280px;
+    height: 320px;
   }
   .row-5-col-2 img {
-    width: 240px;
-    height: 370px;
-    right: -10px;
-    bottom: 55px;
+    top: 75px;
+    right: 0;
   }
   .row-5-col-3 h1,
   .row-5-col-3 p {
@@ -1010,7 +1018,7 @@ form img {
     font-size: 35px;
   }
   .row-1-col-3 h4 {
-    font-size: 25px;
+    font-size: 18px;
   }
   .row-1-col-3 img {
     width: 400px;
@@ -1037,7 +1045,7 @@ form img {
     width: 250px;
     height: 450px;
     right: 120px;
-    bottom: 120px;
+    bottom: 130px;
   }
   .row-2-col-3 img {
     width: 215px;
@@ -1061,7 +1069,7 @@ form img {
   /****** ROW 4 ******/
   .row-4-col-2 h1 {
     font-size: 34px;
-    margin: 200px 13px 0 13px;
+    margin: 155px 13px 0 13px;
   }
   /****** ROW 5 ******/
   .row-5-col-1 p {
@@ -1072,14 +1080,12 @@ form img {
     margin-right: 335px;
   }
   .row-5-col-1 img {
-    width: 230px;
-    height: 250px;
+    width: 280px;
+    height: 320px;
   }
   .row-5-col-2 img {
-    width: 255px;
-    height: 400px;
-    right: 125px;
-    bottom: 55px;
+    top: 75px;
+    right: 0;
   }
   .row-5-col-3 h1,
   .row-5-col-3 p {
@@ -1124,7 +1130,7 @@ form img {
   }
   .row-1-col-3 h4 {
     font-size: 22px;
-    margin-top: 80px;
+    margin-top: 45px;
   }
   .row-1-col-3 img {
     width: 400px;
@@ -1163,7 +1169,7 @@ form img {
   /****** ROW 4 ******/
   .row-4-col-2 h1 {
     font-size: 34px;
-    margin: 265px 13px 0 13px;
+    margin: 215px 13px 0 13px;
   }
   /****** ROW 5 ******/
   .row-5-col-1 p {
@@ -1173,16 +1179,12 @@ form img {
     margin-right: 365px;
   }
   .row-5-col-1 img {
-    width: 230px;
-    height: 250px;
-    margin-top: 70px;
-    margin-right: 140px;
+    width: 280px;
+    height: 320px;
   }
   .row-5-col-2 img {
-    width: 320px;
-    height: 500px;
-    right: 175px;
-    bottom: 55px;
+    top: 75px;
+    right: 0;
   }
   .row-5-col-3 h1,
   .row-5-col-3 p {
@@ -1205,13 +1207,6 @@ form img {
 }
 
 /* 
-	Fonts: 
-	'Lato', sans-serif
-	'Oswald', sans-serif;
-	'Open Sans', sans-serif
-	Georgia, serif
-
-	Colors: 
 	#44449b - Dark Blue
 	#212221 - Dark Gray
 	#bec3be - Light Gray
