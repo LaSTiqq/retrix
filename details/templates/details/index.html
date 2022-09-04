@@ -15,7 +15,7 @@
 			<img src="{% static 'img/img2.jpg' %}" alt="LED lights image #2" class="d-block mx-auto img-fluid">
 			<h4 class="text-center">
 				{% blocktrans %}Uzņēmums nodarbojas ar LED lentu apgaismojuma montāžu, to vadības bloku programmēšanu un
-				specifisku ar gaismekļiem un sensoriem aprīkotu produktu izstrādi {% endblocktrans %}</h4>
+				specifisku ar gaismekļiem un sensoriem aprīkotu produktu izstrādi{% endblocktrans %}</h4>
 		</div>
 	</div>
 	<!-- SERVICES -->
@@ -29,7 +29,7 @@
 			<h4>{% trans 'Krāsainu LED lentu' %}<br>{% trans 'apgaismojuma montāža' %}</h4>
 			<p>{% trans 'Telpās, fasādēs, mēbelēs un pat auto' %}.</p>
 			<h4>{% trans 'Specifisku' %}<br>{% trans 'produktu izstrāde' %}</h4>
-			<p>{% trans 'Ar LED apgaimojumu un sensoriem' %}.</p>
+			<p>{% trans 'Ar LED apgaismojumu un sensoriem' %}.</p>
 			<button class="btn btn-dark">{% trans 'Skatīt vairāk' %}</button>
 		</div>
 		<div class="col-12 col-md-3 col-xxl-2 row-2-col-2">
@@ -50,7 +50,7 @@
 		<div class="col-12 col-md-6 col-xxl-4 row-3-col-3 text-center">
 			<h5>{% trans 'Interaktīvais LED galds' %}.<br>
 				{% trans 'Uz priekšmetiem reaģējošs, mainot apgaismojuma krāsu' %}.<br>
-				{% blocktrans %} Iekļaujot vairākas funkcijas ar dažādiem efektiem un pat izlozi starp novietotajiem
+				{% blocktrans %}Iekļaujot vairākas funkcijas ar dažādiem efektiem un pat izlozi starp novietotajiem
 				priekšmetiem{% endblocktrans %}.<br>
 				{% trans 'Skaņas spektra analizators' %}.<br>
 				{% trans 'Vizuāla skaņas attēlošana dažādās frekvencēs' %}.<br></h5>
@@ -98,7 +98,7 @@
 			<img src="{% static 'img/img9.jpg' %}" alt="LED lights image #9">
 		</div>
 		<div class="col-12 col-md-3 col-xxl-4 row-5-col-3">
-			<h1 class="text-center">Saziņa</h1>
+			<h1 class="text-center">{% trans 'Saziņa' %}</h1>
 			<form method="post">
 				{% csrf_token %}
 				<div class="row gx-0">
@@ -140,12 +140,12 @@
 			<ul class="d-flex justify-content-center">
 				<li>
 					<a href="#" rel="noreferrer" class="text-decoration-none">
-						<i class="fab fa-facebook-f fa-2x me-3"></i>
+						<i class="fab fa-facebook-f fa-2x me-3" title="Facebook"></i>
 					</a>
 				</li>
 				<li>
 					<a href="#" rel="noreferrer" class="text-decoration-none">
-						<i class="fab fa-instagram fa-2x ms-3"></i>
+						<i class="fab fa-instagram fa-2x ms-3" title="Instagram"></i>
 					</a>
 				</li>
 			</ul>
