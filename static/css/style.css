@@ -406,7 +406,7 @@ form img {
     margin-top: 53px;
   }
   .row-1-col-3 {
-    height: 600px;
+    height: 575px;
   }
   .row-1-col-3 img {
     width: 300px;
@@ -414,9 +414,8 @@ form img {
     margin-top: 60px;
   }
   .row-1-col-3 h4 {
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 20px;
+    font-size: 16px;
+    margin: 35px 10px 0 10px;
   }
   /****** ROW 2 ******/
   .row-2-col-1 {
@@ -504,7 +503,7 @@ form img {
     height: 225px;
   }
   .row-4-col-2 h1 {
-    font-size: 28px;
+    font-size: 24px;
     margin: 45px 0 0 0;
   }
   .row-4-col-3 img {
