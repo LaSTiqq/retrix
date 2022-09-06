@@ -20,8 +20,8 @@ def send(request):
             email = EmailMultiAlternatives(
                 form.cleaned_data['subject'],
                 text_content,
-                'affixsia@gmail.com',
-                ['affixsia@inbox.lv']
+                'retrixsiasazina@gmail.com',
+                ['retrixsia@gmail.com']
             )
             email.attach_alternative(html_content, 'text/html')
             email.send()
