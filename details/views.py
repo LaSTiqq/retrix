@@ -26,14 +26,14 @@ def send(request):
             email.attach_alternative(html_content, 'text/html')
             email.send()
             if email:
-                messages.success(request, 'Vēstule nosūtīta')
+                messages.success(request, 'Success')
                 return redirect('/#contact_us')
             else:
                 messages.warning(
-                    request, 'Kaut kas nav izdevies, mēģiniet vēlreiz')
+                    request, 'Something went wrong, try again')
                 return redirect('/#contact_us')
         else:
-            messages.warning(request, 'Atbilde nav pareiza, mēģiniet vēlreiz')
+            messages.warning(request, 'Answer is incorrect, try again')
             return redirect('/#contact_us')
     else:
         form = ContactForm()

@@ -77,20 +77,8 @@
 	</div>
 	<!-- CONTACT US -->
 	<div class="row gx-0">
-		<div id="rectangle-3"></div>
-		<div class="col-12">
-			{% for message in messages %}
-			<div class="container-fluid">
-				<div class="alert alert-{{ message.tags }} alert-dismissible rounded-pill" role="alert">
-					{{ message }}
-					<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Aizvērt"></button>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-	</div>
-	<div class="row gx-0">
 		<a class="anchor" name="contact_us"></a>
+		<div id="rectangle-3"></div>
 		<div class="col-12 col-md-6 col-xxl-6 row-5-col-1">
 			<img src="{% static 'img/img8.jpg' %}" alt="LED lights image #8" class="img-fluid" loading="lazy">
 		</div>
@@ -99,6 +87,14 @@
 		</div>
 		<div class="col-12 col-md-3 col-xxl-4 row-5-col-3">
 			<h1 class="text-center">{% trans 'Saziņa' %}</h1>
+			{% for message in messages %}
+			<div class="container-fluid">
+				<div class="alert alert-{{ message.tags }} alert-dismissible rounded-pill" role="alert">
+					{{ message }}
+					<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+				</div>
+			</div>
+			{% endfor %}
 			<form method="post">
 				{% csrf_token %}
 				<div class="row gx-0">
