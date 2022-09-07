@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-04 19:21+0300\n"
+"POT-Creation-Date: 2022-09-07 00:56+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,10 @@ msgid ""
 "Uzņēmums nodarbojas ar LED lentu apgaismojuma montāžu, to vadības bloku "
 "programmēšanu un\n"
 "\t\t\t\tspecifisku ar gaismekļiem un sensoriem aprīkotu produktu izstrādi"
-msgstr "The company is engaged in the assembly of LED strip lights, programming of their control units and development of specific products equipped with lights and sensors"
+msgstr ""
+"The company is engaged in the assembly of LED strip lights, programming of "
+"their control units and development of specific products equipped with "
+"lights and sensors"
 
 #: .\details\templates\details\index.html:26
 msgid "Mūsu"
@@ -70,14 +73,22 @@ msgid "Skatīt vairāk"
 msgstr "Learn more"
 
 #: .\details\templates\details\index.html:51
+msgid "Skaņas spektra analizators"
+msgstr "Sound spectrum analyzer"
+
+#: .\details\templates\details\index.html:52
+msgid "Vizuāla skaņas attēlošana dažādās frekvencēs"
+msgstr "Visual representation of sound at different frequencies"
+
+#: .\details\templates\details\index.html:53
 msgid "Interaktīvais LED galds"
 msgstr "Interactive LED table"
 
-#: .\details\templates\details\index.html:52
+#: .\details\templates\details\index.html:54
 msgid "Uz priekšmetiem reaģējošs, mainot apgaismojuma krāsu"
 msgstr "Responsive to objects by changing lighting color"
 
-#: .\details\templates\details\index.html:53
+#: .\details\templates\details\index.html:55
 msgid ""
 "Iekļaujot vairākas funkcijas ar dažādiem efektiem un pat izlozi starp "
 "novietotajiem\n"
@@ -86,80 +97,72 @@ msgstr ""
 "Including multiple features with different effects and even a draw between "
 "placed items"
 
-#: .\details\templates\details\index.html:55
-msgid "Skaņas spektra analizators"
-msgstr "Sound spectrum analyzer"
-
-#: .\details\templates\details\index.html:56
-msgid "Vizuāla skaņas attēlošana dažādās frekvencēs"
-msgstr "Visual representation of sound at different frequencies"
-
-#: .\details\templates\details\index.html:57
+#: .\details\templates\details\index.html:58
 msgid "Un vēl daudz kas cits"
 msgstr "And much more"
 
-#: .\details\templates\details\index.html:58
+#: .\details\templates\details\index.html:59
 msgid "Ieskaties galerijā"
 msgstr "Take a look at the gallery"
 
-#: .\details\templates\details\index.html:60
-#: .\details\templates\details\index.html:161 .\templates\inc\_nav.html:18
+#: .\details\templates\details\index.html:61
+#: .\details\templates\details\index.html:157 .\templates\inc\_nav.html:18
 msgid "Galerija"
 msgstr "Gallery"
 
-#: .\details\templates\details\index.html:71
+#: .\details\templates\details\index.html:72
 msgid "Apgaismojuma"
 msgstr "Control"
 
-#: .\details\templates\details\index.html:72
+#: .\details\templates\details\index.html:73
 msgid "vadība ar slēdzi, sensoru, skārienjūtīgu ekrānu vai mobilo lietotni"
 msgstr "of lightening with a switch, sensor, touch screen or mobile app"
 
-#: .\details\templates\details\index.html:101 .\templates\inc\_nav.html:19
+#: .\details\templates\details\index.html:90 .\templates\inc\_nav.html:19
 msgid "Saziņa"
 msgstr "Contact us"
 
-#: .\details\templates\details\index.html:111
+#: .\details\templates\details\index.html:106
 msgid "Pierādiet, ka neesat robots. Ievadiet atbildi"
 msgstr "Prove that you are a human. Enter the answer"
 
-#: .\details\templates\details\index.html:113
+#: .\details\templates\details\index.html:108
 msgid "Nosūtīt"
 msgstr "Send"
 
-#: .\details\templates\details\index.html:128 .\templates\inc\_nav.html:21
+#: .\details\templates\details\index.html:121 .\templates\inc\_nav.html:21
 msgid "Kontakti"
 msgstr "Contacts"
 
-#: .\details\templates\details\index.html:129
-msgid "Pieņemam pasūtijumus visā Latvijā un ārpus tās"
+#: .\details\templates\details\index.html:122
+msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "We accept orders throughout Latvia and beyond"
 
-#: .\details\templates\details\index.html:132
+#: .\details\templates\details\index.html:125
 msgid "Tel.nr."
 msgstr "Phone no."
 
-#: .\details\templates\details\index.html:134
+#: .\details\templates\details\index.html:128
 msgid "E-pasts"
 msgstr "Email"
 
-#: .\details\templates\details\index.html:136
+#: .\details\templates\details\index.html:130
 msgid "Vienotais reģ.nr."
 msgstr "Unified reg. no."
 
-#: .\details\templates\details\index.html:137
+#: .\details\templates\details\index.html:131
 msgid "Juridiskā adrese"
 msgstr "Legal address"
 
-#: .\details\templates\details\index.html:138
+#: .\details\templates\details\index.html:134
 msgid "Atrodamies"
 msgstr "Our locations"
 
-#: .\details\templates\details\index.html:138
+#: .\details\templates\details\index.html:134
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "in Riga and Rezekne district"
 
-#: .\details\templates\details\index.html:186
+#: .\details\templates\details\index.html:188
 msgid "Aizvērt"
 msgstr "Close"
 
