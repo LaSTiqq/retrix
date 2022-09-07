@@ -65,7 +65,7 @@
 	<!-- ROW 4 -->
 	<div class="row gx-0">
 		<div class="col-12 col-md-6 row-4-col-1">
-			<img src="{% static 'img/img6.jpg' %}" alt="LED lights image #6" class="img-fluid" loading="lazy">
+			<img src="{% static 'img/img6.jpg' %}" alt="Tablet app interface" loading="lazy">
 		</div>
 		<div class="col-12 col-md-3 row-4-col-2">
 			<h1 class="text-center">
@@ -73,7 +73,7 @@
 				{% trans 'vadība ar slēdzi, sensoru, skārienjūtīgu ekrānu vai mobilo lietotni' %}.</h1>
 		</div>
 		<div class="col-12 col-md-3 row-4-col-3">
-			<img src="{% static 'img/img7.jpg' %}" alt="LED lights image #7" class="img-fluid" loading="lazy">
+			<img src="{% static 'img/img7.jpg' %}" alt="Phone app interface" loading="lazy">
 		</div>
 	</div>
 	<!-- CONTACT US -->
@@ -81,12 +81,6 @@
 		<a class="anchor" name="contact_us"></a>
 		<div id="rectangle-3"></div>
 		<div class="col-12 col-md-6 col-xxl-6 row-5-col-1">
-			<img src="{% static 'img/img8.jpg' %}" alt="LED lights image #8" class="img-fluid" loading="lazy">
-		</div>
-		<div class="col-12 col-md-3 col-xxl-2 row-5-col-2">
-			<img src="{% static 'img/img9.jpg' %}" alt="LED lights image #9" loading="lazy">
-		</div>
-		<div class="col-12 col-md-3 col-xxl-4 row-5-col-3">
 			<h1 class="text-center">{% trans 'Saziņa' %}</h1>
 			{% for message in messages %}
 			<div class="container-fluid">
@@ -107,6 +101,12 @@
 				{{ form.captcha }}
 				<button type="submit" class="btn btn-dark d-block mx-auto mt-3">{% trans 'Nosūtīt' %}</button>
 			</form>
+		</div>
+		<div class="col-12 col-md-3 col-xxl-2 row-5-col-2">
+			<img src="{% static 'img/img9.jpg' %}" alt="LED lights image #9" loading="lazy">
+		</div>
+		<div class="col-12 col-md-3 col-xxl-4 row-5-col-3">
+			<img src="{% static 'img/img8.jpg' %}" alt="LED lights image #8" class="img-fluid" loading="lazy">
 		</div>
 	</div>
 	<!-- CONTACTS -->
