@@ -19,8 +19,8 @@
 	</div>
 	<!-- SERVICES -->
 	<div class="row gx-0">
-		<a class="anchor" name="services"></a>
 		<div id="rectangle-1"></div>
+		<a class="anchor" name="services"></a>
 		<div class="col-12 col-md-6 col-xxl-6 row-2-col-1 text-center">
 			<h1>{% trans 'Mūsu' %}<br>{% trans 'pakalpojumi' %}</h1>
 			<h4>{% trans 'Virtuves apgaismojuma montāža' %}</h4>
@@ -29,8 +29,10 @@
 			<p>{% trans 'Telpās, fasādēs, mēbelēs un pat auto' %}.</p>
 			<h4>{% trans 'Specifisku' %}<br>{% trans 'produktu izstrāde' %}</h4>
 			<p>{% trans 'Ar LED apgaismojumu un sensoriem' %}.</p>
-			<a href="#gallery" class="btn btn-dark">{% trans 'Skatīt vairāk' %}</a>
+			<a href="#gallery" class="btn btn-dark pc">{% trans 'Skatīt vairāk' %}</a>
+			<a href="#gallery_mobile" class="btn btn-dark mobile">{% trans 'Skatīt vairāk' %}</a>
 		</div>
+		<a class="anchor2" name="gallery_mobile"></a>
 		<div class="col-12 col-md-3 col-xxl-2 row-2-col-2">
 			<img src="{% static 'img/img3.jpg' %}" alt="LED lights image #3">
 		</div>
@@ -40,8 +42,8 @@
 	</div>
 	<!-- GALLERY -->
 	<div class="row gx-0">
-		<a class="anchor" name="gallery"></a>
 		<div id="rectangle-2"></div>
+		<a class="anchor" name="gallery"></a>
 		<div class="col-12 col-md-3 col-xxl-4 row-3-col-1"></div>
 		<div class="col-12 col-md-3 col-xxl-2 row-3-col-2">
 			<img src="{% static 'img/img5.jpg' %}" alt="LED lights image #5" loading="lazy">
