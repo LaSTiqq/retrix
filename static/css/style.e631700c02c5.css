@@ -1419,6 +1419,101 @@ button[value="lv"]::before {
   }
 }
 
+@media (min-width: 2200px) {
+  nav ul li a {
+    font-size: 24px;
+  }
+  .row-1-col-2 h1 {
+    font-size: 72px;
+    margin-top: 375px;
+  }
+  .row-1-col-3 h4 {
+    font-size: 28px;
+  }
+  .row-1-col-3 img {
+    width: 450px;
+    height: 450px;
+  }
+  .row-2-col-1 h1 {
+    font-size: 78px;
+  }
+  .row-2-col-1 h4 {
+    font-size: 30px;
+  }
+  .row-2-col-1 p {
+    font-size: 22px;
+  }
+  .row-2-col-1 a {
+    font-size: 22px;
+  }
+  .row-2-col-2 img {
+    width: 490px;
+    right: 150px;
+  }
+  .row-2-col-3 img {
+    width: 525px;
+    top: 420px;
+    left: 120px;
+  }
+  .row-3-col-2 img {
+    width: 720px;
+    top: 80px;
+  }
+  .row-3-col-3 h5 {
+    font-size: 24px;
+  }
+  .row-3-col-3 p {
+    font-size: 20px;
+  }
+  .row-3-col-3 button {
+    font-size: 20px;
+  }
+  .row-4-col-2 h1 {
+    font-size: 38px;
+    margin: 215px 13px 0 13px;
+  }
+  .row-5-col-1 h1 {
+    font-size: 66px;
+    margin: 20px auto 30px auto;
+  }
+  .row-5-col-1 input[type="text"],
+  .row-5-col-1 input[type="email"],
+  .row-5-col-1 textarea {
+    width: 510px !important;
+    height: 50px;
+  }
+  .row-5-col-1 textarea {
+    height: 150px;
+  }
+  .row-5-col-1 button {
+    font-size: 20px;
+  }
+  .row-5-col-2 img {
+    width: 475px;
+    right: 100px;
+  }
+  .row-5-col-3 img {
+    width: 580px;
+  }
+  .row-6-col-2 img {
+    width: 650px;
+    top: 100px;
+  }
+  .row-6-col-3 h1 {
+    font-size: 74px;
+    margin-top: 70px;
+  }
+  .row-6-col-3 h5 {
+    font-size: 26px;
+  }
+  .row-6-col-3 p {
+    font-size: 22px;
+  }
+  footer a,
+  footer p {
+    font-size: 24px;
+  }
+}
 /* 
 	#44449b - Dark Blue
 	#212221 - Dark Gray
