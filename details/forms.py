@@ -1,5 +1,5 @@
 from django import forms
-from captcha.fields import CaptchaField, CaptchaTextInput
+# from captcha.fields import CaptchaField, CaptchaTextInput
 
 class ContactForm(forms.Form):
     name = forms.CharField(label='Vārds', widget=forms.TextInput(attrs={'class': 'form-control  mt-2 mx-auto', 'placeholder': 'Vārds/имя/name',
@@ -18,4 +18,4 @@ class ContactForm(forms.Form):
 																			'onpaste': 'return false;',
 																			'ondrop': 'return false;',
 																			'autocomplete': 'off'}))
-    captcha = CaptchaField(label='Captcha', widget=CaptchaTextInput(attrs={'class': 'form-control d-block mx-auto', 'placeholder': 'Atbilde/ответ/answer'}))
+    # captcha = CaptchaField(label='Captcha', widget=CaptchaTextInput(attrs={'class': 'form-control d-block mx-auto', 'placeholder': 'Atbilde/ответ/answer'}))
