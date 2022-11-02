@@ -75,13 +75,13 @@ button[value="lv"]::before {
   bottom: 3px;
 }
 button[value="en"]::before {
-  background-image: url(../img/en.svg);
+  background-image: url("../img/en.2850ad9eb436.svg");
 }
 button[value="ru"]::before {
-  background-image: url(../img/ru.svg);
+  background-image: url("../img/ru.1759ee228f53.svg");
 }
 button[value="lv"]::before {
-  background-image: url(../img/lv.svg);
+  background-image: url("../img/lv.a83795f2b3bd.svg");
 }
 /****** COOKIES ******/
 #CookielawBanner {
@@ -107,7 +107,7 @@ button[value="lv"]::before {
 }
 .cookie h3::before {
   content: "";
-  background-image: url(../img/cookie-icon.svg);
+  background-image: url("../img/cookie-icon.8a6fdcac8b55.svg");
   position: absolute;
   top: 15px;
   left: 15px;
@@ -127,7 +127,7 @@ button[value="lv"]::before {
 }
 /****** ROW 1 ******/
 .row-1-col-1 {
-  background-image: url(../img/img1.jpg);
+  background-image: url("../img/img1.14d7f33d82bb.jpg");
   background-position: top;
   height: 800px;
   filter: drop-shadow(0 0 0.75rem #5247e8);
@@ -147,7 +147,7 @@ button[value="lv"]::before {
   color: #fff;
   font-weight: normal;
   line-height: 1.6;
-  margin: 40px 20px 0 20px;
+  margin: 45px 30px 0 30px;
 }
 .row-1-col-3 img {
   width: 350px;
@@ -245,7 +245,7 @@ button[value="lv"]::before {
 }
 /****** ROW 4 ******/
 .row-4-col-1 {
-  background-image: url(../img/img6.jpg);
+  background-image: url("../img/img6.091d5e018c59.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -256,11 +256,13 @@ button[value="lv"]::before {
   height: 600px;
   background-color: #241d7a;
 }
-.row-4-col-2 h2 {
+.row-4-col-2 h1 {
   color: #fff;
+  font-size: 30px;
+  margin: 230px 13px 0 13px;
 }
 .row-4-col-3 {
-  background-image: url(../img/img7.jpg);
+  background-image: url("../img/img7.45f558bff124.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -383,10 +385,10 @@ button[value="lv"]::before {
     z-index: 1;
   }
   #rectangle-2 {
-    height: 942.58px;
+    height: 939.77px;
   }
   #rectangle-3 {
-    height: 701.67px;
+    height: 673.8px;
   }
   /****** MODAL ******/
   .modal-body img {
@@ -507,8 +509,9 @@ button[value="lv"]::before {
   .row-4-col-2 {
     height: 225px;
   }
-  .row-4-col-2 h2 {
-    font-size: 22px;
+  .row-4-col-2 h1 {
+    font-size: 24px;
+    margin: 55px 13px 0 13px;
   }
   .row-4-col-3 {
     height: 400px;
@@ -620,7 +623,7 @@ button[value="lv"]::before {
     height: 1141.47px;
   }
   #rectangle-3 {
-    height: 691.31px;
+    height: 651.11px;
   }
   /****** MODAL ******/
   .modal-body img {
@@ -635,7 +638,7 @@ button[value="lv"]::before {
     margin-top: 53px;
   }
   .row-1-col-3 {
-    height: 644px;
+    height: 650px;
   }
   .row-1-col-3 img {
     margin-top: 60px;
@@ -674,7 +677,6 @@ button[value="lv"]::before {
   }
   .row-2-col-1 .mobile {
     display: block;
-    margin-bottom: 25px;
   }
   .anchor2 {
     display: block;
@@ -736,6 +738,10 @@ button[value="lv"]::before {
   .row-4-col-2 {
     height: 225px;
   }
+  .row-4-col-2 h1 {
+    font-size: 24px;
+    margin: 60px 13px 0 13px;
+  }
   .row-4-col-3 {
     height: 550px;
   }
@@ -751,7 +757,7 @@ button[value="lv"]::before {
     z-index: 5;
   }
   .row-5-col-3 {
-    height: 535px;
+    height: 550px;
   }
   .row-5-col-3 img {
     width: 340px;
@@ -912,7 +918,7 @@ button[value="lv"]::before {
   }
   .row-2-col-2 img {
     display: block;
-    margin: -50px auto 0 auto;
+    margin: 0 auto;
   }
   .row-2-col-3 img {
     display: block;
@@ -955,6 +961,10 @@ button[value="lv"]::before {
   .row-4-col-2 {
     height: 225px;
   }
+  .row-4-col-2 h1 {
+    font-size: 30px;
+    margin: 60px 13px 0 13px;
+  }
   .row-4-col-3 {
     height: 750px;
   }
@@ -970,7 +980,7 @@ button[value="lv"]::before {
     z-index: 5;
   }
   .row-5-col-3 {
-    height: 500px;
+    height: 550px;
   }
   .row-5-col-3 img {
     top: 0;
@@ -1099,7 +1109,7 @@ button[value="lv"]::before {
     margin: 0 0 0 15px;
   }
   .row-3-col-3 p {
-    font-size: 12px;
+    font-size: 16px;
   }
   /****** ROW 4 ******/
   .row-4-col-1 {
@@ -1108,8 +1118,9 @@ button[value="lv"]::before {
   .row-4-col-2 {
     height: 365px;
   }
-  .row-4-col-2 h2 {
-    font-size: 18px;
+  .row-4-col-2 h1 {
+    font-size: 16px;
+    margin: 150px 13px 0 13px;
   }
   .row-4-col-3 {
     height: 365px;
@@ -1119,7 +1130,7 @@ button[value="lv"]::before {
     background-color: #bec3be;
   }
   .row-5-col-1 h1 {
-    font-size: 40px;
+    font-size: 48px;
     margin: 65px auto 30px auto;
   }
   .row-5-col-1 input[type="text"],
@@ -1235,8 +1246,9 @@ button[value="lv"]::before {
   .row-4-col-2 {
     height: 465px;
   }
-  .row-4-col-2 h2 {
-    font-size: 24px;
+  .row-4-col-2 h1 {
+    font-size: 30px;
+    margin: 155px 13px 0 13px;
   }
   .row-4-col-3 {
     height: 465px;
@@ -1342,6 +1354,10 @@ button[value="lv"]::before {
   .row-4-col-2 {
     height: 500px;
   }
+  .row-4-col-2 h1 {
+    font-size: 30px;
+    margin: 215px 13px 0 13px;
+  }
   .row-4-col-3 {
     height: 500px;
   }
@@ -1433,8 +1449,13 @@ button[value="lv"]::before {
   .row-3-col-3 button {
     font-size: 20px;
   }
+  .row-4-col-2 h1 {
+    font-size: 38px;
+    margin: 215px 13px 0 13px;
+  }
   .row-5-col-1 h1 {
     font-size: 66px;
+    margin: 20px auto 30px auto;
   }
   .row-5-col-1 input[type="text"],
   .row-5-col-1 input[type="email"],
@@ -1474,3 +1495,11 @@ button[value="lv"]::before {
     font-size: 24px;
   }
 }
+/* 
+	#44449b - Dark Blue
+	#212221 - Dark Gray
+	#bec3be - Light Gray
+	
+	#5247e8 - Medium Blue (Logo)
+	#241d7a - Dark Blue (Logo)
+*/

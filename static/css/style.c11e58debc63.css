@@ -75,13 +75,13 @@ button[value="lv"]::before {
   bottom: 3px;
 }
 button[value="en"]::before {
-  background-image: url(../img/en.svg);
+  background-image: url("../img/en.2850ad9eb436.svg");
 }
 button[value="ru"]::before {
-  background-image: url(../img/ru.svg);
+  background-image: url("../img/ru.1759ee228f53.svg");
 }
 button[value="lv"]::before {
-  background-image: url(../img/lv.svg);
+  background-image: url("../img/lv.a83795f2b3bd.svg");
 }
 /****** COOKIES ******/
 #CookielawBanner {
@@ -107,7 +107,7 @@ button[value="lv"]::before {
 }
 .cookie h3::before {
   content: "";
-  background-image: url(../img/cookie-icon.svg);
+  background-image: url("../img/cookie-icon.8a6fdcac8b55.svg");
   position: absolute;
   top: 15px;
   left: 15px;
@@ -127,7 +127,7 @@ button[value="lv"]::before {
 }
 /****** ROW 1 ******/
 .row-1-col-1 {
-  background-image: url(../img/img1.jpg);
+  background-image: url("../img/img1.14d7f33d82bb.jpg");
   background-position: top;
   height: 800px;
   filter: drop-shadow(0 0 0.75rem #5247e8);
@@ -245,7 +245,7 @@ button[value="lv"]::before {
 }
 /****** ROW 4 ******/
 .row-4-col-1 {
-  background-image: url(../img/img6.jpg);
+  background-image: url("../img/img6.091d5e018c59.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -260,7 +260,7 @@ button[value="lv"]::before {
   color: #fff;
 }
 .row-4-col-3 {
-  background-image: url(../img/img7.jpg);
+  background-image: url("../img/img7.45f558bff124.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
