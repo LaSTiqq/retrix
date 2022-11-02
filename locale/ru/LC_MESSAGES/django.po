@@ -170,7 +170,7 @@ msgstr "Закрыть"
 
 #: .\templates\base.html:19
 msgid "Par uzņēmumu"
-msgstr "О компания"
+msgstr "О компании"
 
 #: .\templates\cookielaw\banner.html:6
 msgid "Cepumi"
