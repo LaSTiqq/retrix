@@ -368,6 +368,9 @@ button[value="lv"]::before {
 .row-6-col-4 {
   background-color: #212221;
 }
+footer p {
+  color: #D1D4D7;
+}
 
 /****** ADAPTIVE ******/
 @media (min-width: 359.98px) and (max-width: 425.97px) {
