@@ -57,7 +57,11 @@
 		<a class="anchor" name="gallery"></a>
 		<div class="col-12 col-md-3 col-xxl-4 row-3-col-1"></div>
 		<div class="col-12 col-md-3 col-xxl-2 row-3-col-2">
-			<img src="{% static 'img/img5.jpg' %}" alt="LED lights image #5">
+			<picture>
+				<source srcset="{% static 'img/img5.webp' %}" type="image/webp">
+				<source srcset="{% static 'img/img5.jpg' %}" type="image/jpg">
+				<img src="{% static 'img/img5.jpg' %}" alt="LED lights image #5">
+			</picture>
 		</div>
 		<div class="col-12 col-md-6 col-xxl-4 row-3-col-3 text-center">
 			<h3>{% trans 'Skaņas spektra analizators' %}.<br>
@@ -108,7 +112,11 @@
 			</form>
 		</div>
 		<div class="col-12 col-md-3 col-xxl-2 row-5-col-2">
-			<img src="{% static 'img/img9.jpg' %}" alt="LED lights image #9">
+			<picture>
+				<source srcset="{% static 'img/img9.webp' %}" type="image/webp">
+				<source srcset="{% static 'img/img9.jpg' %}" type="image/jpg">
+				<img src="{% static 'img/img9.jpg' %}" alt="LED lights image #9">
+			</picture>
 		</div>
 		<div class="col-12 col-md-3 col-xxl-4 row-5-col-3">
 			<img src="{% static 'img/img8.jpg' %}" alt="LED lights image #8">
@@ -120,7 +128,11 @@
 		<div id="rectangle-3"></div>
 		<div class="col-12 col-md-3 col-xxl-4 row-6-col-1"></div>
 		<div class="col-12 col-md-3 col-xxl-2 row-6-col-2">
-			<img src="{% static 'img/img10.jpg' %}" alt="LED lights image #10">
+			<picture>
+				<source srcset="{% static 'img/img10.webp' %}" type="image/webp">
+				<source srcset="{% static 'img/img10.jpg' %}" type="image/jpg">
+				<img src="{% static 'img/img10.jpg' %}" alt="LED lights image #10">
+			</picture>
 		</div>
 		<div class="col-12 col-md-6 col-xxl-3 row-6-col-3">
 			<h1 class="text-center">{% trans 'Kontakti' %}</h1>
