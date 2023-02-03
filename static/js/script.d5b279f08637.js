@@ -1,10 +1,6 @@
-window.onscroll = function () {
-  scrollFunction();
-};
-
 const logo = document.getElementById("logo");
 
-function scrollFunction() {
+const scrollFunction = () => {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     // End values
     if (logo) {
@@ -18,7 +14,11 @@ function scrollFunction() {
       logo.style.height = "80px";
     }
   }
-}
+};
+
+window.onscroll = () => {
+  scrollFunction();
+};
 
 // Captcha
 // $(".captcha").click(function () {
