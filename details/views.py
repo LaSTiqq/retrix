@@ -27,14 +27,14 @@ def send(request):
             email.send()
             if email:
                 messages.success(request, 'Success')
-                return redirect('/#contact_us')
+                return redirect('/#communication')
             else:
                 messages.warning(
                     request, 'Something went wrong, try again')
-                return redirect('/#contact_us')
+                return redirect('/#communication')
         else:
             messages.warning(request, 'Answer is incorrect, try again')
-            return redirect('/#contact_us')
+            return redirect('/#communication')
     else:
         form = ContactForm()
     return render(request, 'details/index.html', {"form": form})
