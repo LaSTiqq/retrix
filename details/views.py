@@ -6,8 +6,8 @@ from django.utils.html import strip_tags
 from .forms import ContactForm
 
 def send(request):
-    form = ContactForm(data=request.POST or None)
     if request.method == 'POST':
+        form = ContactForm(data=request.POST)
         if form.is_valid():
             body = {
                 'name': form.cleaned_data['name'],
@@ -29,12 +29,8 @@ def send(request):
                 messages.success(request, 'Success')
                 return redirect('/#communication')
             else:
-                messages.warning(
-                    request, 'Something went wrong, try again')
+                messages.danger(request, 'Something went wrong, try again')
                 return redirect('/#communication')
-        else:
-            messages.warning(request, 'Answer is incorrect, try again')
-            return redirect('/#communication')
     else:
         form = ContactForm()
     return render(request, 'details/index.html', {"form": form})
