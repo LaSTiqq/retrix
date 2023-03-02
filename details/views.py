@@ -3,6 +3,8 @@ from django.contrib import messages
 from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
+from django.conf import settings
+from smtplib import SMTPException
 from .forms import ContactForm
 
 def send(request):
@@ -17,19 +19,19 @@ def send(request):
             html_content = render_to_string('email.html', {
                                             'name': body['name'], 'sender': body['sender'], 'content': body['content']})
             text_content = strip_tags(html_content)
-            email = EmailMultiAlternatives(
-                form.cleaned_data['subject'],
-                text_content,
-                'retrixsiasazina@gmail.com',
-                ['retrixsia@gmail.com']
-            )
-            email.attach_alternative(html_content, 'text/html')
-            email.send()
-            if email:
+            try:
+                email = EmailMultiAlternatives(
+                    form.cleaned_data['subject'],
+                    text_content,
+                    settings.EMAIL_HOST_USER,
+                    ['retrixsia@gmail.com']
+                )
+                email.attach_alternative(html_content, 'text/html')
+                email.send()
                 messages.success(request, 'Success')
                 return redirect('/#communication')
-            else:
-                messages.danger(request, 'Something went wrong, try again')
+            except SMTPException:
+                messages.danger(request, 'Something went wrong, please try again')
                 return redirect('/#communication')
     else:
         form = ContactForm()
