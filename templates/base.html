@@ -29,7 +29,9 @@
 			{% include 'inc/_nav.html' %}
 		</header>
 		<main>
-			{% block content %}{% endblock %}
+			<div class="container-fluid">
+				{% block content %}{% endblock %}
+			</div>
 		</main>
 		{% cookielaw_banner %}
 		<footer class="py-3 bg-dark">
