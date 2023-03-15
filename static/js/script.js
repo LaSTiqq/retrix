@@ -10,8 +10,8 @@ const scrollFunction = () => {
   } else {
     // Start values
     if (logo) {
-      logo.style.width = "160px";
-      logo.style.height = "80px";
+      logo.style.width = "170px";
+      logo.style.height = "90px";
     }
   }
 };
