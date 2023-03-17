@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 21:43+0200\n"
+"POT-Creation-Date: 2023-03-17 17:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,29 +136,29 @@ msgstr "Contacts"
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "We accept orders all over Latvia and outside of it"
 
-#: .\details\templates\details\index.html:138
+#: .\details\templates\details\index.html:140
 msgid "Tel.nr."
 msgstr "Tel."
 
-#: .\details\templates\details\index.html:140
+#: .\details\templates\details\index.html:144
 msgid "E-pasts"
 msgstr "Email"
 
-#: .\details\templates\details\index.html:142
+#: .\details\templates\details\index.html:148
 msgid "Vienotais reģ.nr."
 msgstr "Reg. no."
 
-#: .\details\templates\details\index.html:143
+#: .\details\templates\details\index.html:152
 msgid "Juridiskā adrese"
 msgstr "Address"
 
-#: .\details\templates\details\index.html:145
+#: .\details\templates\details\index.html:156
 msgid "Atrodamies"
 msgstr "Our locations"
 
-#: .\details\templates\details\index.html:145
+#: .\details\templates\details\index.html:157
 msgid "Rīgā un Rēzeknes novadā"
-msgstr "in Riga and region of Rezekne"
+msgstr "in Riga and the region of Rezekne"
 
 #: .\templates\base.html:9
 msgid "Par uzņēmumu"
