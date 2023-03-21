@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-17 17:10+0200\n"
+"POT-Creation-Date: 2023-03-21 23:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,131 +37,131 @@ msgstr ""
 msgid "Mūsu"
 msgstr "Наши"
 
-#: .\details\templates\details\index.html:25
+#: .\details\templates\details\index.html:26
 msgid "pakalpojumi"
 msgstr "услуги"
 
-#: .\details\templates\details\index.html:26
+#: .\details\templates\details\index.html:27
 msgid "Virtuves apgaismojuma montāža"
 msgstr "Монтаж кухонного освещения"
 
-#: .\details\templates\details\index.html:27
-msgid "Balti siltie un aukstie toņi, ar slēdža vai sensora vadību"
-msgstr "Белые теплые и холодные тона, при помощи переключателя или сенсора"
-
 #: .\details\templates\details\index.html:28
+msgid "Siltie un aukstie baltie toņi, ar slēdža vai sensora vadību"
+msgstr "Теплые и холодные белые тона, управляемые переключателем или сенсором"
+
+#: .\details\templates\details\index.html:29
 msgid "Krāsainu LED lentu"
 msgstr "Монтаж освещения"
 
-#: .\details\templates\details\index.html:28
+#: .\details\templates\details\index.html:30
 msgid "apgaismojuma montāža"
 msgstr "цветных LED лент"
 
-#: .\details\templates\details\index.html:29
-msgid "Telpās, fasādēs, mēbelēs un pat auto"
-msgstr "В помещениях, мебели, на фасадах и даже машинах"
+#: .\details\templates\details\index.html:31
+msgid "Telpās, uz fasādēm, mēbelēm un pat uz auto"
+msgstr "В помещениях, на фасадах, мебели и даже на машинах"
 
-#: .\details\templates\details\index.html:30
+#: .\details\templates\details\index.html:32
 msgid "Specifisku"
 msgstr "Разработка"
 
-#: .\details\templates\details\index.html:30
+#: .\details\templates\details\index.html:33
 msgid "produktu izstrāde"
 msgstr "специфичных продуктов"
 
-#: .\details\templates\details\index.html:31
+#: .\details\templates\details\index.html:34
 msgid "Ar LED apgaismojumu un sensoriem"
 msgstr "С LED освещением и сенсорами"
 
-#: .\details\templates\details\index.html:32
-#: .\details\templates\details\index.html:33
+#: .\details\templates\details\index.html:35
+#: .\details\templates\details\index.html:36
 msgid "Skatīt vairāk"
 msgstr "Смотреть больше"
 
-#: .\details\templates\details\index.html:61
+#: .\details\templates\details\index.html:64
 msgid "Skaņas spektra analizators"
 msgstr "Анализатор звукового спектра"
 
-#: .\details\templates\details\index.html:62
+#: .\details\templates\details\index.html:65
 msgid "Vizuāla skaņas attēlošana dažādās frekvencēs"
 msgstr "Визуальное отображение звука на разных частотах"
 
-#: .\details\templates\details\index.html:63
+#: .\details\templates\details\index.html:66
 msgid "Interaktīvais LED galds"
 msgstr "Интерактивный LED стол"
 
-#: .\details\templates\details\index.html:64
+#: .\details\templates\details\index.html:67
 msgid "Uz priekšmetiem reaģējošs, mainot apgaismojuma krāsu"
 msgstr "Реагирующий на предметы, меняя цвет освещения"
 
-#: .\details\templates\details\index.html:65
+#: .\details\templates\details\index.html:68
 msgid "Iekļaujot vairākas funkcijas ar dažādiem efektiem "
 msgstr "Включая несколько функций с разными эффектами "
 
-#: .\details\templates\details\index.html:66
+#: .\details\templates\details\index.html:69
 msgid "un pat izlozi starp novietotajiem priekšmetiem"
 msgstr "и даже розыгрыш между установленными предметами"
 
-#: .\details\templates\details\index.html:68
+#: .\details\templates\details\index.html:71
 msgid "Un vēl daudz kas cits"
 msgstr "И много чего ещё"
 
-#: .\details\templates\details\index.html:69
+#: .\details\templates\details\index.html:72
 msgid "Ieskaties galerijā"
 msgstr "Загляни в галерею"
 
-#: .\details\templates\details\index.html:71 .\templates\inc\_nav.html:18
+#: .\details\templates\details\index.html:74 .\templates\inc\_nav.html:18
 #: .\templates\modal.html:8
 msgid "Galerija"
 msgstr "Галерея"
 
-#: .\details\templates\details\index.html:80
+#: .\details\templates\details\index.html:83
 msgid "Apgaismojuma"
 msgstr "Управление"
 
-#: .\details\templates\details\index.html:81
+#: .\details\templates\details\index.html:84
 msgid "vadība ar slēdzi, sensoru, skārienjūtīgu ekrānu vai mobilo lietotni"
 msgstr ""
 "освещением с переключателем, тачскрин экраном, сенсором или мобильным "
 "приложением"
 
-#: .\details\templates\details\index.html:89 .\templates\inc\_nav.html:19
+#: .\details\templates\details\index.html:92 .\templates\inc\_nav.html:19
 msgid "Saziņa"
 msgstr "Связь"
 
-#: .\details\templates\details\index.html:109
+#: .\details\templates\details\index.html:112
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\details\templates\details\index.html:134 .\templates\inc\_nav.html:20
+#: .\details\templates\details\index.html:137 .\templates\inc\_nav.html:20
 msgid "Kontakti"
 msgstr "Контакты"
 
-#: .\details\templates\details\index.html:135
+#: .\details\templates\details\index.html:138
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\details\templates\details\index.html:140
+#: .\details\templates\details\index.html:143
 msgid "Tel.nr."
 msgstr "Номер"
 
-#: .\details\templates\details\index.html:144
+#: .\details\templates\details\index.html:147
 msgid "E-pasts"
 msgstr "Почта"
 
-#: .\details\templates\details\index.html:148
+#: .\details\templates\details\index.html:151
 msgid "Vienotais reģ.nr."
 msgstr "Рег. но."
 
-#: .\details\templates\details\index.html:152
+#: .\details\templates\details\index.html:155
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\details\templates\details\index.html:156
+#: .\details\templates\details\index.html:159
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\details\templates\details\index.html:157
+#: .\details\templates\details\index.html:160
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"
 
