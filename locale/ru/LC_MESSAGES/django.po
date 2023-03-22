@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-22 01:04+0200\n"
+"POT-Creation-Date: 2023-03-22 18:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,53 +115,53 @@ msgstr "Загляни в галерею"
 msgid "Galerija"
 msgstr "Галерея"
 
-#: .\details\templates\details\index.html:82
+#: .\details\templates\details\index.html:81
 msgid "Apgaismojuma"
 msgstr "Управление"
 
-#: .\details\templates\details\index.html:83
+#: .\details\templates\details\index.html:82
 msgid "vadība ar slēdzi, sensoru, skārienjutīgu ekrānu vai mobilo lietotni"
 msgstr ""
 "освещением с переключателем, тачскрин экраном, сенсором или с мобильным "
 "приложением"
 
-#: .\details\templates\details\index.html:91 .\templates\inc\_nav.html:19
+#: .\details\templates\details\index.html:90 .\templates\inc\_nav.html:19
 msgid "Saziņa"
 msgstr "Связь"
 
-#: .\details\templates\details\index.html:111
+#: .\details\templates\details\index.html:110
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\details\templates\details\index.html:136 .\templates\inc\_nav.html:20
+#: .\details\templates\details\index.html:135 .\templates\inc\_nav.html:20
 msgid "Kontakti"
 msgstr "Контакты"
 
-#: .\details\templates\details\index.html:137
+#: .\details\templates\details\index.html:136
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\details\templates\details\index.html:142
+#: .\details\templates\details\index.html:141
 msgid "Tel.nr."
 msgstr "Номер"
 
-#: .\details\templates\details\index.html:146
+#: .\details\templates\details\index.html:145
 msgid "E-pasts"
 msgstr "Почта"
 
-#: .\details\templates\details\index.html:150
+#: .\details\templates\details\index.html:149
 msgid "Vienotais reģ.nr."
 msgstr "Рег. но."
 
-#: .\details\templates\details\index.html:154
+#: .\details\templates\details\index.html:153
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\details\templates\details\index.html:158
+#: .\details\templates\details\index.html:157
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\details\templates\details\index.html:159
+#: .\details\templates\details\index.html:158
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"
 
@@ -180,13 +180,11 @@ msgstr ""
 "функционирования этого сайта. Продолжая использовать его, Вы соглашаетесь на "
 "их использование"
 
-#: .\templates\cookielaw\banner.html:17
-msgid ""
-"Kas\n"
-"\t\t\t\tir cookies"
+#: .\templates\cookielaw\banner.html:16
+msgid "Kas ir cookies"
 msgstr "Что такое куки"
 
-#: .\templates\cookielaw\banner.html:22
+#: .\templates\cookielaw\banner.html:20
 msgid "Piekrist un aizvērt"
 msgstr "Принять и закрыть"
 
