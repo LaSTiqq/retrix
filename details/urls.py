@@ -1,13 +1,15 @@
 from django.views.generic.base import TemplateView
 from django.contrib.sitemaps.views import sitemap
 from .views import send
-from .sitemaps import StaticSitemap
+from .sitemaps import LatvianSitemap, EnglishSitemap, RussianSitemap
 from django.urls import path
 
 app_name = 'details'
 
 sitemaps = {
-    'static': StaticSitemap,
+    'latvian': LatvianSitemap,
+    'english': EnglishSitemap,
+    'russian': RussianSitemap,
 }
 
 urlpatterns = [
