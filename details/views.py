@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
+from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from smtplib import SMTPException
 from .forms import ContactForm
@@ -28,10 +29,10 @@ def send(request):
                 )
                 email.attach_alternative(html_content, 'text/html')
                 email.send()
-                messages.success(request, 'Success')
+                messages.success(request, _('Vēstule nosūtīta'))
                 return redirect('/#communication')
             except SMTPException:
-                messages.danger(request, 'Something went wrong, please try again')
+                messages.danger(request, _('Radās kļūda, mēģiniet vēlreiz'))
                 return redirect('/#communication')
     else:
         form = ContactForm()

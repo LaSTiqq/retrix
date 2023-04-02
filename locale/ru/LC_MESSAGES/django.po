@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-22 18:09+0200\n"
+"POT-Creation-Date: 2023-04-02 19:38+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,39 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\details\templates\details\index.html:17
+#: .\details\forms.py:6
+msgid "Vārds"
+msgstr "Имя"
+
+#: .\details\forms.py:6
+msgid "Jānis"
+msgstr "Андрей"
+
+#: .\details\forms.py:8 .\details\templates\details\index.html:147
+msgid "E-pasts"
+msgstr "Почта"
+
+#: .\details\forms.py:8
+msgid "janis.celotajs@gmail.com"
+msgstr "andrey.petrov@gmail.com"
+
+#: .\details\forms.py:10
+msgid "Temats"
+msgstr "Тема"
+
+#: .\details\forms.py:10
+msgid "LED gaismas virtuvē"
+msgstr "LED освещение на кухне"
+
+#: .\details\forms.py:12
+msgid "Teksts"
+msgstr "Текст"
+
+#: .\details\forms.py:13
+msgid "Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?"
+msgstr "Хочу осветить свою кухню, что Вы можете предложить?"
+
+#: .\details\templates\details\index.html:18
 msgid ""
 "Uzņēmums nodarbojas ar LED lentu apgaismojuma montāžu, to vadības bloku "
 "programmēšanu"
@@ -28,53 +60,53 @@ msgstr ""
 "Компания занимается сборкой светодиодных LED лент, программированием их "
 "блоков управления "
 
-#: .\details\templates\details\index.html:18
+#: .\details\templates\details\index.html:19
 msgid "un specifisku, ar gaismekļiem un sensoriem aprīkotu produktu izstrādi"
 msgstr ""
 "и разработкой специфичных изделий, оснащенных светильниками и датчиками"
 
-#: .\details\templates\details\index.html:25
+#: .\details\templates\details\index.html:26
 msgid "Mūsu"
 msgstr "Наши"
 
-#: .\details\templates\details\index.html:26
+#: .\details\templates\details\index.html:27
 msgid "pakalpojumi"
 msgstr "услуги"
 
-#: .\details\templates\details\index.html:27
+#: .\details\templates\details\index.html:28
 msgid "Virtuves apgaismojuma montāža"
 msgstr "Монтаж кухонного освещения"
 
-#: .\details\templates\details\index.html:28
+#: .\details\templates\details\index.html:29
 msgid "Siltie un aukstie baltie toņi, ar slēdža vai sensora vadību"
 msgstr "Теплые и холодные белые тона, управляемые переключателем или сенсором"
 
-#: .\details\templates\details\index.html:29
+#: .\details\templates\details\index.html:30
 msgid "Krāsainu LED lentu"
 msgstr "Монтаж освещения"
 
-#: .\details\templates\details\index.html:30
+#: .\details\templates\details\index.html:31
 msgid "apgaismojuma montāža"
 msgstr "цветных LED лент"
 
-#: .\details\templates\details\index.html:31
+#: .\details\templates\details\index.html:32
 msgid "Telpās, uz fasādēm, mēbelēm un pat uz auto"
 msgstr "В помещениях, на фасадах, мебели и даже на машинах"
 
-#: .\details\templates\details\index.html:32
+#: .\details\templates\details\index.html:33
 msgid "Specifisku"
 msgstr "Разработка"
 
-#: .\details\templates\details\index.html:33
+#: .\details\templates\details\index.html:34
 msgid "produktu izstrāde"
 msgstr "специфичных продуктов"
 
-#: .\details\templates\details\index.html:34
+#: .\details\templates\details\index.html:35
 msgid "Ar LED apgaismojumu un sensoriem"
 msgstr "С LED освещением и сенсорами"
 
-#: .\details\templates\details\index.html:35
 #: .\details\templates\details\index.html:36
+#: .\details\templates\details\index.html:37
 msgid "Skatīt vairāk"
 msgstr "Смотреть больше"
 
@@ -133,37 +165,41 @@ msgstr "Связь"
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\details\templates\details\index.html:135 .\templates\inc\_nav.html:20
+#: .\details\templates\details\index.html:137 .\templates\inc\_nav.html:20
 msgid "Kontakti"
 msgstr "Контакты"
 
-#: .\details\templates\details\index.html:136
+#: .\details\templates\details\index.html:138
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\details\templates\details\index.html:141
+#: .\details\templates\details\index.html:143
 msgid "Tel.nr."
 msgstr "Номер"
 
-#: .\details\templates\details\index.html:145
-msgid "E-pasts"
-msgstr "Почта"
-
-#: .\details\templates\details\index.html:149
+#: .\details\templates\details\index.html:151
 msgid "Vienotais reģ.nr."
 msgstr "Рег. но."
 
-#: .\details\templates\details\index.html:153
+#: .\details\templates\details\index.html:155
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\details\templates\details\index.html:157
+#: .\details\templates\details\index.html:159
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\details\templates\details\index.html:158
+#: .\details\templates\details\index.html:160
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"
+
+#: .\details\views.py:32
+msgid "Vēstule nosūtīta"
+msgstr "Письмо отправлено"
+
+#: .\details\views.py:35
+msgid "Radās kļūda, mēģiniet vēlreiz"
+msgstr "Что-то пошло не так, попробуйте снова"
 
 #: .\templates\base.html:9
 msgid "Par uzņēmumu"
