@@ -31,22 +31,3 @@ navbarLinks.forEach((link) => {
     }
   });
 });
-
-// Loader to slow speed connection
-window.onload = () => {
-  const images = document.getElementsByTagName("img");
-  const loader = document.querySelector(".loader-container");
-  const content = document.querySelector(".wrapper");
-  let loaded = 0;
-
-  for (let i = 0; i < images.length; i++) {
-    if (images[i].complete) {
-      loaded++;
-    }
-  }
-
-  if (loaded == images.length) {
-    loader.style.display = "none";
-    content.style.display = "flex";
-  }
-};
