@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-02 19:38+0300\n"
+"POT-Creation-Date: 2023-05-10 18:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Имя"
 msgid "Jānis"
 msgstr "Андрей"
 
-#: .\details\forms.py:8 .\details\templates\details\index.html:147
+#: .\details\forms.py:8 .\details\templates\details\index.html:143
 msgid "E-pasts"
 msgstr "Почта"
 
@@ -90,8 +90,8 @@ msgid "apgaismojuma montāža"
 msgstr "цветных LED лент"
 
 #: .\details\templates\details\index.html:32
-msgid "Telpās, uz fasādēm, mēbelēm un pat uz auto"
-msgstr "В помещениях, на фасадах, мебели и даже на машинах"
+msgid "Telpās, uz fasādēm un mēbelēm"
+msgstr "В помещениях, на фасадах и мебели"
 
 #: .\details\templates\details\index.html:33
 msgid "Specifisku"
@@ -134,62 +134,49 @@ msgstr "Включая несколько функций с разными эф�
 msgid "izlozi starp novietotajiem priekšmetiem"
 msgstr "розыгрыш между установленными предметами"
 
-#: .\details\templates\details\index.html:70
-msgid "Un vēl daudz kas cits"
-msgstr "И много чего ещё"
-
-#: .\details\templates\details\index.html:71
-msgid "Ieskaties galerijā"
-msgstr "Загляни в галерею"
-
-#: .\details\templates\details\index.html:73 .\templates\inc\_nav.html:18
-#: .\templates\modal.html:8
-msgid "Galerija"
-msgstr "Галерея"
-
-#: .\details\templates\details\index.html:81
+#: .\details\templates\details\index.html:77
 msgid "Apgaismojuma"
 msgstr "Управление"
 
-#: .\details\templates\details\index.html:82
+#: .\details\templates\details\index.html:78
 msgid "vadība ar slēdzi, sensoru, skārienjutīgu ekrānu vai mobilo lietotni"
 msgstr ""
 "освещением с переключателем, тачскрин экраном, сенсором или с мобильным "
 "приложением"
 
-#: .\details\templates\details\index.html:90 .\templates\inc\_nav.html:19
+#: .\details\templates\details\index.html:86 .\templates\inc\_nav.html:18
 msgid "Saziņa"
 msgstr "Связь"
 
-#: .\details\templates\details\index.html:110
+#: .\details\templates\details\index.html:106
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\details\templates\details\index.html:137 .\templates\inc\_nav.html:20
+#: .\details\templates\details\index.html:133 .\templates\inc\_nav.html:19
 msgid "Kontakti"
 msgstr "Контакты"
 
-#: .\details\templates\details\index.html:138
+#: .\details\templates\details\index.html:134
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\details\templates\details\index.html:143
+#: .\details\templates\details\index.html:139
 msgid "Tel.nr."
 msgstr "Номер"
 
-#: .\details\templates\details\index.html:151
+#: .\details\templates\details\index.html:147
 msgid "Vienotais reģ.nr."
 msgstr "Рег. но."
 
-#: .\details\templates\details\index.html:155
+#: .\details\templates\details\index.html:151
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\details\templates\details\index.html:159
+#: .\details\templates\details\index.html:155
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\details\templates\details\index.html:160
+#: .\details\templates\details\index.html:156
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"
 
@@ -231,7 +218,3 @@ msgstr "Разработчик"
 #: .\templates\inc\_nav.html:17
 msgid "Pakalpojumi"
 msgstr "Услуги"
-
-#: .\templates\modal.html:176
-msgid "Aizvērt"
-msgstr "Закрыть"
