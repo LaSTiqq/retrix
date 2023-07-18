@@ -16,10 +16,9 @@
 
 # Self
 templates/robots.txt
-details/sitemaps.py
-details/migrations
 retrix/settings.py
 retrix/urls.py
 retrix/static
-db.sqlite3
+sitemap.xml
+.vscode
 venv/

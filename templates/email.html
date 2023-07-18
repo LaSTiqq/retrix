@@ -12,7 +12,8 @@
             rel="noreferrer">retrix.lv</a></h3>
     <div style="border: 1px solid black; width: 695px; margin: 0 auto">
         <p style="margin-left: 3px; margin-right: 3px"><strong>Sūtītāja vārds: </strong>{{ name }}</p>
-        <p style="margin-left: 3px; margin-right: 3px"><strong>Sūtītāja e-pasts: </strong>{{ sender }}</p>
+        <p style="margin-left: 3px; margin-right: 3px"><strong>Sūtītāja e-pasts: </strong><a
+                href="mailto:{{sender}}">{{sender}}</a></p>
         <p style="margin-left: 3px; margin-right: 3px"><strong>Teksts: </strong><br><i>{{ content }}</i></p>
     </div>
 </body>

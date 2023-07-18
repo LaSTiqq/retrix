@@ -8,6 +8,7 @@ from django.conf import settings
 from smtplib import SMTPException
 from .forms import ContactForm
 
+
 def send(request):
     if request.method == 'POST':
         form = ContactForm(data=request.POST)
