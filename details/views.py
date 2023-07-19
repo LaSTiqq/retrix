@@ -37,4 +37,4 @@ def send(request):
                 return redirect('/#communication')
     else:
         form = ContactForm()
-    return render(request, 'details/index.html', {"form": form})
+    return render(request, 'index.html', {"form": form})

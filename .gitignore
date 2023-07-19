@@ -17,8 +17,7 @@
 # Self
 templates/robots.txt
 retrix/settings.py
-retrix/urls.py
 retrix/static
 sitemap.xml
 .vscode
-venv/
+venv
