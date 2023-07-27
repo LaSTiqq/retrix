@@ -7,6 +7,12 @@ from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from smtplib import SMTPException
 from .forms import ContactForm
+import re
+
+
+def contains_link(text):
+    url_pattern = r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+    return bool(re.search(url_pattern, text))
 
 
 def send(request):
@@ -18,6 +24,10 @@ def send(request):
                 'sender': form.cleaned_data['sender'],
                 'content': form.cleaned_data['content'],
             }
+            if contains_link(body['content']):
+                messages.warning(
+                    request, _("Saites nav atļautas ziņojuma tekstā!"))
+                return redirect('/#communication')
             html_content = render_to_string('email.html', {
                                             'name': body['name'], 'sender': body['sender'], 'content': body['content']})
             text_content = strip_tags(html_content)
