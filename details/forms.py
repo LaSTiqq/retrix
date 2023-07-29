@@ -19,11 +19,10 @@ class ContactForm(forms.Form):
         label='Captcha',
         widget=ReCaptchaV2Invisible(
             attrs={
-                'style': 'position: relative; z-index: 3;',
                 'data-sitekey': settings.RECAPTCHA_PUBLIC_KEY,
             },
             api_params={
-                'hl': 'en',
+                'hl': _('lv'),
             },
         ),
     )

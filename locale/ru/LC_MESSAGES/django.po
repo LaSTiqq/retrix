@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-28 00:54+0300\n"
+"POT-Creation-Date: 2023-07-29 22:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,37 +20,41 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\details\forms.py:6
+#: .\details\forms.py:9
 msgid "Vārds"
 msgstr "Имя"
 
-#: .\details\forms.py:6
+#: .\details\forms.py:9
 msgid "Jānis"
 msgstr "Андрей"
 
-#: .\details\forms.py:8 .\templates\index.html:136
+#: .\details\forms.py:11 .\templates\index.html:137
 msgid "E-pasts"
 msgstr "Почта"
 
-#: .\details\forms.py:8
+#: .\details\forms.py:11
 msgid "janis.celotajs@gmail.com"
 msgstr "andrey.petrov@gmail.com"
 
-#: .\details\forms.py:10
+#: .\details\forms.py:13
 msgid "Temats"
 msgstr "Тема"
 
-#: .\details\forms.py:10
+#: .\details\forms.py:13
 msgid "LED gaismas virtuvē"
 msgstr "LED освещение на кухне"
 
-#: .\details\forms.py:12
+#: .\details\forms.py:15
 msgid "Teksts"
 msgstr "Текст"
 
-#: .\details\forms.py:13
+#: .\details\forms.py:16
 msgid "Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?"
 msgstr "Хочу осветить свою кухню, что Вы можете предложить?"
+
+#: .\details\forms.py:25
+msgid "lv"
+msgstr "ru"
 
 #: .\details\views.py:29
 msgid "Saites nav atļautas ziņojuma tekstā!"
@@ -99,7 +103,7 @@ msgstr "Услуги"
 msgid "Saziņa"
 msgstr "Связь"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:126
+#: .\templates\inc\_nav.html:19 .\templates\index.html:127
 msgid "Kontakti"
 msgstr "Контакты"
 
@@ -194,30 +198,30 @@ msgstr ""
 "освещением с переключателем, тачскрин экраном, сенсором или с мобильным "
 "приложением"
 
-#: .\templates\index.html:99
+#: .\templates\index.html:100
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\templates\index.html:127
+#: .\templates\index.html:128
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\templates\index.html:132
+#: .\templates\index.html:133
 msgid "Tel.nr."
 msgstr "Номер"
 
-#: .\templates\index.html:140
+#: .\templates\index.html:141
 msgid "Vienotais reģ.nr."
 msgstr "Рег. но."
 
-#: .\templates\index.html:144
+#: .\templates\index.html:145
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\templates\index.html:148
+#: .\templates\index.html:149
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\templates\index.html:149
+#: .\templates\index.html:150
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"
