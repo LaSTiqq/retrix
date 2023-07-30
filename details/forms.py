@@ -1,7 +1,7 @@
 from django import forms
 from django.conf import settings
 from captcha.fields import ReCaptchaField
-from captcha.widgets import ReCaptchaV2Invisible
+from captcha.widgets import ReCaptchaV3
 from django.utils.translation import gettext_lazy as _
 
 
@@ -17,7 +17,7 @@ class ContactForm(forms.Form):
                                                                               'autocomplete': 'off', 'required': True}))
     captcha = ReCaptchaField(
         label='Captcha',
-        widget=ReCaptchaV2Invisible(
+        widget=ReCaptchaV3(
             attrs={
                 'style': 'position: relative; z-index: 3;',
                 'data-sitekey': settings.RECAPTCHA_PUBLIC_KEY,
