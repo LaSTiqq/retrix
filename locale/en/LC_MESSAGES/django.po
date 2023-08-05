@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-29 22:07+0300\n"
+"POT-Creation-Date: 2023-08-05 14:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,15 +54,15 @@ msgstr "I want to light my kitchen, what can you offer?"
 msgid "lv"
 msgstr "en"
 
-#: .\details\views.py:29
-msgid "Saites nav atļautas ziņojuma tekstā!"
-msgstr "Links aren't allowed in the message text!"
+#: .\details\views.py:38
+msgid "Jūs ievadījāt kaut ko neatļautu! Ziņa nav nosūtīta"
+msgstr "Your input contains something restricted! Message isn't'sent"
 
-#: .\details\views.py:43
+#: .\details\views.py:52
 msgid "Vēstule nosūtīta"
 msgstr "Message sent"
 
-#: .\details\views.py:46
+#: .\details\views.py:55
 msgid "Radās kļūda, mēģiniet vēlreiz"
 msgstr "Something went wrong, please try again"
 
@@ -72,7 +72,8 @@ msgstr "About"
 
 #: .\templates\cookielaw\banner.html:9
 msgid ""
-"Informējam, ka šīs mājaslapas pilnvērtīgai darbībai tiek izmantotas\n"
+"Informējam, ka šīs mājaslapas pilnvērtīgai darbībai tiek\n"
+"\t\t\t\tizmantotas\n"
 "\t\t\t\tsīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājas "
 "lapu,\n"
 "\t\t\t\tJūs piekrītat to izmantošanai"
@@ -80,11 +81,11 @@ msgstr ""
 "Notice that cookies are used for the full functioning of this website. By "
 "continuing, you agree to the use of them"
 
-#: .\templates\cookielaw\banner.html:16
+#: .\templates\cookielaw\banner.html:17
 msgid "Kas ir cookies"
 msgstr "What are the cookies"
 
-#: .\templates\cookielaw\banner.html:20
+#: .\templates\cookielaw\banner.html:21
 msgid "Piekrist un aizvērt"
 msgstr "Accept and close"
 

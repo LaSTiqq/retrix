@@ -10,9 +10,18 @@ from .forms import ContactForm
 import re
 
 
-def contains_link(text):
-    url_pattern = r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
-    return bool(re.search(url_pattern, text))
+def restricted_found(text):
+    url_pattern = r"(?:http[s]?://|www\.)[^\s/$.?#].[^\s]*"
+    restricted_keywords = ["WhatsApp", "whatsapp", "Telegram", "telegram", "tg", "Телеграм", "телеграм", "тг", "Телега", "телега",
+                           "Discord", "discord", "Дискорд", "дискорд", "Viber", "viber", "Вайбер", "вайбер", "Аська", "аська", "icq", "ICQ",
+                           "Skype", "skype", "Скайп", "скайп", "рублей", "rub", "RUB", "Bonus", "bonus", "Free", "free", "Gift", "gift",
+                           "Order now", "order now", "Spam", "spam", "Website", "website", "Visit our", "visit our", "Earn", "earn"]
+
+    has_link = bool(re.search(url_pattern, text))
+    has_restricted_keyword = any(
+        keyword in text for keyword in restricted_keywords)
+
+    return has_link or has_restricted_keyword
 
 
 def send(request):
@@ -24,9 +33,9 @@ def send(request):
                 'sender': form.cleaned_data['sender'],
                 'content': form.cleaned_data['content'],
             }
-            if contains_link(body['content']):
+            if restricted_found(body['content']):
                 messages.warning(
-                    request, _("Saites nav atļautas ziņojuma tekstā!"))
+                    request, _("Jūs ievadījāt kaut ko neatļautu! Ziņa nav nosūtīta"))
                 return redirect('/#communication')
             html_content = render_to_string('email.html', {
                                             'name': body['name'], 'sender': body['sender'], 'content': body['content']})
