@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-05 14:46+0300\n"
+"POT-Creation-Date: 2023-08-14 22:35+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,17 +56,21 @@ msgstr "Хочу осветить свою кухню, что Вы можете 
 msgid "lv"
 msgstr "ru"
 
-#: .\details\views.py:38
-msgid "Jūs ievadījāt kaut ko neatļautu! Ziņa nav nosūtīta"
-msgstr "Вы ввели что-то запрещенное! Письмо не отправлено"
+#: .\details\views.py:40
+msgid "Jūs ievadījāt kaut ko neatļautu vai ielīmējāt saiti un ziņa netika nosūtīta. Mēginiet vēlreiz."
+msgstr "Вы ввели что-то запрещенное или вставили ссылку и письмо не было отправлено. Попробуйте еще раз."
 
-#: .\details\views.py:52
-msgid "Vēstule nosūtīta"
-msgstr "Письмо отправлено"
+#: .\details\views.py:54
+msgid "Vēstule nosūtīta!"
+msgstr "Письмо отправлено!"
 
-#: .\details\views.py:55
-msgid "Radās kļūda, mēģiniet vēlreiz"
-msgstr "Что-то пошло не так, попробуйте снова"
+#: .\details\views.py:58
+msgid "Radās kļūda un ziņa netika nosūtīta. Mēginiet vēlreiz."
+msgstr "Что-то пошло не так и письмо не было отправлено. Попробуйте еще раз."
+
+#: .\details\views.py:62
+msgid "Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēginiet vēlreiz."
+msgstr "Google думает, что вы не человек и письмо не было отправлено. Попробуйте еще раз."
 
 #: .\templates\base.html:9
 msgid "Par uzņēmumu"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-05 14:46+0300\n"
+"POT-Creation-Date: 2023-08-14 22:35+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,17 +54,21 @@ msgstr "I want to light my kitchen, what can you offer?"
 msgid "lv"
 msgstr "en"
 
-#: .\details\views.py:38
-msgid "Jūs ievadījāt kaut ko neatļautu! Ziņa nav nosūtīta"
-msgstr "Your input contains something restricted! Message isn't'sent"
+#: .\details\views.py:40
+msgid "Jūs ievadījāt kaut ko neatļautu vai ielīmējāt saiti un ziņa netika nosūtīta. Mēginiet vēlreiz."
+msgstr "You wrote something disallowed or pasted a link and the message is not being sent. Try again."
 
-#: .\details\views.py:52
-msgid "Vēstule nosūtīta"
-msgstr "Message sent"
+#: .\details\views.py:54
+msgid "Vēstule nosūtīta!"
+msgstr "Message sent!"
 
-#: .\details\views.py:55
-msgid "Radās kļūda, mēģiniet vēlreiz"
-msgstr "Something went wrong, please try again"
+#: .\details\views.py:58
+msgid "Radās kļūda un ziņa netika nosūtīta. Mēginiet vēlreiz."
+msgstr "Something went wrong and the message is not being sent. Try again."
+
+#: .\details\views.py:62
+msgid "Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēginiet vēlreiz."
+msgstr "Google thinks that you're not a human and the message is not being sent. Try again."
 
 #: .\templates\base.html:9
 msgid "Par uzņēmumu"
