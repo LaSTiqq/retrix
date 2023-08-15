@@ -60,7 +60,7 @@ def send(request):
         else:
             messages.warning(
                 request, _("Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēginiet vēlreiz."))
-            return redirect('/#contacts')
+            return redirect('/#communication')
     else:
         form = ContactForm()
     return render(request, 'index.html', {"form": form})
