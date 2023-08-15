@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 22:35+0300\n"
+"POT-Creation-Date: 2023-08-15 20:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,13 +52,17 @@ msgstr "Текст"
 msgid "Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?"
 msgstr "Хочу осветить свою кухню, что Вы можете предложить?"
 
-#: .\details\forms.py:25
+#: .\details\forms.py:25 .\templates\base.html:5
 msgid "lv"
 msgstr "ru"
 
 #: .\details\views.py:40
-msgid "Jūs ievadījāt kaut ko neatļautu vai ielīmējāt saiti un ziņa netika nosūtīta. Mēginiet vēlreiz."
-msgstr "Вы ввели что-то запрещенное или вставили ссылку и письмо не было отправлено. Попробуйте еще раз."
+msgid ""
+"Jūs ievadījāt kaut ko neatļautu vai ielīmējāt saiti un ziņa netika nosūtīta. "
+"Mēginiet vēlreiz."
+msgstr ""
+"Вы ввели что-то запрещенное или вставили ссылку и письмо не было отправлено. "
+"Попробуйте еще раз."
 
 #: .\details\views.py:54
 msgid "Vēstule nosūtīta!"
@@ -69,12 +73,25 @@ msgid "Radās kļūda un ziņa netika nosūtīta. Mēginiet vēlreiz."
 msgstr "Что-то пошло не так и письмо не было отправлено. Попробуйте еще раз."
 
 #: .\details\views.py:62
-msgid "Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēginiet vēlreiz."
-msgstr "Google думает, что вы не человек и письмо не было отправлено. Попробуйте еще раз."
+msgid ""
+"Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēginiet vēlreiz."
+msgstr ""
+"Google думает, что вы не человек и письмо не было отправлено. Попробуйте еще "
+"раз."
 
 #: .\templates\base.html:9
 msgid "Par uzņēmumu"
 msgstr "О компании"
+
+#: .\templates\base.html:11
+msgid ""
+"Uzņēmums nodarbojas ar LED lentu apgaismojuma montāžu,\n"
+"\t\tto vadības bloku programmēšanu un specifisku, ar gaismekļiem un "
+"sensoriem aprīkotu produktu izstrādi"
+msgstr ""
+"Компания занимается сборкой светодиодных LED лент, программированием их "
+"блоков управления и разрабатывает специфичные изделия, оснащенные "
+"светильниками и датчиками"
 
 #: .\templates\cookielaw\banner.html:9
 msgid ""
@@ -123,7 +140,7 @@ msgstr ""
 #: .\templates\index.html:19
 msgid "un specifisku, ar gaismekļiem un sensoriem aprīkotu produktu izstrādi"
 msgstr ""
-"и разработкой специфичных изделий, оснащенных светильниками и датчиками"
+"и разрабатывает специфичные изделия, оснащенные светильниками и датчиками"
 
 #: .\templates\index.html:26
 msgid "Mūsu"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 22:35+0300\n"
+"POT-Creation-Date: 2023-08-15 20:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,13 +50,17 @@ msgstr "Text"
 msgid "Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?"
 msgstr "I want to light my kitchen, what can you offer?"
 
-#: .\details\forms.py:25
+#: .\details\forms.py:25 .\templates\base.html:5
 msgid "lv"
 msgstr "en"
 
 #: .\details\views.py:40
-msgid "Jūs ievadījāt kaut ko neatļautu vai ielīmējāt saiti un ziņa netika nosūtīta. Mēginiet vēlreiz."
-msgstr "You wrote something disallowed or pasted a link and the message is not being sent. Try again."
+msgid ""
+"Jūs ievadījāt kaut ko neatļautu vai ielīmējāt saiti un ziņa netika nosūtīta. "
+"Mēginiet vēlreiz."
+msgstr ""
+"You wrote something disallowed or pasted a link and the message is not being "
+"sent. Try again."
 
 #: .\details\views.py:54
 msgid "Vēstule nosūtīta!"
@@ -67,12 +71,24 @@ msgid "Radās kļūda un ziņa netika nosūtīta. Mēginiet vēlreiz."
 msgstr "Something went wrong and the message is not being sent. Try again."
 
 #: .\details\views.py:62
-msgid "Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēginiet vēlreiz."
-msgstr "Google thinks that you're not a human and the message is not being sent. Try again."
+msgid ""
+"Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēginiet vēlreiz."
+msgstr ""
+"Google thinks that you're not a human and the message is not being sent. Try "
+"again."
 
 #: .\templates\base.html:9
 msgid "Par uzņēmumu"
 msgstr "About"
+
+#: .\templates\base.html:11
+msgid ""
+"Uzņēmums nodarbojas ar LED lentu apgaismojuma montāžu,\n"
+"\t\tto vadības bloku programmēšanu un specifisku, ar gaismekļiem un "
+"sensoriem aprīkotu produktu izstrādi"
+msgstr ""
+"The company is involved in the assembly of LED strip lights, programming of "
+"their control units and develops products equipped with lights and sensors"
 
 #: .\templates\cookielaw\banner.html:9
 msgid ""
@@ -114,13 +130,12 @@ msgid ""
 "Uzņēmums nodarbojas ar LED lentu apgaismojuma montāžu, to vadības bloku "
 "programmēšanu"
 msgstr ""
-"The company is involved in the assembly of LED strip lights, the programming "
-"of their control units and the development of specific products equipped "
-"with luminaires and sensors"
+"The company is involved in the assembly of LED strip lights, programming of "
+"their control units"
 
 #: .\templates\index.html:19
 msgid "un specifisku, ar gaismekļiem un sensoriem aprīkotu produktu izstrādi"
-msgstr "and develops specific products equipped with lights and sensors"
+msgstr "and develops products equipped with lights and sensors"
 
 #: .\templates\index.html:26
 msgid "Mūsu"
