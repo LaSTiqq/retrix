@@ -37,7 +37,7 @@ def send(request):
             }
             if restricted_found(body['content']):
                 messages.warning(
-                    request, _("Jūs ievadījāt kaut ko neatļautu vai ielīmējāt saiti un ziņa netika nosūtīta. Mēginiet vēlreiz."))
+                    request, _("Jūs ievadījāt kaut ko neatļautu vai ielīmējāt saiti un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
                 return redirect('/#communication')
             html_content = render_to_string('email.html', {
                                             'name': body['name'], 'sender': body['sender'], 'content': body['content']})
@@ -55,11 +55,11 @@ def send(request):
                 return redirect('/#communication')
             except SMTPException:
                 messages.error(
-                    request, _('Radās kļūda un ziņa netika nosūtīta. Mēginiet vēlreiz.'))
+                    request, _('Radās kļūda un ziņa netika nosūtīta. Mēģiniet vēlreiz.'))
                 return redirect('/#communication')
         else:
             messages.warning(
-                request, _("Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēginiet vēlreiz."))
+                request, _("Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
             return redirect('/#communication')
     else:
         form = ContactForm()
