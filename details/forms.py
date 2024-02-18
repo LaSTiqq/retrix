@@ -14,7 +14,7 @@ class ContactForm(forms.Form):
                                                                                'autocomplete': 'off', 'required': True, 'maxlength': '30'}))
     content = forms.CharField(label=_('Teksts'), widget=forms.Textarea(attrs={'class': 'form-control bg-transparent mt-2 mx-auto pt-3', 'rows': 6,
                                                                               'placeholder': _('Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?'),
-                                                                              'autocomplete': 'off', 'required': True}))
+                                                                              'autocomplete': 'off', 'required': True}), min_length=77)
     captcha = ReCaptchaField(
         label='Captcha',
         widget=ReCaptchaV3(
