@@ -18,6 +18,5 @@
 templates/robots.txt
 retrix/settings.py
 retrix/static
-sitemap.xml
 .vscode
 venv
