@@ -36,11 +36,11 @@ def send(request):
             if restricted_found(form.cleaned_data['subject']):
                 messages.warning(
                     request, _("Jūs ievadījāt kaut ko neatļautu un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
-                return redirect('/#communication')
+                return redirect(_('/#communication'))
             elif restricted_found(body['content']):
                 messages.warning(
                     request, _("Jūs ievadījāt kaut ko neatļautu un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
-                return redirect('/#communication')
+                return redirect(_('/#communication'))
             html_content = render_to_string('email.html', {
                                             'name': body['name'], 'sender': body['sender'], 'content': body['content']})
             text_content = strip_tags(html_content)
@@ -54,15 +54,15 @@ def send(request):
                 email.attach_alternative(html_content, 'text/html')
                 email.send()
                 messages.success(request, _('Vēstule nosūtīta!'))
-                return redirect('/#communication')
+                return redirect(_('/#communication'))
             except SMTPException:
                 messages.error(
                     request, _('Radās kļūda un ziņa netika nosūtīta. Mēģiniet vēlreiz.'))
-                return redirect('/#communication')
+                return redirect(_('/#communication'))
         else:
             messages.warning(
                 request, _("Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
-            return redirect('/#communication')
+            return redirect(_('/#communication'))
     else:
         form = ContactForm()
     return render(request, 'index.html', {"form": form})

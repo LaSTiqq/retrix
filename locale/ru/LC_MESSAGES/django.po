@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 17:33+0200\n"
+"POT-Creation-Date: 2024-03-24 23:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Имя"
 msgid "Jānis"
 msgstr "Андрей"
 
-#: .\details\forms.py:11 .\templates\index.html:139
+#: .\details\forms.py:11 .\templates\index.html:140
 msgid "E-pasts"
 msgstr "Почта"
 
@@ -61,6 +61,11 @@ msgid ""
 "Jūs ievadījāt kaut ko neatļautu un ziņa netika nosūtīta. Mēģiniet vēlreiz."
 msgstr ""
 "Вы ввели что-то запрещенное и письмо не было отправлено. Попробуйте еще раз."
+
+#: .\details\views.py:39 .\details\views.py:43 .\details\views.py:57
+#: .\details\views.py:61 .\details\views.py:65
+msgid "/#communication"
+msgstr "/ru/#communication"
 
 #: .\details\views.py:56
 msgid "Vēstule nosūtīta!"
@@ -111,7 +116,7 @@ msgstr "Что такое куки"
 msgid "Piekrist un aizvērt"
 msgstr "Принять и закрыть"
 
-#: .\templates\inc\_foo.html:6
+#: .\templates\inc\_foo.html:7
 msgid "Izstrādātājs"
 msgstr "Разработчик"
 
@@ -123,7 +128,7 @@ msgstr "Услуги"
 msgid "Saziņa"
 msgstr "Связь"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:129
+#: .\templates\inc\_nav.html:19 .\templates\index.html:130
 msgid "Kontakti"
 msgstr "Контакты"
 
@@ -205,26 +210,26 @@ msgstr ""
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\templates\index.html:130
+#: .\templates\index.html:131
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\templates\index.html:135
+#: .\templates\index.html:136
 msgid "Tel.nr."
 msgstr "Номер"
 
-#: .\templates\index.html:143
+#: .\templates\index.html:144
 msgid "Vienotais reģ.nr."
 msgstr "Рег. но."
 
-#: .\templates\index.html:147
+#: .\templates\index.html:148
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\templates\index.html:151
+#: .\templates\index.html:152
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\templates\index.html:152
+#: .\templates\index.html:153
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 17:33+0200\n"
+"POT-Creation-Date: 2024-03-24 23:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgstr "Name"
 msgid "Jānis"
 msgstr "John"
 
-#: .\details\forms.py:11 .\templates\index.html:139
+#: .\details\forms.py:11 .\templates\index.html:140
 msgid "E-pasts"
 msgstr "Email"
 
@@ -59,6 +59,11 @@ msgid ""
 "Jūs ievadījāt kaut ko neatļautu un ziņa netika nosūtīta. Mēģiniet vēlreiz."
 msgstr ""
 "You wrote something disallowed and the message is not being sent. Try again."
+
+#: .\details\views.py:39 .\details\views.py:43 .\details\views.py:57
+#: .\details\views.py:61 .\details\views.py:65
+msgid "/#communication"
+msgstr "/en/#communication"
 
 #: .\details\views.py:56
 msgid "Vēstule nosūtīta!"
@@ -107,7 +112,7 @@ msgstr "What are the cookies"
 msgid "Piekrist un aizvērt"
 msgstr "Accept and close"
 
-#: .\templates\inc\_foo.html:6
+#: .\templates\inc\_foo.html:7
 msgid "Izstrādātājs"
 msgstr "Developer"
 
@@ -119,7 +124,7 @@ msgstr "Services"
 msgid "Saziņa"
 msgstr "Communication"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:129
+#: .\templates\inc\_nav.html:19 .\templates\index.html:130
 msgid "Kontakti"
 msgstr "Contacts"
 
@@ -198,26 +203,26 @@ msgstr "of lightening with a switch, sensor, touch screen or mobile app"
 msgid "Nosūtīt"
 msgstr "Submit"
 
-#: .\templates\index.html:130
+#: .\templates\index.html:131
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "We accept orders all over Latvia and outside of it"
 
-#: .\templates\index.html:135
+#: .\templates\index.html:136
 msgid "Tel.nr."
 msgstr "Tel."
 
-#: .\templates\index.html:143
+#: .\templates\index.html:144
 msgid "Vienotais reģ.nr."
 msgstr "Reg. no."
 
-#: .\templates\index.html:147
+#: .\templates\index.html:148
 msgid "Juridiskā adrese"
 msgstr "Address"
 
-#: .\templates\index.html:151
+#: .\templates\index.html:152
 msgid "Atrodamies"
 msgstr "Our locations"
 
-#: .\templates\index.html:152
+#: .\templates\index.html:153
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "in Riga and the region of Rezekne"
