@@ -7,11 +7,13 @@ from django.utils.translation import gettext_lazy as _
 
 class ContactForm(forms.Form):
     name = forms.CharField(label=_('Vārds'), widget=forms.TextInput(attrs={
-        'class': 'form-control bg-transparent mt-2 mx-auto', 'placeholder': _('Jānis'), 'autocomplete': 'off', 'maxlength': '15'}))
+        'class': 'form-control bg-transparent mt-2 mx-auto', 'placeholder': _('Jānis'), 'autocomplete': 'off', 'maxlength': '15'}),
+        min_length=5)
     sender = forms.EmailField(label=_('E-pasts'), widget=forms.EmailInput(attrs={
         'class': 'form-control bg-transparent mt-2 mx-auto', 'placeholder': _('janis.celotajs@gmail.com'), 'autocomplete': 'off', }))
     subject = forms.CharField(label=_('Temats'), widget=forms.TextInput(attrs={
-        'class': 'form-control bg-transparent mt-2 mx-auto', 'placeholder': _('LED gaismas virtuvē'), 'autocomplete': 'off', 'maxlength': '30'}))
+        'class': 'form-control bg-transparent mt-2 mx-auto', 'placeholder': _('LED gaismas virtuvē'), 'autocomplete': 'off', 'maxlength': '30'}),
+        min_length=5)
     content = forms.CharField(label=_('Teksts'), widget=forms.Textarea(attrs={
         'class': 'form-control bg-transparent mt-2 mx-auto pt-3', 'placeholder': _('Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?'), 'autocomplete': 'off', 'rows': 6}),
         min_length=50)
