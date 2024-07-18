@@ -1,18 +1,21 @@
+// Resize logo onscroll
 const logo = document.getElementById("logo");
 
 const scrollFunction = () => {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    // End values
+  const scrolled =
+    document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;
+
+  const setLogoSize = (logo, width, height) => {
     if (logo) {
-      logo.style.width = "130px";
-      logo.style.height = "70px";
+      logo.style.width = width;
+      logo.style.height = height;
     }
+  };
+
+  if (scrolled) {
+    setLogoSize(logo, "130px", "70px");
   } else {
-    // Start values
-    if (logo) {
-      logo.style.width = "170px";
-      logo.style.height = "90px";
-    }
+    setLogoSize(logo, "160px", "80px");
   }
 };
 

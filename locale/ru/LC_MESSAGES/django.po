@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 23:11+0200\n"
+"POT-Creation-Date: 2024-07-19 02:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,58 +24,58 @@ msgstr ""
 msgid "Vārds"
 msgstr "Имя"
 
-#: .\details\forms.py:9
+#: .\details\forms.py:10
 msgid "Jānis"
 msgstr "Андрей"
 
-#: .\details\forms.py:11 .\templates\index.html:140
+#: .\details\forms.py:12 .\templates\index.html:139
 msgid "E-pasts"
 msgstr "Почта"
 
-#: .\details\forms.py:11
+#: .\details\forms.py:13
 msgid "janis.celotajs@gmail.com"
 msgstr "andrey.petrov@gmail.com"
 
-#: .\details\forms.py:13
+#: .\details\forms.py:14
 msgid "Temats"
 msgstr "Тема"
 
-#: .\details\forms.py:13
+#: .\details\forms.py:15
 msgid "LED gaismas virtuvē"
 msgstr "LED освещение на кухне"
 
-#: .\details\forms.py:15
+#: .\details\forms.py:17
 msgid "Teksts"
 msgstr "Текст"
 
-#: .\details\forms.py:16
+#: .\details\forms.py:18
 msgid "Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?"
 msgstr "Хочу осветить свою кухню, что Вы можете предложить?"
 
-#: .\details\forms.py:25 .\templates\base.html:5
+#: .\details\forms.py:27 .\templates\base.html:5
 msgid "lv"
 msgstr "ru"
 
-#: .\details\views.py:38 .\details\views.py:42
+#: .\details\views.py:33 .\details\views.py:37 .\details\views.py:41
 msgid ""
 "Jūs ievadījāt kaut ko neatļautu un ziņa netika nosūtīta. Mēģiniet vēlreiz."
 msgstr ""
 "Вы ввели что-то запрещенное и письмо не было отправлено. Попробуйте еще раз."
 
-#: .\details\views.py:39 .\details\views.py:43 .\details\views.py:57
-#: .\details\views.py:61 .\details\views.py:65
+#: .\details\views.py:34 .\details\views.py:38 .\details\views.py:42
+#: .\details\views.py:58 .\details\views.py:62 .\details\views.py:66
 msgid "/#communication"
 msgstr "/ru/#communication"
 
-#: .\details\views.py:56
+#: .\details\views.py:57
 msgid "Vēstule nosūtīta!"
 msgstr "Письмо отправлено!"
 
-#: .\details\views.py:60
+#: .\details\views.py:61
 msgid "Radās kļūda un ziņa netika nosūtīta. Mēģiniet vēlreiz."
 msgstr "Что-то пошло не так и письмо не было отправлено. Попробуйте еще раз."
 
-#: .\details\views.py:64
+#: .\details\views.py:65
 msgid ""
 "Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēģiniet vēlreiz."
 msgstr ""
@@ -116,7 +116,7 @@ msgstr "Что такое куки"
 msgid "Piekrist un aizvērt"
 msgstr "Принять и закрыть"
 
-#: .\templates\inc\_foo.html:7
+#: .\templates\inc\_foo.html:6
 msgid "Izstrādātājs"
 msgstr "Разработчик"
 
@@ -128,7 +128,7 @@ msgstr "Услуги"
 msgid "Saziņa"
 msgstr "Связь"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:130
+#: .\templates\inc\_nav.html:19 .\templates\index.html:129
 msgid "Kontakti"
 msgstr "Контакты"
 
@@ -136,8 +136,8 @@ msgstr "Контакты"
 #: .\templates\index.html:49 .\templates\index.html:63
 #: .\templates\index.html:69 .\templates\index.html:106
 #: .\templates\index.html:111 .\templates\index.html:125
-msgid "LED apgaismojuma ilustrācija"
-msgstr "Иллюстрация LED освещения"
+msgid "LED apgaismojuma piemērs"
+msgstr "Пример LED освещения"
 
 #: .\templates\index.html:19
 msgid ""
@@ -210,26 +210,26 @@ msgstr ""
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\templates\index.html:131
+#: .\templates\index.html:130
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\templates\index.html:136
+#: .\templates\index.html:135
 msgid "Tel.nr."
 msgstr "Номер"
 
-#: .\templates\index.html:144
+#: .\templates\index.html:143
 msgid "Vienotais reģ.nr."
 msgstr "Рег. но."
 
-#: .\templates\index.html:148
+#: .\templates\index.html:147
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\templates\index.html:152
+#: .\templates\index.html:151
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\templates\index.html:153
+#: .\templates\index.html:152
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"

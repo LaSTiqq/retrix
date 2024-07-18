@@ -5,8 +5,8 @@
 {% get_language_info_list for LANGUAGES as languages %}
 <nav class="navbar navbar-light fixed-top navbar-expand-lg">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="{% url 'details:home' %}">
-			<img src="{% static 'img/logo.svg' %}" alt="Retrix logo" id="logo" />
+		<a class="navbar-brand py-0" href="{% url 'details:home' %}">
+			<img src="{% static 'img/logo/logo.svg' %}" alt="Retrix logo" id="logo" />
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
 			aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,13 +16,13 @@
 			<ul class="navbar-nav fw-bold">
 				<li><a class="me-3" href="#services">{% trans 'Pakalpojumi' %}</a></li>
 				<li><a class="me-3" href="#communication">{% trans 'Saziņa' %}</a></li>
-				<li><a class="me-3" href="#contacts">{% trans 'Kontakti' %}</a></li>
+				<li><a href="#contacts">{% trans 'Kontakti' %}</a></li>
 			</ul>
 			<form action="{% url 'set_language' %}" method="post" class="ms-auto">
 				{% csrf_token %}
 				<input name="next" type="hidden" value="{{ redirect_to }}" />
-				<ul class="d-flex languages">
-					<li class="me-1 me-lg-0">
+				<ul class="d-flex languages mt-2 mt-lg-0 mb-0 ps-0">
+					<li class="me-lg-0">
 						<button type="submit" name="language" value="{{ languages.0.code }}"
 							class="btn btn-outline-dark btn-sm position-relative {% if languages.0.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.0.name_local|capfirst }}
@@ -34,7 +34,7 @@
 							{{ languages.1.name_local|capfirst }}
 						</button>
 					</li>
-					<li class="ms-1 ms-lg-0">
+					<li class="ms-lg-0">
 						<button type="submit" name="language" value="{{ languages.2.code }}"
 							class="btn btn-outline-dark btn-sm position-relative {% if languages.2.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.2.name_local|capfirst }}
