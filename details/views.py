@@ -13,9 +13,12 @@ import re
 def restricted_found(text):
     url_pattern = re.compile(
         r'https?://(?:[a-zA-Z0-9]|[.!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
-    restricted_keywords = ["whatsapp", "telegram", "тг", "телеграм", "телега", "tg", "viber", "вайбер", "discord", "дискорд", "аська", "icq", "porn", "loli", "xxx",
-                           "skype", "скайп", "rub", "рублей", "руб", "eur", "dollars", "bonus", "free", "gift", "order now", "spam", "website", "visit our",
-                           "earn", "congratulations", "don't miss", "buy now", "limited time", "exclusive offer", "act fast", "special deal", "discount", "sale"]
+    restricted_keywords = ["whatsapp", "telegram", "tg", "телеграм", "телега", "тг", "viber", "вайбер",
+                           "discord", "дискорд", "аська", "icq", "porn", "loli", "xxx", "cp", "skype", "скайп",
+                           "rub", "рублей", "руб", "eur", "dollars", "bonus", "free", "gift", "order now",
+                           "spam", "website", "visit our", "earn", "congratulations", "don't miss", "buy now",
+                           "limited time", "exclusive offer", "act fast", "special deal", "discount", "sale",
+                           "promotion", "pharmacy", "election", "price"]
 
     has_link = bool(re.search(url_pattern, text))
     has_restricted_keyword = any(re.search(
@@ -30,15 +33,15 @@ def send(request):
         if form.is_valid():
             if restricted_found(form.cleaned_data['name']):
                 messages.warning(
-                    request, _("Jūs ievadījāt kaut ko neatļautu un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
+                    request, _("Jūs ievadījāt kaut ko neatļautu! Mēģiniet vēlreiz."))
                 return redirect(_('/#communication'))
             elif restricted_found(form.cleaned_data['subject']):
                 messages.warning(
-                    request, _("Jūs ievadījāt kaut ko neatļautu un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
+                    request, _("Jūs ievadījāt kaut ko neatļautu! Mēģiniet vēlreiz."))
                 return redirect(_('/#communication'))
             elif restricted_found(form.cleaned_data['content']):
                 messages.warning(
-                    request, _("Jūs ievadījāt kaut ko neatļautu un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
+                    request, _("Jūs ievadījāt kaut ko neatļautu! Mēģiniet vēlreiz."))
                 return redirect(_('/#communication'))
             html_content = render_to_string('email.html', {
                                             'name': form.cleaned_data['name'],
@@ -54,15 +57,15 @@ def send(request):
                 )
                 email.attach_alternative(html_content, 'text/html')
                 email.send()
-                messages.success(request, _('Vēstule nosūtīta!'))
+                messages.success(request, _("Vēstule nosūtīta"))
                 return redirect(_('/#communication'))
             except SMTPException:
                 messages.error(
-                    request, _('Radās kļūda un ziņa netika nosūtīta. Mēģiniet vēlreiz.'))
+                    request, _("Radās kļūda! Mēģiniet vēlreiz."))
                 return redirect(_('/#communication'))
         else:
             messages.error(
-                request, _("Google domā, ka jūs neesat cilvēks un ziņa netika nosūtīta. Mēģiniet vēlreiz."))
+                request, _("Google domā, ka Jūs neesat cilvēks! Mēģiniet vēlreiz."))
             return redirect(_('/#communication'))
     else:
         form = ContactForm()
