@@ -6,35 +6,35 @@
 <div class="row">
 	<div class="col-12 col-md-3 row-1-col-1"></div>
 	<div class="col-12 col-md-3 row-1-col-2 text-center">
-		<h1 class="fw-bold mb-0">SIA</h1>
-		<h1 class="fw-bold my-0">"RETRIX"</h1>
+		<h2 class="fw-bold mb-0">SIA</h2>
+		<h2 class="fw-bold my-0">"RETRIX"</h2>
 	</div>
 	<div class="col-12 col-md-6 row-1-col-3">
 		<picture>
 			<source srcset="{% static 'img/samples/sample_2.webp' %}" type="image/webp" />
 			<img src="{% static 'img/samples/sample_2.jpg' %}" alt="{% trans 'LED apgaismojuma piemērs' %} #2" />
 		</picture>
-		<h2 class="text-center">
+		<h1 class="text-center">
 			{% trans 'Uzņēmums nodarbojas ar LED lentu apgaismojuma montāžu, to vadības bloku programmēšanu' %}
-			{% trans 'un specifisku, ar gaismekļiem un sensoriem aprīkotu produktu izstrādi' %}.</h2>
+			{% trans 'un specifisku, ar gaismekļiem un sensoriem aprīkotu produktu izstrādi' %}.</h1>
 	</div>
 </div>
 <!-- ROW 2 -->
 <div class="row">
 	<a name="services" class="anchor-pc"></a>
 	<div class="col-12 col-md-6 col-xxl-6 row-2-col-1 text-center">
-		<h1 class="fw-bold mb-0">{% trans 'Mūsu' %}</h1>
-		<h1 class="fw-bold mt-0">{% trans 'pakalpojumi' %}</h1>
-		<h2>{% trans 'Virtuves apgaismojuma montāža' %}</h2>
+		<h2 class="fw-bold mb-0 mt-5 mt-lg-0">{% trans 'Mūsu' %}</h2>
+		<h2 class="fw-bold mt-0">{% trans 'pakalpojumi' %}</h2>
+		<h3>{% trans 'Virtuves apgaismojuma montāža' %}</h3>
 		<p>{% trans 'Siltie un aukstie baltie toņi, ar slēdža vai sensora vadību' %}.</p>
-		<h2 class="mb-0">{% trans 'Krāsainu LED lentu' %}</h2>
-		<h2 class="mt-0">{% trans 'apgaismojuma montāža' %}</h2>
+		<h3 class="mb-0">{% trans 'Krāsainu LED lentu' %}</h3>
+		<h3 class="mt-0">{% trans 'apgaismojuma montāža' %}</h3>
 		<p>{% trans 'Telpās, uz fasādēm un mēbelēm' %}.</p>
-		<h2 class="mb-0">{% trans 'Specifisku' %}</h2>
-		<h2 class="mt-0">{% trans 'produktu izstrāde' %}</h2>
+		<h3 class="mb-0">{% trans 'Specifisku' %}</h3>
+		<h3 class="mt-0">{% trans 'produktu izstrāde' %}</h3>
 		<p>{% trans 'Ar LED apgaismojumu un sensoriem' %}.</p>
-		<a href="#gallery" class="btn btn-dark mt-3 mt-lg-0 pc">{% trans 'Skatīt vairāk' %}</a>
-		<a href="#gallery_mobile" class="btn btn-dark mt-3 mt-lg-0 mobile">{% trans 'Skatīt vairāk' %}</a>
+		<a href="#gallery" class="btn btn-dark mt-3 mt-lg-1 mb-5 mb-lg-0 pc">{% trans 'Skatīt vairāk' %}</a>
+		<a href="#gallery_mobile" class="btn btn-dark mt-3 mt-lg-1 mb-5 mb-lg-0 mobile">{% trans 'Skatīt vairāk' %}</a>
 	</div>
 	<a name="gallery_mobile" class="anchor-mobile"></a>
 	<div class="col-12 col-md-3 col-xxl-2 row-2-col-2">
@@ -82,7 +82,7 @@
 <div class="row">
 	<a name="communication" class="anchor-pc"></a>
 	<div class="col-12 col-md-6 col-xxl-6 row-5-col-1">
-		<h1 class="text-center fw-bold">{% trans 'Saziņa' %}</h1>
+		<h2 class="text-center fw-bold">{% trans 'Saziņa' %}</h2>
 		{% for message in messages %}
 		<div class="alert alert-{{ message.tags }} alert-dismissible rounded-pill fw-bold" role="alert">
 			{{ message }}
@@ -125,8 +125,8 @@
 		</picture>
 	</div>
 	<div class="col-12 col-md-6 col-xxl-4 row-6-col-3 text-center">
-		<h1 class="fw-bold">{% trans 'Kontakti' %}</h1>
-		<h2 class="mb-2">{% trans 'Pieņemam pasūtījumus visā Latvijā un ārpus tās' %}.</h2>
+		<h2 class="fw-bold">{% trans 'Kontakti' %}</h2>
+		<h3 class="mb-2">{% trans 'Pieņemam pasūtījumus visā Latvijā un ārpus tās' %}.</h3>
 		<p class="mb-1">
 			<span class="fw-bold">SIA "Retrix"</span>
 		</p>
