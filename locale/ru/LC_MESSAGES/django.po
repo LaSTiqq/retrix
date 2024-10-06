@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-22 22:40+0300\n"
+"POT-Creation-Date: 2024-10-06 22:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,21 +93,17 @@ msgstr ""
 
 #: .\templates\cookielaw\banner.html:9
 msgid ""
-"Informējam, ka šīs mājaslapas pilnvērtīgai darbībai tiek\n"
-"\t\t\t\tizmantotas\n"
-"\t\t\t\tsīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājas "
-"lapu,\n"
-"\t\t\t\tJūs piekrītat to izmantošanai"
+"Mājaslapas pilnvērtīgai darbībai tiek izmantotas\n"
+"\t\t\t\tsīkdatnes (cookies). Turpinot izmantot lapu, Jūs piekrītat to "
+"izmantošanai."
 msgstr ""
-"Информируем, что куки (англ. cookies) используются для полноценного "
-"функционирования этого сайта. Продолжая использовать его, Вы соглашаетесь на "
-"их использование"
+"На этом сайте используются кукисы (cookies) для полноценного функционирования. Продолжая Вы соглашаетесь на их использование."
 
-#: .\templates\cookielaw\banner.html:17
+#: .\templates\cookielaw\banner.html:15
 msgid "Kas ir cookies"
 msgstr "Что такое куки"
 
-#: .\templates\cookielaw\banner.html:21
+#: .\templates\cookielaw\banner.html:19
 msgid "Piekrist un aizvērt"
 msgstr "Принять и закрыть"
 
@@ -144,7 +140,8 @@ msgstr ""
 
 #: .\templates\index.html:19
 msgid "un specifisku, ar gaismekļiem un sensoriem aprīkotu produktu izstrādi"
-msgstr "и разрабатывает специфичные изделия, оснащенные светильниками и датчиками"
+msgstr ""
+"и разрабатывает специфичные изделия, оснащенные светильниками и датчиками"
 
 #: .\templates\index.html:26
 msgid "Mūsu"
@@ -209,12 +206,12 @@ msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
 #: .\templates\index.html:134
-msgid "Tel.nr."
+msgid "Tel.nr"
 msgstr "Номер"
 
 #: .\templates\index.html:142
-msgid "Vienotais reģ.nr."
-msgstr "Рег. но."
+msgid "Vienotais reģ.nr"
+msgstr "Рег. но"
 
 #: .\templates\index.html:146
 msgid "Juridiskā adrese"

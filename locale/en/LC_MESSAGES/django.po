@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-22 22:40+0300\n"
+"POT-Creation-Date: 2024-10-06 22:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,20 +90,17 @@ msgstr ""
 
 #: .\templates\cookielaw\banner.html:9
 msgid ""
-"Informējam, ka šīs mājaslapas pilnvērtīgai darbībai tiek\n"
-"\t\t\t\tizmantotas\n"
-"\t\t\t\tsīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājas "
-"lapu,\n"
-"\t\t\t\tJūs piekrītat to izmantošanai"
+"Mājaslapas pilnvērtīgai darbībai tiek izmantotas\n"
+"\t\t\t\tsīkdatnes (cookies). Turpinot izmantot lapu, Jūs piekrītat to "
+"izmantošanai."
 msgstr ""
-"Notice that cookies are used for the full functioning of this website. By "
-"continuing, you agree to the use of them"
+"Notice that cookies are used to proper functioning of the website. By continuing, you agree to the use of them."
 
-#: .\templates\cookielaw\banner.html:17
+#: .\templates\cookielaw\banner.html:15
 msgid "Kas ir cookies"
 msgstr "What are the cookies"
 
-#: .\templates\cookielaw\banner.html:21
+#: .\templates\cookielaw\banner.html:19
 msgid "Piekrist un aizvērt"
 msgstr "Accept and close"
 
@@ -203,12 +200,12 @@ msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "We accept orders all over Latvia and outside of it"
 
 #: .\templates\index.html:134
-msgid "Tel.nr."
-msgstr "Tel."
+msgid "Tel.nr"
+msgstr "Phone"
 
 #: .\templates\index.html:142
-msgid "Vienotais reģ.nr."
-msgstr "Reg. no."
+msgid "Vienotais reģ.nr"
+msgstr "Reg. no"
 
 #: .\templates\index.html:146
 msgid "Juridiskā adrese"
