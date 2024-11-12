@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-06 22:16+0300\n"
+"POT-Creation-Date: 2024-11-12 23:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,28 +52,28 @@ msgstr "Текст"
 msgid "Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?"
 msgstr "Хочу осветить свою кухню, что Вы можете предложить?"
 
-#: .\details\forms.py:27 .\templates\base.html:5 .\templates\email.html:2
+#: .\details\forms.py:27 .\templates\base.html:5
 msgid "lv"
 msgstr "ru"
 
-#: .\details\views.py:36 .\details\views.py:40 .\details\views.py:44
+#: .\details\views.py:36
 msgid "Jūs ievadījāt kaut ko neatļautu! Mēģiniet vēlreiz."
 msgstr "Вы ввели что-то запрещенное! Попробуйте еще раз."
 
-#: .\details\views.py:37 .\details\views.py:41 .\details\views.py:45
-#: .\details\views.py:61 .\details\views.py:65 .\details\views.py:69
+#: .\details\views.py:37 .\details\views.py:54 .\details\views.py:58
+#: .\details\views.py:62
 msgid "/#communication"
 msgstr "/ru/#communication"
 
-#: .\details\views.py:60
+#: .\details\views.py:53
 msgid "Vēstule nosūtīta"
 msgstr "Письмо отправлено"
 
-#: .\details\views.py:64
+#: .\details\views.py:57
 msgid "Radās kļūda! Mēģiniet vēlreiz."
 msgstr "Что-то пошло не так! Попробуйте еще раз."
 
-#: .\details\views.py:68
+#: .\details\views.py:61
 msgid "Google domā, ka Jūs neesat cilvēks! Mēģiniet vēlreiz."
 msgstr "Google думает, что вы не человек! Попробуйте еще раз."
 
@@ -97,7 +97,8 @@ msgid ""
 "\t\t\t\tsīkdatnes (cookies). Turpinot izmantot lapu, Jūs piekrītat to "
 "izmantošanai."
 msgstr ""
-"На этом сайте используются кукисы (cookies) для полноценного функционирования. Продолжая Вы соглашаетесь на их использование."
+"На этом сайте используются кукисы (cookies) для полноценного "
+"функционирования. Продолжая Вы соглашаетесь на их использование."
 
 #: .\templates\cookielaw\banner.html:15
 msgid "Kas ir cookies"

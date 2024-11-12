@@ -18,5 +18,4 @@
 templates/robots.txt
 retrix/settings.py
 retrix/static
-.vscode
 venv
