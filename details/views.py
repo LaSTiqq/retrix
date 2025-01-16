@@ -53,11 +53,11 @@ def send(request):
                 messages.success(request, _("Vēstule nosūtīta"))
                 return redirect(_('/#communication'))
             except SMTPException:
-                messages.error(
+                messages.danger(
                     request, _("Radās kļūda! Mēģiniet vēlreiz."))
                 return redirect(_('/#communication'))
         else:
-            messages.error(
+            messages.warning(
                 request, _("Google domā, ka Jūs neesat cilvēks! Mēģiniet vēlreiz."))
             return redirect(_('/#communication'))
     else:
