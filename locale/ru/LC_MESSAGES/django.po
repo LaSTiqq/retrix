@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-12 23:10+0200\n"
+"POT-Creation-Date: 2025-01-18 20:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Имя"
 msgid "Jānis"
 msgstr "Андрей"
 
-#: .\details\forms.py:12 .\templates\index.html:138
+#: .\details\forms.py:12 .\templates\index.html:146
 msgid "E-pasts"
 msgstr "Почта"
 
@@ -87,9 +87,7 @@ msgid ""
 "\t\tto vadības bloku programmēšanu un specifisku, ar gaismekļiem un "
 "sensoriem aprīkotu produktu izstrādi"
 msgstr ""
-"Компания занимается сборкой светодиодных LED лент, программированием их "
-"блоков управления и разрабатывает специфичные изделия, оснащенные "
-"светильниками и датчиками"
+"Компания занимается сборкой LED лент, программированием их блоков управления и разрабатывает специфичные изделия, оснащенные светильниками и датчиками"
 
 #: .\templates\cookielaw\banner.html:9
 msgid ""
@@ -120,14 +118,14 @@ msgstr "Услуги"
 msgid "Saziņa"
 msgstr "Связь"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:128
+#: .\templates\inc\_nav.html:19 .\templates\index.html:136
 msgid "Kontakti"
 msgstr "Контакты"
 
 #: .\templates\index.html:15 .\templates\index.html:43
 #: .\templates\index.html:48 .\templates\index.html:62
-#: .\templates\index.html:68 .\templates\index.html:105
-#: .\templates\index.html:110 .\templates\index.html:124
+#: .\templates\index.html:68 .\templates\index.html:113
+#: .\templates\index.html:118 .\templates\index.html:132
 msgid "LED apgaismojuma piemērs"
 msgstr "Пример LED освещения"
 
@@ -202,26 +200,42 @@ msgstr ""
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\templates\index.html:129
+#: .\templates\index.html:101
+msgid "Šī vietne ir aizsargāta ar reCAPTCHA, un uz to attiecas Google"
+msgstr "Этот сайт защищен reCAPTCHA, и на него распространяются правила Google. Такие, как"
+
+#: .\templates\index.html:104
+msgid "Konfidencialitātes politika"
+msgstr "Политика конфиденциальности"
+
+#: .\templates\index.html:104
+msgid "un"
+msgstr "и"
+
+#: .\templates\index.html:106
+msgid "Pakalpojumu sniegšanas noteikumi"
+msgstr "Правила оказания услуг"
+
+#: .\templates\index.html:137
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\templates\index.html:134
+#: .\templates\index.html:142
 msgid "Tel.nr"
 msgstr "Номер"
 
-#: .\templates\index.html:142
+#: .\templates\index.html:150
 msgid "Vienotais reģ.nr"
 msgstr "Рег. но"
 
-#: .\templates\index.html:146
+#: .\templates\index.html:154
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\templates\index.html:150
+#: .\templates\index.html:158
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\templates\index.html:151
+#: .\templates\index.html:159
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"

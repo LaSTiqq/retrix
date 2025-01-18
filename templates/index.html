@@ -97,6 +97,17 @@
 			{{ form.content }}
 			{{ form.captcha }}
 			<button type="submit" class="btn btn-dark d-block mx-auto mt-3">{% trans 'Nosūtīt' %}</button>
+			<div class="row justify-content-center mt-1">
+				<div class="col-md-6">
+					<small class="text-center d-block fw-bold">
+						{% trans 'Šī vietne ir aizsargāta ar reCAPTCHA, un uz to attiecas Google' %}
+						<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+							{% trans 'Konfidencialitātes politika' %}</a> {% trans 'un' %}
+						<a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">
+							{% trans 'Pakalpojumu sniegšanas noteikumi' %}</a>
+					</small>
+				</div>
+			</div>
 		</form>
 	</div>
 	<div class="col-12 col-md-3 col-xxl-2 row-5-col-2">
