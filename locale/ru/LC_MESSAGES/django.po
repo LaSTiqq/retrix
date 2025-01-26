@@ -89,23 +89,6 @@ msgid ""
 msgstr ""
 "Компания занимается сборкой LED лент, программированием их блоков управления и разрабатывает специфичные изделия, оснащенные светильниками и датчиками"
 
-#: .\templates\cookielaw\banner.html:9
-msgid ""
-"Mājaslapas pilnvērtīgai darbībai tiek izmantotas\n"
-"\t\t\t\tsīkdatnes (cookies). Turpinot izmantot lapu, Jūs piekrītat to "
-"izmantošanai."
-msgstr ""
-"На этом сайте используются кукисы (cookies) для полноценного "
-"функционирования. Продолжая Вы соглашаетесь на их использование."
-
-#: .\templates\cookielaw\banner.html:15
-msgid "Kas ir cookies"
-msgstr "Что такое куки"
-
-#: .\templates\cookielaw\banner.html:19
-msgid "Piekrist un aizvērt"
-msgstr "Принять и закрыть"
-
 #: .\templates\inc\_foo.html:6
 msgid "Izstrādātājs"
 msgstr "Разработчик"

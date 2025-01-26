@@ -1,6 +1,5 @@
 {% load static %}
 {% load i18n %}
-{% load cookielaw_tags %}
 <!DOCTYPE html>
 <html lang="{% trans 'lv' %}">
 
@@ -35,8 +34,7 @@
 				{% block content %}{% endblock %}
 			</div>
 		</main>
-		{% cookielaw_banner %}
-		<footer class="py-3 bg-dark">
+		<footer class="py-3">
 			{% include 'inc/_foo.html' %}
 		</footer>
 	</div>

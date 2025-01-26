@@ -23,8 +23,8 @@
 <div class="row">
 	<a name="services" class="anchor-pc"></a>
 	<div class="col-12 col-md-6 col-xxl-6 row-2-col-1 text-center">
-		<h2 class="fw-bold mb-0 mt-5 mt-lg-0">{% trans 'Mūsu' %}</h2>
-		<h2 class="fw-bold mt-0">{% trans 'pakalpojumi' %}</h2>
+		<h2 class="fw-bold mb-lg-0 mt-3 mt-lg-0">{% trans 'Mūsu' %}</h2>
+		<h2 class="fw-bold mt-lg-0">{% trans 'pakalpojumi' %}</h2>
 		<h3>{% trans 'Virtuves apgaismojuma montāža' %}</h3>
 		<p>{% trans 'Siltie un aukstie baltie toņi, ar slēdža vai sensora vadību' %}.</p>
 		<h3 class="mb-0">{% trans 'Krāsainu LED lentu' %}</h3>
@@ -33,8 +33,8 @@
 		<h3 class="mb-0">{% trans 'Specifisku' %}</h3>
 		<h3 class="mt-0">{% trans 'produktu izstrāde' %}</h3>
 		<p>{% trans 'Ar LED apgaismojumu un sensoriem' %}.</p>
-		<a href="#gallery" class="btn btn-dark mt-3 mt-lg-1 mb-5 mb-lg-0 pc">{% trans 'Skatīt vairāk' %}</a>
-		<a href="#gallery_mobile" class="btn btn-dark mt-3 mt-lg-1 mb-5 mb-lg-0 mobile">{% trans 'Skatīt vairāk' %}</a>
+		<a href="#gallery" class="btn btn-dark mt-md-2 pc">{% trans 'Skatīt vairāk' %}</a>
+		<a href="#gallery_mobile" class="btn btn-dark mt-3 mb-2 mobile">{% trans 'Skatīt vairāk' %}</a>
 	</div>
 	<a name="gallery_mobile" class="anchor-mobile"></a>
 	<div class="col-12 col-md-3 col-xxl-2 row-2-col-2">
@@ -89,26 +89,26 @@
 			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 		</div>
 		{% endfor %}
-		<form method="post">
+		<form method="post" class="d-flex flex-column align-items-center">
 			{% csrf_token %}
 			{{ form.name }}
 			{{ form.sender }}
 			{{ form.subject }}
 			{{ form.content }}
 			{{ form.captcha }}
-			<button type="submit" class="btn btn-dark d-block mx-auto mt-3">{% trans 'Nosūtīt' %}</button>
-			<div class="row justify-content-center mt-1">
-				<div class="col-md-6">
-					<small class="text-center d-block fw-bold">
-						{% trans 'Šī vietne ir aizsargāta ar reCAPTCHA, un uz to attiecas Google' %}
-						<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
-							{% trans 'Konfidencialitātes politika' %}</a> {% trans 'un' %}
-						<a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">
-							{% trans 'Pakalpojumu sniegšanas noteikumi' %}</a>
-					</small>
-				</div>
-			</div>
+			<button type="submit" class="btn btn-dark mt-3">{% trans 'Nosūtīt' %}</button>
 		</form>
+		<div class="row justify-content-center my-2">
+			<div class="col-8">
+				<small class="text-center d-block fw-bold">
+					{% trans 'Šī vietne ir aizsargāta ar reCAPTCHA, un uz to attiecas Google' %}
+					<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+						{% trans 'Konfidencialitātes politika' %}</a> {% trans 'un' %}
+					<a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">
+						{% trans 'Pakalpojumu sniegšanas noteikumi' %}</a>
+				</small>
+			</div>
+		</div>
 	</div>
 	<div class="col-12 col-md-3 col-xxl-2 row-5-col-2">
 		<picture>
@@ -126,7 +126,6 @@
 </div>
 <!-- ROW 6 -->
 <div class="row">
-	<a name="contacts" class="anchor-pc"></a>
 	<div id="rectangle-2"></div>
 	<div class="col-12 col-md-3 col-xxl-4 row-6-col-1"></div>
 	<div class="col-12 col-md-3 col-xxl-2 row-6-col-2">
@@ -136,6 +135,7 @@
 		</picture>
 	</div>
 	<div class="col-12 col-md-6 col-xxl-4 row-6-col-3 text-center">
+		<a name="contacts" class="anchor-pc"></a>
 		<h2 class="fw-bold">{% trans 'Kontakti' %}</h2>
 		<h3 class="mb-2">{% trans 'Pieņemam pasūtījumus visā Latvijā un ārpus tās' %}.</h3>
 		<p class="mb-1">

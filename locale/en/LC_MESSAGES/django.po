@@ -88,23 +88,6 @@ msgstr ""
 "The company is involved in the assembly of LED strip lights, programming of "
 "their control units and develops products equipped with lights and sensors"
 
-#: .\templates\cookielaw\banner.html:9
-msgid ""
-"Mājaslapas pilnvērtīgai darbībai tiek izmantotas\n"
-"\t\t\t\tsīkdatnes (cookies). Turpinot izmantot lapu, Jūs piekrītat to "
-"izmantošanai."
-msgstr ""
-"Notice that cookies are used to proper functioning of the website. By "
-"continuing, you agree to the use of them."
-
-#: .\templates\cookielaw\banner.html:15
-msgid "Kas ir cookies"
-msgstr "What are the cookies"
-
-#: .\templates\cookielaw\banner.html:19
-msgid "Piekrist un aizvērt"
-msgstr "Accept and close"
-
 #: .\templates\inc\_foo.html:6
 msgid "Izstrādātājs"
 msgstr "Developer"
