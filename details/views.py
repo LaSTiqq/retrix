@@ -7,24 +7,7 @@ from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from smtplib import SMTPException
 from .forms import ContactForm
-import re
-
-
-def restricted_found(text):
-    url_pattern = re.compile(
-        r'https?://(?:[a-zA-Z0-9]|[.!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
-    restricted_keywords = ["whatsapp", "telegram", "tg", "телеграм", "телега", "тг", "viber", "вайбер",
-                           "discord", "дискорд", "аська", "icq", "porn", "loli", "xxx", "cp", "skype", "скайп",
-                           "rub", "рублей", "руб", "eur", "dollars", "bonus", "free", "gift", "order now",
-                           "spam", "website", "visit our", "earn", "congratulations", "don't miss", "buy now",
-                           "limited time", "exclusive offer", "act fast", "special deal", "discount", "sale",
-                           "promotion", "pharmacy", "election", "price"]
-
-    has_link = bool(re.search(url_pattern, text))
-    has_restricted_keyword = any(re.search(
-        r'\b' + re.escape(keyword) + r'\b', text, flags=re.IGNORECASE) for keyword in restricted_keywords)
-
-    return has_link or has_restricted_keyword
+from .utils import restricted_found
 
 
 def send(request):
@@ -53,7 +36,7 @@ def send(request):
                 messages.success(request, _("Vēstule nosūtīta"))
                 return redirect(_('/#communication'))
             except SMTPException:
-                messages.danger(
+                messages.warning(
                     request, _("Radās kļūda! Mēģiniet vēlreiz."))
                 return redirect(_('/#communication'))
         else:
