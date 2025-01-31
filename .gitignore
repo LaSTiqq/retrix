@@ -15,9 +15,9 @@
 *.wmv
 
 # Self
-templates/robots.txt
 retrix/settings.py
 retrix/static
 details/utils.py
 keywords.json
 venv
+.env
