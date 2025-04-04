@@ -40,9 +40,7 @@ def send(request):
                     request, _("Radās kļūda! Mēģiniet vēlreiz."))
                 return redirect(_('/#communication'))
         else:
-            messages.warning(
-                request, _("Google domā, ka Jūs neesat cilvēks! Mēģiniet vēlreiz."))
-            return redirect(_('/#communication'))
+            return render(request, 'index.html', {"form": form})
     else:
         form = ContactForm()
     return render(request, 'index.html', {"form": form})

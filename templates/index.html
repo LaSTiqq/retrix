@@ -86,8 +86,18 @@
 		{% for message in messages %}
 		<div class="alert alert-{{ message.tags }} alert-dismissible rounded-pill fw-bold" role="alert">
 			{{ message }}
-			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="{% trans 'Aizvērt' %}"></button>
 		</div>
+		{% endfor %}
+		{% for field in form %}
+		{% if field.errors %}
+		<div class="alert alert-warning alert-dismissible fw-bold" role="alert">
+			{% for error in field.errors %}
+			{{ error }}
+			{% endfor %}
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="{% trans 'Aizvērt' %}"></button>
+		</div>
+		{% endif %}
 		{% endfor %}
 		<form method="post" class="d-flex flex-column align-items-center">
 			{% csrf_token %}
