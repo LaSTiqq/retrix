@@ -7,16 +7,16 @@ from django.utils.translation import gettext_lazy as _
 
 class ContactForm(forms.Form):
     name = forms.CharField(label=_('Vārds'), widget=forms.TextInput(attrs={
-        'class': 'form-control bg-transparent mb-2', 'placeholder': _('Jānis'), 'autocomplete': 'off', 'maxlength': '15'}),
-        min_length=5)
+        'id': 'name', 'value': _('Jānis'), 'class': 'form-control bg-transparent', 'placeholder': _('Vārds'), 'autocomplete': 'off', 'maxlength': '15'}),
+        min_length=3)
     sender = forms.EmailField(label=_('E-pasts'), widget=forms.EmailInput(attrs={
-        'class': 'form-control bg-transparent mb-2', 'placeholder': _('janis.celotajs@gmail.com'), 'autocomplete': 'off', }))
+        'id': 'email', 'value': _('janis.celotajs@gmail.com'), 'class': 'form-control bg-transparent', 'placeholder': _('E-pasts'), 'autocomplete': 'off', }))
     subject = forms.CharField(label=_('Temats'), widget=forms.TextInput(attrs={
-        'class': 'form-control bg-transparent mb-2', 'placeholder': _('LED gaismas virtuvē'), 'autocomplete': 'off', 'maxlength': '30'}),
+        'id': 'subject', 'value': _('Apgaismojums virtuvē'), 'class': 'form-control bg-transparent', 'placeholder': _('Temats'), 'autocomplete': 'off', 'maxlength': '30'}),
         min_length=5)
-    content = forms.CharField(label=_('Teksts'), widget=forms.Textarea(attrs={
-        'class': 'form-control bg-transparent pt-3', 'placeholder': _('Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?'), 'autocomplete': 'off', 'rows': 6}),
-        min_length=50)
+    content = forms.CharField(label=_('Ziņojums'), widget=forms.Textarea(attrs={
+        'id': 'message', 'class': 'form-control bg-transparent', 'placeholder': _('Ziņojums'), 'autocomplete': 'off'}),
+        min_length=20)
     captcha = ReCaptchaField(
         label='Captcha',
         widget=ReCaptchaV3(

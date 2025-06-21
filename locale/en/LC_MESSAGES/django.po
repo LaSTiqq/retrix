@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 23:10+0300\n"
+"POT-Creation-Date: 2025-06-22 00:55+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\details\forms.py:9
+#: .\details\forms.py:9 .\details\forms.py:10
 msgid "Vārds"
 msgstr "Name"
 
@@ -26,7 +26,7 @@ msgstr "Name"
 msgid "Jānis"
 msgstr "John"
 
-#: .\details\forms.py:12 .\templates\index.html:159
+#: .\details\forms.py:12 .\details\forms.py:13 .\templates\index.html:202
 msgid "E-pasts"
 msgstr "Email"
 
@@ -34,21 +34,17 @@ msgstr "Email"
 msgid "janis.celotajs@gmail.com"
 msgstr "john.doe@gmail.com"
 
-#: .\details\forms.py:14
+#: .\details\forms.py:14 .\details\forms.py:15
 msgid "Temats"
 msgstr "Topic"
 
 #: .\details\forms.py:15
-msgid "LED gaismas virtuvē"
-msgstr "LED lighteing at the kitchen"
+msgid "Apgaismojums virtuvē"
+msgstr "Kitchen lighting"
 
-#: .\details\forms.py:17
-msgid "Teksts"
-msgstr "Text"
-
-#: .\details\forms.py:18
-msgid "Vēlos izgaismot virtuvi, ko Jūs varat piedāvāt?"
-msgstr "I want to light my kitchen, what can you offer?"
+#: .\details\forms.py:17 .\details\forms.py:18
+msgid "Ziņojums"
+msgstr "Message"
 
 #: .\details\forms.py:27 .\templates\base.html:4
 msgid "lv"
@@ -91,18 +87,18 @@ msgstr "Developer"
 msgid "Pakalpojumi"
 msgstr "Services"
 
-#: .\templates\inc\_nav.html:18 .\templates\index.html:85
+#: .\templates\inc\_nav.html:18 .\templates\index.html:89
 msgid "Saziņa"
 msgstr "Communication"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:149
+#: .\templates\inc\_nav.html:19 .\templates\index.html:192
 msgid "Kontakti"
 msgstr "Contacts"
 
-#: .\templates\index.html:15 .\templates\index.html:43
-#: .\templates\index.html:48 .\templates\index.html:62
-#: .\templates\index.html:68 .\templates\index.html:126
-#: .\templates\index.html:131 .\templates\index.html:144
+#: .\templates\index.html:15 .\templates\index.html:44
+#: .\templates\index.html:49 .\templates\index.html:64
+#: .\templates\index.html:70 .\templates\index.html:168
+#: .\templates\index.html:173 .\templates\index.html:187
 msgid "LED apgaismojuma piemērs"
 msgstr "LED lightening sample"
 
@@ -118,102 +114,122 @@ msgstr ""
 msgid "un specifisku, ar gaismekļiem un sensoriem aprīkotu produktu izstrādi"
 msgstr "and develops products equipped with lights and sensors"
 
-#: .\templates\index.html:26
+#: .\templates\index.html:27
 msgid "Mūsu"
 msgstr "Our"
 
-#: .\templates\index.html:27
+#: .\templates\index.html:28
 msgid "pakalpojumi"
 msgstr "services"
 
-#: .\templates\index.html:28
+#: .\templates\index.html:29
 msgid "Virtuves apgaismojuma montāža"
 msgstr "Kitchen lighting assembly"
 
-#: .\templates\index.html:29
+#: .\templates\index.html:30
 msgid "Siltie un aukstie baltie toņi, ar slēdža vai sensora vadību"
 msgstr "Warm and cold white tones, controlled by switch or sensor"
 
-#: .\templates\index.html:30
+#: .\templates\index.html:31
 msgid "Krāsainu LED lentu"
 msgstr "Lighting assembly"
 
-#: .\templates\index.html:31
+#: .\templates\index.html:32
 msgid "apgaismojuma montāža"
 msgstr "of colorful LED tapes"
 
-#: .\templates\index.html:32
+#: .\templates\index.html:33
 msgid "Telpās, uz fasādēm un mēbelēm"
 msgstr "Indoors, on facades and on furniture"
 
-#: .\templates\index.html:33
+#: .\templates\index.html:34
 msgid "Specifisku"
 msgstr "Specific"
 
-#: .\templates\index.html:34
+#: .\templates\index.html:35
 msgid "produktu izstrāde"
 msgstr "product development"
 
-#: .\templates\index.html:35
+#: .\templates\index.html:36
 msgid "Ar LED apgaismojumu un sensoriem"
 msgstr "With LED lighting and sensors"
 
-#: .\templates\index.html:36 .\templates\index.html:37
+#: .\templates\index.html:37 .\templates\index.html:38
 msgid "Skatīt vairāk"
 msgstr "See more"
 
-#: .\templates\index.html:76
+#: .\templates\index.html:79
 msgid "Apgaismojuma"
 msgstr "Control"
 
-#: .\templates\index.html:77
+#: .\templates\index.html:80
 msgid "vadība ar slēdzi, sensoru, skārienjutīgu ekrānu vai mobilo lietotni"
 msgstr "of lightening with a switch, sensor, touch screen or mobile app"
 
-#: .\templates\index.html:89 .\templates\index.html:98
+#: .\templates\index.html:94 .\templates\index.html:104
 msgid "Aizvērt"
 msgstr "Close"
 
-#: .\templates\index.html:109
+#: .\templates\index.html:117
+msgid "Lūdzu, ievadiet derīgu vārdu!"
+msgstr "Please enter a valid name!"
+
+#: .\templates\index.html:127
+msgid "Lūdzu, ievadiet derīgu e-pasta adresi!"
+msgstr "Please enter a valid email address!"
+
+#: .\templates\index.html:137
+msgid "Lūdzu, ievadiet derīgu tematu!"
+msgstr "Please enter a valid topic!"
+
+#: .\templates\index.html:147
+msgid "Lūdzu, ievadiet derīgu ziņu"
+msgstr "Please enter a valid message"
+
+#: .\templates\index.html:147
+msgid "vismaz 20 simbolu garumā!"
+msgstr "at least 20 characters long!"
+
+#: .\templates\index.html:151
 msgid "Nosūtīt"
 msgstr "Submit"
 
-#: .\templates\index.html:114
+#: .\templates\index.html:156
 msgid "Šī vietne ir aizsargāta ar reCAPTCHA, un uz to attiecas Google"
 msgstr "This site is protected by reCAPTCHA and the Google"
 
-#: .\templates\index.html:116
-msgid "Konfidencialitātes politika"
+#: .\templates\index.html:158
+msgid "Konfidencialitātes Politika"
 msgstr "Privacy Policy"
 
-#: .\templates\index.html:116
+#: .\templates\index.html:158
 msgid "un"
 msgstr "and"
 
-#: .\templates\index.html:118
-msgid "Pakalpojumu sniegšanas noteikumi"
+#: .\templates\index.html:160
+msgid "Pakalpojumu Sniegšanas noteikumi"
 msgstr "Terms of Service apply"
 
-#: .\templates\index.html:150
+#: .\templates\index.html:193
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "We accept orders all over Latvia and outside of it"
 
-#: .\templates\index.html:155
+#: .\templates\index.html:198
 msgid "Tel.nr"
 msgstr "Phone"
 
-#: .\templates\index.html:163
+#: .\templates\index.html:206
 msgid "Vienotais reģ.nr"
 msgstr "Reg. no"
 
-#: .\templates\index.html:167
+#: .\templates\index.html:210
 msgid "Juridiskā adrese"
 msgstr "Address"
 
-#: .\templates\index.html:171
+#: .\templates\index.html:214
 msgid "Atrodamies"
 msgstr "Our locations"
 
-#: .\templates\index.html:172
+#: .\templates\index.html:215
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "in Riga and the region of Rezekne"

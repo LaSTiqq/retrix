@@ -37,7 +37,7 @@
 			<a href="#gallery" class="btn btn-dark mt-md-2 d-none d-md-block">{% trans 'Skatīt vairāk' %}</a>
 			<a href="#gallery_mobile" class="btn btn-dark mt-3 mb-2 d-block d-md-none">{% trans 'Skatīt vairāk' %}</a>
 		</div>
-		<a name="gallery_mobile" class="anchor-mobile"></a>
+		<a name="gallery_mobile" class="d-block d-md-none"></a>
 		<div class="col-12 col-md-3 col-xxl-2 row-2-col-2">
 			<picture>
 				<source srcset="{% static 'img/samples/sample_3.webp' %}" type="image/webp" />
@@ -56,7 +56,7 @@
 <section class="gallery">
 	<div class="row">
 		<div id="rectangle-1"></div>
-		<a name="gallery" class="anchor-pc"></a>
+		<a name="gallery" class="d-none d-md-block"></a>
 		<div class="col-12 col-md-3 col-xxl-4 row-3-col-1"></div>
 		<div class="col-12 col-md-3 col-xxl-2 row-3-col-2">
 			<picture>
@@ -105,23 +105,59 @@
 			</div>
 			{% endif %}
 			{% endfor %}
-			<form method="post" class="d-flex flex-column align-items-center">
+			<form method="post" class="d-flex flex-column align-items-center was-validated">
 				{% csrf_token %}
-				{{ form.name }}
-				{{ form.sender }}
-				{{ form.subject }}
-				{{ form.content }}
+				<div class="form-floating">
+					{{ form.name }}
+					<label for="name">{% trans 'Vārds' %}<span class="text-danger">*</span></label>
+					<div class="valid-feedback">
+						OK!
+					</div>
+					<div class="invalid-feedback">
+						{% trans 'Lūdzu, ievadiet derīgu vārdu!' %}
+					</div>
+				</div>
+				<div class="form-floating">
+					{{ form.sender }}
+					<label for="email">{% trans 'E-pasts' %}<span class="text-danger">*</span></label>
+					<div class="valid-feedback">
+						OK!
+					</div>
+					<div class="invalid-feedback">
+						{% trans 'Lūdzu, ievadiet derīgu e-pasta adresi!' %}
+					</div>
+				</div>
+				<div class="form-floating">
+					{{ form.subject }}
+					<label for="subject">{% trans 'Temats' %}<span class="text-danger">*</span></label>
+					<div class="valid-feedback">
+						OK!
+					</div>
+					<div class="invalid-feedback">
+						{% trans 'Lūdzu, ievadiet derīgu tematu!' %}
+					</div>
+				</div>
+				<div class="form-floating">
+					{{ form.content }}
+					<label for="message">{% trans 'Ziņojums' %}<span class="text-danger">*</span></label>
+					<div class="valid-feedback">
+						OK!
+					</div>
+					<div class="invalid-feedback text-center">
+						{% trans 'Lūdzu, ievadiet derīgu ziņu' %} <br> {% trans 'vismaz 20 simbolu garumā!' %}
+					</div>
+				</div>
 				{{ form.captcha }}
-				<button type="submit" class="btn btn-dark mt-3">{% trans 'Nosūtīt' %}</button>
+				<button type="submit" class="btn btn-dark mt-2">{% trans 'Nosūtīt' %}</button>
 			</form>
 			<div class="row justify-content-center my-2">
 				<div class="col-8">
 					<small class="text-center d-block fw-bold">
 						{% trans 'Šī vietne ir aizsargāta ar reCAPTCHA, un uz to attiecas Google' %}
 						<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
-							{% trans 'Konfidencialitātes politika' %}</a> {% trans 'un' %}
+							{% trans 'Konfidencialitātes Politika' %}</a> {% trans 'un' %}
 						<a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">
-							{% trans 'Pakalpojumu sniegšanas noteikumi' %}</a>
+							{% trans 'Pakalpojumu Sniegšanas noteikumi' %}</a>.
 					</small>
 				</div>
 			</div>
