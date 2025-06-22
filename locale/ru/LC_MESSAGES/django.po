@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-22 00:55+0300\n"
+"POT-Creation-Date: 2025-06-22 22:55+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\details\forms.py:9 .\details\forms.py:10
+#: .\details\forms.py:9 .\details\forms.py:10 .\templates\index.html:112
 msgid "Vārds"
 msgstr "Имя"
 
@@ -28,7 +28,8 @@ msgstr "Имя"
 msgid "Jānis"
 msgstr "Андрей"
 
-#: .\details\forms.py:12 .\details\forms.py:13 .\templates\index.html:202
+#: .\details\forms.py:12 .\details\forms.py:13 .\templates\index.html:122
+#: .\templates\index.html:200
 msgid "E-pasts"
 msgstr "Почта"
 
@@ -36,7 +37,7 @@ msgstr "Почта"
 msgid "janis.celotajs@gmail.com"
 msgstr "andrey.petrov@gmail.com"
 
-#: .\details\forms.py:14 .\details\forms.py:15
+#: .\details\forms.py:14 .\details\forms.py:15 .\templates\index.html:132
 msgid "Temats"
 msgstr "Тема"
 
@@ -44,7 +45,7 @@ msgstr "Тема"
 msgid "Apgaismojums virtuvē"
 msgstr "Кухонное освещение"
 
-#: .\details\forms.py:17 .\details\forms.py:18
+#: .\details\forms.py:17 .\details\forms.py:18 .\templates\index.html:142
 msgid "Ziņojums"
 msgstr "Сообщение"
 
@@ -93,14 +94,14 @@ msgstr "Услуги"
 msgid "Saziņa"
 msgstr "Связь"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:192
+#: .\templates\inc\_nav.html:19 .\templates\index.html:190
 msgid "Kontakti"
 msgstr "Контакты"
 
 #: .\templates\index.html:15 .\templates\index.html:44
 #: .\templates\index.html:49 .\templates\index.html:64
-#: .\templates\index.html:70 .\templates\index.html:168
-#: .\templates\index.html:173 .\templates\index.html:187
+#: .\templates\index.html:70 .\templates\index.html:166
+#: .\templates\index.html:171 .\templates\index.html:185
 msgid "LED apgaismojuma piemērs"
 msgstr "Пример LED освещения"
 
@@ -188,53 +189,49 @@ msgid "Lūdzu, ievadiet derīgu tematu!"
 msgstr "Пожалуйста, введите корректную тему!"
 
 #: .\templates\index.html:147
-msgid "Lūdzu, ievadiet derīgu ziņu"
-msgstr "Пожалуйста, введите корректное сообщение"
-
-#: .\templates\index.html:147
-msgid "vismaz 20 simbolu garumā!"
-msgstr "длиной не менее 20 символов!"
+msgid "Lūdzu, ievadiet derīgu ziņu vismaz 20 simbolu garumā!"
+msgstr "Пожалуйста, введите корректное сообщение не менее 20 символов!"
 
 #: .\templates\index.html:151
 msgid "Nosūtīt"
 msgstr "Отправить"
 
-#: .\templates\index.html:156
+#: .\templates\index.html:155
 msgid "Šī vietne ir aizsargāta ar reCAPTCHA, un uz to attiecas Google"
 msgstr "Этот сайт защищен reCAPTCHA, и на него распространяются"
 
-#: .\templates\index.html:158
+#: .\templates\index.html:157
 msgid "Konfidencialitātes Politika"
 msgstr "Политика Конфиденциальности"
 
-#: .\templates\index.html:158
+#: .\templates\index.html:157
 msgid "un"
-msgstr "Google и"
+msgstr "Google и правила"
 
-#: .\templates\index.html:160
+#: .\templates\index.html:159
 msgid "Pakalpojumu Sniegšanas noteikumi"
-msgstr "Правила Оказания услуг"
+msgstr "Оказания Услуг"
 
-#: .\templates\index.html:193
+#: .\templates\index.html:191
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "Принимаем заказы по всей Латвии и вне её"
 
-#: .\templates\index.html:198
+#: .\templates\index.html:196
 msgid "Tel.nr"
 msgstr "Номер"
 
-#: .\templates\index.html:206
+#: .\templates\index.html:204
 msgid "Vienotais reģ.nr"
 msgstr "Рег. но"
 
-#: .\templates\index.html:210
+#: .\templates\index.html:208
 msgid "Juridiskā adrese"
 msgstr "Юридический адрес"
 
-#: .\templates\index.html:214
+#: .\templates\index.html:212
 msgid "Atrodamies"
 msgstr "Находимся"
 
-#: .\templates\index.html:215
+#: .\templates\index.html:213
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "в Риге и Резекненской области"
