@@ -5,6 +5,7 @@ from django.utils.html import strip_tags
 from django.core.mail import EmailMultiAlternatives
 from django.shortcuts import render, redirect
 from django.contrib import messages
+from django.utils import translation
 from django.http import JsonResponse
 from django.conf import settings
 from smtplib import SMTPException
@@ -22,6 +23,8 @@ def home(request):
 
 @require_POST
 def send_ajax(request):
+    lang = request.POST.get('language', settings.LANGUAGE_CODE)
+    translation.activate(lang)
     form = ContactForm(data=request.POST)
     if form.is_valid():
         if any(restricted_found(form.cleaned_data[field]) for field in ['name', 'subject', 'message']):

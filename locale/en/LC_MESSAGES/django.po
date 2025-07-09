@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-22 22:55+0300\n"
+"POT-Creation-Date: 2025-07-09 23:22+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,54 +18,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\details\forms.py:9 .\details\forms.py:10 .\templates\index.html:112
+#: .\details\forms.py:7 .\details\forms.py:8 .\templates\index.html:100
 msgid "Vārds"
 msgstr "Name"
 
-#: .\details\forms.py:10
+#: .\details\forms.py:8
 msgid "Jānis"
 msgstr "John"
 
-#: .\details\forms.py:12 .\details\forms.py:13 .\templates\index.html:122
-#: .\templates\index.html:200
+#: .\details\forms.py:10 .\details\forms.py:11 .\templates\index.html:110
+#: .\templates\index.html:188
 msgid "E-pasts"
 msgstr "Email"
 
-#: .\details\forms.py:13
+#: .\details\forms.py:11
 msgid "janis.celotajs@gmail.com"
 msgstr "john.doe@gmail.com"
 
-#: .\details\forms.py:14 .\details\forms.py:15 .\templates\index.html:132
+#: .\details\forms.py:12 .\details\forms.py:13 .\templates\index.html:120
 msgid "Temats"
 msgstr "Topic"
 
-#: .\details\forms.py:15
+#: .\details\forms.py:13
 msgid "Apgaismojums virtuvē"
 msgstr "Kitchen lighting"
 
-#: .\details\forms.py:17 .\details\forms.py:18 .\templates\index.html:142
+#: .\details\forms.py:15 .\details\forms.py:16 .\templates\index.html:130
 msgid "Ziņojums"
 msgstr "Message"
 
-#: .\details\forms.py:27 .\templates\base.html:4
+#: .\details\views.py:30
+msgid "Jūs ievadījāt kaut ko neatļautu! Lūdzu, mēģiniet vēlreiz."
+msgstr "You wrote something disallowed! Please try again."
+
+#: .\details\views.py:45
+msgid "Captcha pārbaude neizdevās! Lūdzu, mēģiniet vēlreiz."
+msgstr "Captcha verification failed! Please try again."
+
+#: .\details\views.py:66
+msgid "Vēstule nosūtīta!"
+msgstr "Message sent!"
+
+#: .\details\views.py:71
+msgid "Radās kļūda! Lūdzu, mēģiniet vēlreiz."
+msgstr "Something went wrong! Please try again."
+
+#: .\templates\base.html:4 .\templates\base.html:46
 msgid "lv"
 msgstr "en"
-
-#: .\details\views.py:19
-msgid "Jūs ievadījāt kaut ko neatļautu! Mēģiniet vēlreiz."
-msgstr "You wrote something disallowed! Try again."
-
-#: .\details\views.py:20 .\details\views.py:37 .\details\views.py:41
-msgid "/#communication"
-msgstr "/en/#communication"
-
-#: .\details\views.py:36
-msgid "Vēstule nosūtīta"
-msgstr "Message sent"
-
-#: .\details\views.py:40
-msgid "Radās kļūda! Mēģiniet vēlreiz."
-msgstr "Something went wrong! Try again."
 
 #: .\templates\base.html:8
 msgid "Par uzņēmumu"
@@ -92,14 +92,14 @@ msgstr "Services"
 msgid "Saziņa"
 msgstr "Communication"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:190
+#: .\templates\inc\_nav.html:19 .\templates\index.html:178
 msgid "Kontakti"
 msgstr "Contacts"
 
 #: .\templates\index.html:15 .\templates\index.html:44
 #: .\templates\index.html:49 .\templates\index.html:64
-#: .\templates\index.html:70 .\templates\index.html:166
-#: .\templates\index.html:171 .\templates\index.html:185
+#: .\templates\index.html:70 .\templates\index.html:154
+#: .\templates\index.html:159 .\templates\index.html:173
 msgid "LED apgaismojuma piemērs"
 msgstr "LED lightening sample"
 
@@ -167,66 +167,62 @@ msgstr "Control"
 msgid "vadība ar slēdzi, sensoru, skārienjutīgu ekrānu vai mobilo lietotni"
 msgstr "of lightening with a switch, sensor, touch screen or mobile app"
 
-#: .\templates\index.html:94 .\templates\index.html:104
-msgid "Aizvērt"
-msgstr "Close"
-
-#: .\templates\index.html:117
+#: .\templates\index.html:105
 msgid "Lūdzu, ievadiet derīgu vārdu!"
 msgstr "Please enter a valid name!"
 
-#: .\templates\index.html:127
+#: .\templates\index.html:115
 msgid "Lūdzu, ievadiet derīgu e-pasta adresi!"
 msgstr "Please enter a valid email address!"
 
-#: .\templates\index.html:137
+#: .\templates\index.html:125
 msgid "Lūdzu, ievadiet derīgu tematu!"
 msgstr "Please enter a valid topic!"
 
-#: .\templates\index.html:147
+#: .\templates\index.html:135
 msgid "Lūdzu, ievadiet derīgu ziņu vismaz 20 simbolu garumā!"
 msgstr "Please enter a valid message at least 20 characters long!"
 
-#: .\templates\index.html:151
+#: .\templates\index.html:139
 msgid "Nosūtīt"
 msgstr "Submit"
 
-#: .\templates\index.html:155
+#: .\templates\index.html:142
 msgid "Šī vietne ir aizsargāta ar reCAPTCHA, un uz to attiecas Google"
 msgstr "This site is protected by reCAPTCHA and the Google"
 
-#: .\templates\index.html:157
+#: .\templates\index.html:144
 msgid "Konfidencialitātes Politika"
 msgstr "Privacy Policy"
 
-#: .\templates\index.html:157
+#: .\templates\index.html:144
 msgid "un"
 msgstr "and"
 
-#: .\templates\index.html:159
+#: .\templates\index.html:146
 msgid "Pakalpojumu Sniegšanas noteikumi"
 msgstr "Terms of Service apply"
 
-#: .\templates\index.html:191
+#: .\templates\index.html:179
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "We accept orders all over Latvia and outside of it"
 
-#: .\templates\index.html:196
+#: .\templates\index.html:184
 msgid "Tel.nr"
 msgstr "Phone"
 
-#: .\templates\index.html:204
+#: .\templates\index.html:192
 msgid "Vienotais reģ.nr"
 msgstr "Reg. no"
 
-#: .\templates\index.html:208
+#: .\templates\index.html:196
 msgid "Juridiskā adrese"
 msgstr "Address"
 
-#: .\templates\index.html:212
+#: .\templates\index.html:200
 msgid "Atrodamies"
 msgstr "Our locations"
 
-#: .\templates\index.html:213
+#: .\templates\index.html:201
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "in Riga and the region of Rezekne"

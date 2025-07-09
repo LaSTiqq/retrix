@@ -53,6 +53,8 @@ document.addEventListener("DOMContentLoaded", () => {
           document.getElementById("g-recaptcha-response").value = token;
 
           const formData = new FormData(form);
+          const currentLang = document.documentElement.lang || 'lv';
+          formData.append('language', currentLang);
           try {
             const response = await fetch("/send-ajax/", {
               method: "POST",
