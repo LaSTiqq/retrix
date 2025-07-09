@@ -1,7 +1,7 @@
 from django.views.generic.base import TemplateView
 from django.http import HttpResponse
 from django.urls import path
-from .views import send
+from .views import home, send_ajax
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -16,7 +16,8 @@ def sitemap(request):
 
 
 urlpatterns = [
-    path('', send, name='home'),
+    path('', home, name='home'),
+    path('send-ajax/', send_ajax, name='send_ajax'),
     path('sitemap.xml', sitemap),
     path('robots.txt', TemplateView.as_view(
         template_name='robots.txt', content_type="text/plain")),
