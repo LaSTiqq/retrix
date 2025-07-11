@@ -1,10 +1,8 @@
 from django.views.decorators.http import require_POST, require_GET
 from django.utils.translation import gettext as _
 from django.template.loader import render_to_string
-from django.utils.html import strip_tags
 from django.core.mail import EmailMultiAlternatives
-from django.shortcuts import render, redirect
-from django.contrib import messages
+from django.shortcuts import render
 from django.utils import translation
 from django.http import JsonResponse
 from django.conf import settings
