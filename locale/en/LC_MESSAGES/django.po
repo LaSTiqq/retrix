@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-18 22:44+0200\n"
+"POT-Creation-Date: 2026-01-17 21:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,32 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\details\forms.py:7 .\details\forms.py:8 .\templates\index.html:101
+#: .\details\forms.py:6 .\details\forms.py:7 .\templates\index.html:101
 msgid "Vārds"
 msgstr "Name"
 
-#: .\details\forms.py:8
-msgid "Jānis"
-msgstr "John"
-
-#: .\details\forms.py:10 .\details\forms.py:11 .\templates\index.html:111
+#: .\details\forms.py:9 .\details\forms.py:10 .\templates\index.html:111
 #: .\templates\index.html:191
 msgid "E-pasts"
 msgstr "Email"
 
-#: .\details\forms.py:11
-msgid "janis.celotajs@gmail.com"
-msgstr "john.doe@gmail.com"
-
-#: .\details\forms.py:12 .\details\forms.py:13 .\templates\index.html:121
+#: .\details\forms.py:11 .\details\forms.py:12 .\templates\index.html:121
 msgid "Temats"
 msgstr "Topic"
 
-#: .\details\forms.py:13
-msgid "Apgaismojums virtuvē"
-msgstr "Kitchen lighting"
-
-#: .\details\forms.py:15 .\details\forms.py:16 .\templates\index.html:131
+#: .\details\forms.py:14 .\details\forms.py:15 .\templates\index.html:131
 msgid "Ziņojums"
 msgstr "Message"
 

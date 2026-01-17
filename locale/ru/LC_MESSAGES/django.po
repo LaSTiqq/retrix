@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-18 22:44+0200\n"
+"POT-Creation-Date: 2026-01-17 21:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,32 +20,20 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\details\forms.py:7 .\details\forms.py:8 .\templates\index.html:101
+#: .\details\forms.py:6 .\details\forms.py:7 .\templates\index.html:101
 msgid "Vārds"
 msgstr "Имя"
 
-#: .\details\forms.py:8
-msgid "Jānis"
-msgstr "Андрей"
-
-#: .\details\forms.py:10 .\details\forms.py:11 .\templates\index.html:111
+#: .\details\forms.py:9 .\details\forms.py:10 .\templates\index.html:111
 #: .\templates\index.html:191
 msgid "E-pasts"
 msgstr "Почта"
 
-#: .\details\forms.py:11
-msgid "janis.celotajs@gmail.com"
-msgstr "andrey.petrov@gmail.com"
-
-#: .\details\forms.py:12 .\details\forms.py:13 .\templates\index.html:121
+#: .\details\forms.py:11 .\details\forms.py:12 .\templates\index.html:121
 msgid "Temats"
 msgstr "Тема"
 
-#: .\details\forms.py:13
-msgid "Apgaismojums virtuvē"
-msgstr "Кухонное освещение"
-
-#: .\details\forms.py:15 .\details\forms.py:16 .\templates\index.html:131
+#: .\details\forms.py:14 .\details\forms.py:15 .\templates\index.html:131
 msgid "Ziņojums"
 msgstr "Сообщение"
 
