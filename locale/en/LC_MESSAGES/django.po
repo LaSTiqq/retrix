@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 21:22+0200\n"
+"POT-Creation-Date: 2026-02-06 00:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Vārds"
 msgstr "Name"
 
 #: .\details\forms.py:9 .\details\forms.py:10 .\templates\index.html:111
-#: .\templates\index.html:191
+#: .\templates\index.html:195
 msgid "E-pasts"
 msgstr "Email"
 
@@ -51,7 +51,7 @@ msgstr "Message sent!"
 msgid "Radās kļūda! Lūdzu, mēģiniet vēlreiz."
 msgstr "Something went wrong! Please try again."
 
-#: .\templates\base.html:4 .\templates\base.html:46
+#: .\templates\base.html:4 .\templates\base.html:47
 msgid "lv"
 msgstr "en"
 
@@ -72,6 +72,10 @@ msgstr ""
 msgid "Izstrādātājs"
 msgstr "Developer"
 
+#: .\templates\inc\_foo.html:9 .\templates\modals.html:6
+msgid "Privātuma politika"
+msgstr "Privacy policy"
+
 #: .\templates\inc\_nav.html:17
 msgid "Pakalpojumi"
 msgstr "Services"
@@ -80,14 +84,14 @@ msgstr "Services"
 msgid "Saziņa"
 msgstr "Communication"
 
-#: .\templates\inc\_nav.html:19 .\templates\index.html:181
+#: .\templates\inc\_nav.html:19 .\templates\index.html:185
 msgid "Kontakti"
 msgstr "Contacts"
 
 #: .\templates\index.html:15 .\templates\index.html:45
 #: .\templates\index.html:50 .\templates\index.html:65
-#: .\templates\index.html:71 .\templates\index.html:157
-#: .\templates\index.html:162 .\templates\index.html:176
+#: .\templates\index.html:71 .\templates\index.html:161
+#: .\templates\index.html:166 .\templates\index.html:180
 msgid "LED apgaismojuma piemērs"
 msgstr "LED lightening sample"
 
@@ -175,26 +179,52 @@ msgstr "Please enter a valid message at least 20 characters long!"
 msgid "Nosūtīt"
 msgstr "Submit"
 
-#: .\templates\index.html:182
+#: .\templates\index.html:144
+msgid "Iepazīstaties ar mūsu"
+msgstr "Get to know our"
+
+#: .\templates\index.html:146
+msgid "Privātuma politiku"
+msgstr "Privacy policy"
+
+#: .\templates\index.html:186
 msgid "Pieņemam pasūtījumus visā Latvijā un ārpus tās"
 msgstr "We accept orders all over Latvia and outside of it"
 
-#: .\templates\index.html:187
+#: .\templates\index.html:191
 msgid "Tel.nr"
 msgstr "Phone"
 
-#: .\templates\index.html:195
+#: .\templates\index.html:199
 msgid "Vienotais reģ.nr"
 msgstr "Reg. no"
 
-#: .\templates\index.html:199
+#: .\templates\index.html:203
 msgid "Juridiskā adrese"
 msgstr "Address"
 
-#: .\templates\index.html:203
+#: .\templates\index.html:207
 msgid "Atrodamies"
 msgstr "Our locations"
 
-#: .\templates\index.html:204
+#: .\templates\index.html:208
 msgid "Rīgā un Rēzeknes novadā"
 msgstr "in Riga and the region of Rezekne"
+
+#: .\templates\modals.html:13
+msgid ""
+"'Lai aizsargātu mūsu tīmekļa vietni un pakalpojumus no mēstulēm un "
+"automatizētas\n"
+"                    ļaunprātīgas\n"
+"                    izmantošanas, mēs izmantojam reCAPTCHA pakalpojumu. Šis "
+"pakalpojums analizē lietotāju uzvedību un\n"
+"                    ierīces datus (piemēram, IP adreses un mijiedarbības "
+"modeļus), lai atšķirtu reālus lietotājus no\n"
+"                    automatizētiem botiem. Šos datus apstrādā Google. Dati "
+"tiek izmantoti tikai drošības un\n"
+"                    krāpniecības novēršanas nolūkos.'"
+msgstr "To protect our website from spam and automated abuse, we use the reCAPTCHA service. This service analyzes user behavior and device data (such as IP addresses and interaction patterns) to distinguish between human users and automated bots. This data is processed by Google only for security and fraud prevention purposes."
+
+#: .\templates\modals.html:22
+msgid "Aizvērt"
+msgstr "Close"
